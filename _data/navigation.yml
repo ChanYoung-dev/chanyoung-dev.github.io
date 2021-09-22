@@ -11,4 +11,6 @@ main:
   - title: "Sitemap"
     url: /sitemap/
   - title: "all"
-    url: archive.html
+    url: /archive.html
+  - title: "Category"
+    url: /categories/
