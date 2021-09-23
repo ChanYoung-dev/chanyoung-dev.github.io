@@ -236,14 +236,14 @@
 
     a {
       position: relative;
-
+      color: #fc0;
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        height: 6px;
+        background: $base00;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -256,6 +256,9 @@
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
       }
+    }
+    a:hover {
+      color: #f90;
     }
   }
 
@@ -568,6 +571,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }

@@ -1,7 +1,6 @@
 ---
 permalink: /python/
 title: "python - full"
-author_profile: true
 comments: true
 sidebar:
   nav: "python-menu"
