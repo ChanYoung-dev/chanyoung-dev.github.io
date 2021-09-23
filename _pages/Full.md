@@ -1,7 +1,6 @@
 ---
 permalink: /python/
 title: "python - full"
-toc: true
 author_profile: true
 comments: true
 sidebar:
