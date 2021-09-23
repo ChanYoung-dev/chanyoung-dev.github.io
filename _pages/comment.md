@@ -7,3 +7,4 @@ comments: true
 ---
 
 disqus test
+<a href="#">www.hellow.com</a>
