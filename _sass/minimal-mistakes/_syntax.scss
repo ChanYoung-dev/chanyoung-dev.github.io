@@ -4,10 +4,12 @@
 
 div.highlighter-rouge,
 figure.highlight {
+  box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%),
+    0 -1px 0 rgb(0 0 0 / 50%);
   position: relative;
   margin-bottom: 1em;
   background: $base00;
-  color: $base05;
+  color: $base07;
   font-family: $monospace;
   font-size: $type-size-6;
   line-height: 1.8;
@@ -318,7 +320,8 @@ figure.highlight {
 }
 
 .gist {
-  th, td {
+  th,
+  td {
     border-bottom: 0;
   }
 }

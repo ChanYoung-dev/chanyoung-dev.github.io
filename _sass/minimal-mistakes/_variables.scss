@@ -123,7 +123,7 @@ $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
+$base00: #2b2b2b !default; // default #263238
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;
@@ -155,9 +155,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 100px !default; //defult 200px
+$right-sidebar-width: 150px !default; // default 300px
+$right-sidebar-width-wide: 200px !default; // default 400px
 
 /*
    Other
