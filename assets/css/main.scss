@@ -13,3 +13,65 @@ figure.highlight {
   border-radius: 5px;
   box-shadow: $md-codebox-shadow;
 }
+
+.toggle-div-chan {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.toggle-btn-chan.close:before {
+  opacity: 0.9;
+}
+
+.navicon2.hidden {
+  opacity: 0;
+}
+.navicon2 {
+  opacity: 1;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.navicon2 {
+  display: block;
+}
+.toggle-btn-chan:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #fbfcfc;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
+  z-index: 0;
+}
+.visible-links-chan.hidden {
+  opacity: 0;
+  transition: all 2s ease-in-out;
+}
+
+.visible-links-chan {
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  right: 1px;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  background: #fbfcfc;
+  box-shadow: $md-codebox-shadow;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+#site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

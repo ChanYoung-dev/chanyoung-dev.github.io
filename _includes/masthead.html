@@ -11,6 +11,7 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        <!--
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
@@ -18,17 +19,36 @@
             </li>
           {%- endfor -%}
         </ul>
+        
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+        
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        -->
+        <div class="toggle-div-chan">
+        <button class="toggle-btn-chan">
+          메뉴 🔽
+        </button>
+        
+        <button class="navicon2 hidden">
+          닫기 🔼
+        </button>
+        <ul class="visible-links-chan hidden">
+          {%- for link in site.data.navigation.main -%}
+          <li class="masthead__menu-item-chan">
+            <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+          </li>
+        {%- endfor -%}
+        </ul>
+      </div>
       </nav>
     </div>
   </div>
