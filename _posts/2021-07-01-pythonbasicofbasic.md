@@ -1,9 +1,7 @@
 ---
-permalink: /python/
+permalink: /python1/
 title: "python"
 toc: true
-categories:
-  - python
 comments: true
 ---
 
