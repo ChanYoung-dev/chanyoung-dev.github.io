@@ -13,6 +13,10 @@ main:
   - title: "comment-test"
     url: /comment/
 
+profile:
+  - title: profile↗️
+    url: "https://chanyoung-dev.github.io/Profile/"
+
 python-menu:
   - title: Basic
     children:
