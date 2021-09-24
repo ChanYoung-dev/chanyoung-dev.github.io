@@ -1,10 +1,11 @@
 ---
-permalink: categories/level0
+permalink: ex
 title: "python"
 toc: true
 categories:
-  - level0
+  - level1
 comments: true
+breadcrumbs: true
 ---
 
 # 클래스

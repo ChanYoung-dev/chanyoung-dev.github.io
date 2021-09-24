@@ -27,7 +27,7 @@ repository: chanyoung-dev/chanyoung-dev.github.io # GitHub username/repo-name e.
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # "/assets/images/dragon4.png"
 masthead_title: "심플한게 최고야"
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "disqus"
@@ -100,27 +100,27 @@ analytics:
 
 # Site Author
 author:
-  name: "Chan"
-  avatar: "/assets/images/myface.jpeg"
-  bio: <a href="https://chanyoung-dev.github.io/Profile/">Super developer</a>
-  location: "Suwon, Korea"
-  email: "emrhssla@gmail.com"
+  # name: "Chan"
+  # avatar: "/assets/images/myface.jpeg"
+  # bio: <a href="https://chanyoung-dev.github.io/Profile/">Super developer</a>
+  # location: "Suwon, Korea"
+  # email: "emrhssla@gmail.com"
   links:
     - label: "Naver-Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "naver:emrhs1004@naver.com"
+      # url: "naver:emrhs1004@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://chanyoung-dev.github.io/Profile/"
+      # url: "https://chanyoung-dev.github.io/Profile/"
     - label: "naver!!"
       image: "/assets/images/naver.png"
-      url: "https://blog.naver.com/emrhs1004"
+      # url: "https://blog.naver.com/emrhs1004"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChanYoung-dev"
+      # url: "https://github.com/ChanYoung-dev"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

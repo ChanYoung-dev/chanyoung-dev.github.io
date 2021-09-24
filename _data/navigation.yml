@@ -11,7 +11,7 @@ main:
   - title: "Python"
     url: /python/
   - title: "comment-test"
-    url: /categories/level0/
+    url: /comment/
 
 profile:
   - title: profile↗️
@@ -29,8 +29,9 @@ python-menu:
       - title: "Upgrading"
         url: /docs/upgrading/
   - title: CodingTest
+    url: /pythonn/CodingTEST
     children:
       - title: "level0"
-        url: /categories/level0/
-      - title: "Level1"
-        url: /docs/hellow2/
+        url: /pythonn/CodingTEST/level0
+      - title: "level1"
+        url: /pythonn/CodingTEST/level1
