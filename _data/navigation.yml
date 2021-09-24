@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "python"
+    url: /python/
   - title: "Sample Posts"
     url: /year-archive/
   - title: "all"
@@ -11,7 +11,7 @@ main:
   - title: "Python"
     url: /python/
   - title: "comment-test"
-    url: /comment/
+    url: /categories/level0/
 
 profile:
   - title: profile↗️
@@ -20,11 +20,17 @@ profile:
 python-menu:
   - title: Basic
     children:
-      - title: "Quick-Start Guide"
+      - title: "Basic of Basic"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Class"
         url: /docs/structure/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
+  - title: CodingTest
+    children:
+      - title: "level0"
+        url: /categories/level0/
+      - title: "Level1"
+        url: /docs/hellow2/
