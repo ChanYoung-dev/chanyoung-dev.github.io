@@ -26,7 +26,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: chanyoung-dev/chanyoung-dev.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # "/assets/images/dragon4.png"
-masthead_title: "심플한게 최고야"
+masthead_title: "👾 Chan log 👾"
 # breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
