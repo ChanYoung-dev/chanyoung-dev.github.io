@@ -16,7 +16,7 @@ sidebar:
 
    여기서는 같기때문에 같은 경우에는 l1을 main으로 정한다.
 
-![A](./img/a.png)
+![1]({{site.baseurl}}/assets/images/python/a.png)
 
 ```python
 # 첫번째 원소가 더 작은 것을 main으로 설정
@@ -26,7 +26,7 @@ sub = (l1 if (l1.val > l2.val) else l2)
 
 2. main의 다음 원소와 sub의 원소를 비교한후 main의 다음 원소가 크면 sub원소를 넣어준다.
 
-![B](./img/b.png)
+![1]({{site.baseurl}}/assets/images/python/b.png)
 
 ```python
 if main.next.val > sub.val:
@@ -46,7 +46,7 @@ else:
 
 3. main 이 끝까지 갔을 경우 sub의 나머지부분 전체를 main 뒤에 붙인다.
 
-   ![C](./img/c.png)
+   ![1]({{site.baseurl}}/assets/images/python/c.png)
 
    ```python
    if main.next == None:
