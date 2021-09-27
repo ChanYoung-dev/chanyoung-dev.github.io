@@ -18,7 +18,6 @@
   @return ($target / $context) * 1em;
 }
 
-
 /*
    Bourbon clearfix
    ========================================================================== */
@@ -44,7 +43,7 @@
 
 @mixin clearfix {
   clear: both;
-
+  position: static; //원래는 암것도 없었음 // sidebar-right 포지션 설정 sticky였다.
   &::after {
     clear: both;
     content: "";
@@ -57,17 +56,16 @@
    https://github.com/easy-designs/yiq-color-contrast
    ========================================================================== */
 
-@function yiq-is-light(
-  $color,
-  $threshold: $yiq-contrasted-threshold
-) {
+@function yiq-is-light($color, $threshold: $yiq-contrasted-threshold) {
   $red: red($color);
   $green: green($color);
   $blue: blue($color);
 
-  $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+  $yiq: (($red * 299)+ ($green * 587)+ ($blue * 114))/1000;
 
-  @if $yiq-debug { @debug $yiq, $threshold; }
+  @if $yiq-debug {
+    @debug $yiq, $threshold;
+  }
 
   @return if($yiq >= $threshold, true, false);
 }
@@ -78,7 +76,11 @@
   $light: $yiq-contrasted-light-default,
   $threshold: $yiq-contrasted-threshold
 ) {
-  @return if(yiq-is-light($color, $threshold), $yiq-contrasted-dark-default, $yiq-contrasted-light-default);
+  @return if(
+    yiq-is-light($color, $threshold),
+    $yiq-contrasted-dark-default,
+    $yiq-contrasted-light-default
+  );
 }
 
 @mixin yiq-contrasted(
