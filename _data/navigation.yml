@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "python"
-    url: /python/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "all"
-    url: /archive.html
-  - title: "Category"
-    url: /categories/
   - title: "Python"
-    url: /python/
-  - title: "comment-test"
-    url: /comment/
+    url: /Python/
+  - title: "Git"
+    url: /Git/
+  - title: "FrontEnd"
+    url: /FrontEnd/
+  - title: "Blog"
+    url: /Blog/
+  - title: "Iot"
+    url: /Iot/
+  - title: "ComputerScience"
+    url: /ComputerScience/
 
 profile:
   - title: Who am I? 🤔 ↗
