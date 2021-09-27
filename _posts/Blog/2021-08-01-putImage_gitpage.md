@@ -14,8 +14,8 @@ assets으로 접근해야한다. baseurl의 설정을 안했을 때의 가정.
 
 ```
 
-![]({{site.baseurl}}/assets/images/python/1.png)
+![](site.baseurl/assets/해당파일.png)
 
 ```
 
-A={{ site.baseurl}}
+> sitebaseurl 양옆에 \{\{ 와 \}\}를 넣어야한다.
