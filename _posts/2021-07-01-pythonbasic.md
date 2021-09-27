@@ -1,8 +1,13 @@
 ---
-permalink: /python1/
-title: "python"
+permalink: /Python/Basic/Basic
+title: "Python/Basic/Basic"
 toc: true
 comments: true
+categories:
+  - Basic
+sidebar:
+  - title: "Python"
+  - nav: "python-menu"
 ---
 
 # 1. Basic

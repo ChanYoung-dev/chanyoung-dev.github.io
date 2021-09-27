@@ -1,11 +1,13 @@
 ---
-permalink: ex
-title: "python"
+permalink: /Python/Basic/Class
+title: "Python/Basic/Class"
 toc: true
 categories:
-  - level1
+  - Class
 comments: true
-breadcrumbs: true
+sidebar:
+  - title: "Python"
+  - nav: "python-menu"
 ---
 
 # 클래스

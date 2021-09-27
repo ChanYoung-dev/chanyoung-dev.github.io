@@ -20,18 +20,13 @@ profile:
 python-menu:
   - title: Basic
     children:
-      - title: "Basic of Basic"
-        url: /docs/quick-start-guide/
-      - title: "Class"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Basic"
+        url: /Python/Basic/Basic
+      - title: "DataStructure"
+        url: /Python/Basic/DataStructure/
   - title: CodingTest
-    url: /pythonn/CodingTEST
     children:
-      - title: "level0"
-        url: /pythonn/CodingTEST/level0
-      - title: "level1"
-        url: /pythonn/CodingTEST/level1
+      - title: "Level0"
+        url: /Python/CodingTEST/Level0
+      - title: "Level1"
+        url: /Python/CodingTEST/Level1
