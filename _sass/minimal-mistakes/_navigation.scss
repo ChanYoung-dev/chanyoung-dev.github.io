@@ -511,7 +511,7 @@
   font-family: $sans-serif-narrow;
   color: $gray;
   background-color: $background-color;
-  border: 1px solid $border-color;
+  border: 0px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
@@ -530,15 +530,18 @@
   }
 }
 
+.toc header {
+  display: none;
+}
 .toc__menu {
   margin: 0;
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: 0.1em;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 0.1em;
   }
 
   a {
@@ -547,7 +550,7 @@
     color: $muted-text-color;
     font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 0px solid $border-color;
 
     &:hover {
       color: $text-color;
