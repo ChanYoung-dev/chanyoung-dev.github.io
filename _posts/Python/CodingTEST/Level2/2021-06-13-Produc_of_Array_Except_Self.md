@@ -24,11 +24,11 @@ sidebar:
 
 오른쪽으로 는 첫번째원소를 제외한 원소들을 곱해준다. (2번과정, p2)
 
-![1](./img/1.png)
+![1]({{site.baseurl}}/assets/images/python/1.png)
 
 p1과 p2를 곱해주면 결국 각 원소가 하나씩 빠진채로 곱해진 배열이 된다.(3번과정, p1\*p2)
 
-![2](./img/2.png)
+![1]({{site.baseurl}}/assets/images/python/2.png)
 
 코드로는
 

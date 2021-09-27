@@ -1,6 +1,6 @@
 ---
 permalink: /Python/
-title: "python"
+title: "Python"
 toc: true
 comments: true
 sidebar:

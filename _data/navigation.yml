@@ -48,3 +48,11 @@ python-menu:
         url: /Python/CodingTEST/Level1
       - title: "Level2"
         url: /Python/CodingTEST/Level2
+
+Blog-menu:
+  - title: Markdown
+    children:
+      - title: "Jekyll 마크다운에 이미지 넣기"
+        url: "/Blog/Markdown/PutImage"
+  - title: "Enviroments_Settings"
+    url: /Blog/Enviroments_Settings
