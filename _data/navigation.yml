@@ -24,6 +24,22 @@ python-menu:
         url: /Python/Basic/Basic
       - title: "DataStructure"
         url: /Python/Basic/DataStructure/
+      - title: "Conditional_Sentence"
+        url: /Python/Basic/Conditional_Sentence/
+      - title: "Function&Variable"
+        url: /Python/Basic/Function&Variable/
+      - title: "Input&Output"
+        url: /Python/Basic/Input&Output/
+      - title: "Class"
+        url: /Python/Basic/Class/
+      - title: "Exception_Handling"
+        url: /Python/Basic/Exception_Handling/
+      - title: "Module"
+        url: /Python/Basic/Module/
+      - title: "String"
+        url: /Python/Basic/String/
+      - title: "Object"
+        url: /Python/Basic/Object/
   - title: CodingTest
     children:
       - title: "Level0"
