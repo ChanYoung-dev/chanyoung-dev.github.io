@@ -28,7 +28,7 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-9;
     @include breakpoint($x-large) {
-      max-width: $max-width;
+      max-width: 95vw;
     }
     nav {
       z-index: 10;
