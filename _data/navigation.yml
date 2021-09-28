@@ -17,6 +17,56 @@ profile:
   - title: Who am I? 🤔 ↗
     url: "https://chanyoung-dev.github.io/Profile/"
 
+Total:
+  - title: "1. Python"
+    url: /Python/
+    children:
+      - title: ㅤBasic
+        url: /Python/Basic
+        children:
+          - title: "ㅤㅤㅤ ↪️Basic"
+            url: /Python/Basic/Basic
+          - title: "ㅤㅤㅤㅤDataStructure"
+            url: /Python/Basic/DataStructure/
+          - title: "ㅤㅤㅤㅤConditional_Sentence"
+            url: /Python/Basic/Conditional_Sentence/
+          - title: "ㅤㅤㅤㅤFunction&Variable"
+            url: /Python/Basic/Function&Variable/
+          - title: "ㅤㅤㅤㅤInput&Output"
+            url: /Python/Basic/Input&Output/
+          - title: "ㅤㅤㅤㅤClass"
+            url: /Python/Basic/Class/
+          - title: "ㅤㅤㅤㅤException_Handling"
+            url: /Python/Basic/Exception_Handling/
+          - title: "ㅤㅤㅤㅤModule"
+            url: /Python/Basic/Module/
+          - title: "ㅤㅤㅤㅤString"
+            url: /Python/Basic/String/
+          - title: "ㅤㅤㅤㅤObject"
+            url: /Python/Basic/Object/
+      - title: ㅤCodingTest
+        url: /Python/CodingTest
+        children:
+          - title: "ㅤㅤㅤㅤLevel0"
+            url: /Python/CodingTEST/Level0
+          - title: "ㅤㅤㅤㅤLevel1"
+            url: /Python/CodingTEST/Level1
+          - title: "ㅤㅤㅤㅤLevel2"
+            url: /Python/CodingTEST/Level2
+      - title: ㅤAdvanced
+        url: /Python/Advanced
+
+  - title: "2. Git"
+    url: /Git/
+  - title: "3. FrontEnd"
+    url: /FrontEnd/
+  - title: "4. Blog"
+    url: /Blog/
+  - title: "5. Iot"
+    url: /Iot/
+  - title: "6. ComputerScience"
+    url: /ComputerScience/
+
 python-menu:
   - title: Basic
     children:

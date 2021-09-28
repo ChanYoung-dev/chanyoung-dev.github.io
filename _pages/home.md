@@ -1,38 +1,32 @@
 ---
-layout: splash
+layout: archive
 permalink: /
 hidden: true
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+sexy: 1
+
+title: "📝개발 일지 리스트"
+#header:
+#  overlay_color: "#5e616c"
+#  overlay_image: /assets/images/mm-home-page-feature.jpg
+#  actions:
+#    - label: " 프로필 보기 ↗️"
+#      url: "/docs/quick-start-guide/"
+#excerpt: >
+#  역경과 고난을 극복해놓는 개발 일지록<br />
+#  <small><a href="https://chanyoung-dev.github.io/Profile/">심플한게 최고야! by chan</a></small>
+
+toc: true
+comments: true
+sidebar:
+  - nav: "Total"
 ---
 
 {% include feature_row %}
+{% for s in page.sidebar %}
+{% if s.image %}
+<img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+{% endif %}
+{% if s.title %}<a href=/{{ s.title }}/><h3>{{ s.title }}</h3></a>{% endif %}
+{% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
+{% endfor %}

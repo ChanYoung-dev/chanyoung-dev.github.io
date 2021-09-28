@@ -448,7 +448,9 @@
   a {
     color: inherit;
   }
-
+  a:hover {
+    color: #f90;
+  }
   .active {
     margin-left: -0.5em;
     padding-left: 0.5em;
