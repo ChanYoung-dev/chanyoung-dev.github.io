@@ -43,7 +43,7 @@
 
 @mixin clearfix {
   clear: both;
-  position: static; //원래는 암것도 없었음 // sidebar-right 포지션 설정 sticky였다.
+  //원래는 암것도 없었음 // sidebar-right 포지션 설정 sticky였다.
   &::after {
     clear: both;
     content: "";
