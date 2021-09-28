@@ -48,6 +48,8 @@ python-menu:
         url: /Python/CodingTEST/Level1
       - title: "Level2"
         url: /Python/CodingTEST/Level2
+  - title: Advanced
+    url: /Python/Advanced
 
 Blog-menu:
   - title: Markdown
