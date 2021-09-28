@@ -47,8 +47,8 @@
 }
 
 /*
-         Post pagination navigation links
-         ========================================================================== */
+       Post pagination navigation links
+       ========================================================================== */
 
 .pagination {
   @include clearfix();
@@ -165,8 +165,8 @@
 }
 
 /*
-         Priority plus navigation
-         ========================================================================== */
+       Priority plus navigation
+       ========================================================================== */
 
 .greedy-nav {
   position: relative;
@@ -339,8 +339,8 @@
 }
 
 /*
-         Navigation list
-         ========================================================================== */
+       Navigation list
+       ========================================================================== */
 
 .nav__list {
   margin-bottom: 1.5em;
@@ -350,43 +350,56 @@
     display: none;
   }
 
-  label {
-    position: relative;
-    display: inline-block;
-    padding: 0.5em 2.5em 0.5em 1em;
-    color: $gray;
-    font-size: $type-size-6;
-    font-weight: bold;
-    border: 1px solid $light-gray;
-    border-radius: $border-radius;
-    z-index: 20;
-    -webkit-transition: 0.2s ease-out;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-
-    &:before,
-    &:after {
-      content: "";
-      position: absolute;
-      right: 1em;
-      top: 1.25em;
-      width: 0.75em;
-      height: 0.125em;
-      line-height: 1;
-      background-color: $gray;
+  @include breakpoint(max-width $large - 1px) {
+    label {
+      position: relative;
+      display: inline-block;
+      padding: 0.5em 2.5em 0.5em 1em;
+      color: $gray;
+      font-size: $type-size-6;
+      font-weight: bold;
+      border: 1px solid $light-gray;
+      border-radius: $border-radius;
+      z-index: 20;
       -webkit-transition: 0.2s ease-out;
       transition: 0.2s ease-out;
+      cursor: pointer;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        right: 1em;
+        top: 1.25em;
+        width: 0.75em;
+        height: 0.125em;
+        line-height: 1;
+        background-color: $gray;
+        -webkit-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+      }
+
+      &:after {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+
+      &:hover {
+        color: #fff;
+        border-color: $gray;
+        background-color: mix(white, #000, 20%);
+
+        &:before,
+        &:after {
+          background-color: #fff;
+        }
+      }
     }
 
-    &:after {
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-    }
-
-    &:hover {
-      color: #fff;
-      border-color: $gray;
+    /* selected*/
+    input:checked + label {
+      color: white;
       background-color: mix(white, #000, 20%);
 
       &:before,
@@ -394,47 +407,36 @@
         background-color: #fff;
       }
     }
-  }
 
-  /* selected*/
-  input:checked + label {
-    color: white;
-    background-color: mix(white, #000, 20%);
-
-    &:before,
-    &:after {
-      background-color: #fff;
-    }
-  }
-
-  /* on hover show expand*/
-  label:hover:after {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
-
-  input:checked + label:hover:after {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0);
-  }
-
-  ul {
-    margin-bottom: 1em;
-  }
-
-  a {
-    display: block;
-    padding: 0.25em 0;
-
-    @include breakpoint($large) {
-      padding-top: 0.125em;
-      padding-bottom: 0.125em;
+    /* on hover show expand*/
+    label:hover:after {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
 
-    &:hover {
-      text-decoration: underline;
+    input:checked + label:hover:after {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      transform: rotate(0);
+    }
+
+    ul {
+      margin-bottom: 1em;
+    }
+
+    a {
+      display: block;
+      padding: 0.25em 0;
+
+      @include breakpoint($large) {
+        padding-top: 0.125em;
+        padding-bottom: 0.125em;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -456,27 +458,32 @@
     font-weight: bold;
   }
 
-  position: relative;
-  max-height: 0;
-  opacity: 0%;
-  overflow: hidden;
-  z-index: 10;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  -webkit-transform: translate(0, 10%);
-  -ms-transform: translate(0, 10%);
-  transform: translate(0, 10%);
+  @include breakpoint(max-width $large - 1px) {
+    position: relative;
+    max-height: 0;
+    opacity: 0%;
+    overflow: hidden;
+    z-index: 10;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform: translate(0, 10%);
+    -ms-transform: translate(0, 10%);
+    transform: translate(0, 10%);
+  }
 }
-.nav__list input:checked ~ .nav__items {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
-  overflow: visible;
-  opacity: 1;
-  margin-top: 1em;
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
+
+@include breakpoint(max-width $large - 1px) {
+  .nav__list input:checked ~ .nav__items {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
+    overflow: visible;
+    opacity: 1;
+    margin-top: 1em;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
 }
 
 .nav__title {
@@ -499,8 +506,8 @@
 }
 
 /*
-         Table of contents navigation
-         ========================================================================== */
+       Table of contents navigation
+       ========================================================================== */
 
 .toc {
   font-family: $sans-serif-narrow;
