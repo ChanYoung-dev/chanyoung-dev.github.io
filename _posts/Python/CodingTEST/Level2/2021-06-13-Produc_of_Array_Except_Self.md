@@ -3,11 +3,13 @@ permalink: /Python/CodingTEST/Level2/Produc_of_Array_Except_Self
 title: "Produc_of_Array_Except_Self"
 toc: true
 categories:
-  - Level2
+  - CodingTest
 comments: true
 sidebar:
   - title: "Python"
   - nav: "python-menu"
+tags:
+  - Level2
 ---
 
 ## 자신을 제외한 배열의 곱

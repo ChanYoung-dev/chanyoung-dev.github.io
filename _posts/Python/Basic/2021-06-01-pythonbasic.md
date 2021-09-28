@@ -8,6 +8,8 @@ categories:
 sidebar:
   - title: "Python"
   - nav: "python-menu"
+tag:
+  - No_category
 ---
 
 # 1. Basic

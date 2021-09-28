@@ -3,11 +3,13 @@ permalink: /Python/CodingTEST/Level1/How_to_use_linked_list_in_editor
 title: "How_to_use_linked_list_in_editor"
 toc: true
 categories:
-  - Level1
+  - CodingTest
 comments: true
 sidebar:
   - title: "Python"
   - nav: "python-menu"
+tags:
+  - Level1
 ---
 
 - ## 리트코드(LeetCode)의 연결리스트 코딩을 에디터에서 해보자(How to use linked list in editor)

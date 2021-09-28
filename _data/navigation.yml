@@ -41,6 +41,7 @@ python-menu:
       - title: "Object"
         url: /Python/Basic/Object/
   - title: CodingTest
+    url: /Python/CodingTest
     children:
       - title: "Level0"
         url: /Python/CodingTEST/Level0

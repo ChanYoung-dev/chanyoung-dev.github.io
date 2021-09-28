@@ -3,11 +3,13 @@ permalink: /Python/CodingTEST/Level1/Merge_Two_Sorted_Lists
 title: "Merge_Two_Sorted_Lists"
 toc: true
 categories:
-  - Level1
+  - CodingTest
 comments: true
 sidebar:
   - title: "Python"
   - nav: "python-menu"
+tags:
+  - Level1
 ---
 
 # 두 개의 연결 리스트 병합하기
