@@ -1,11 +1,11 @@
 ---
 title: "Advanced"
-layout: archive
+layout: category
 permalink: Python/Advanced
-sidebar_main: true
 sidebar:
-  nav: "python-menu"
+  - title: "Python🐸"
+  - nav: "python-menu"
+taxonomy: Python🐸Advanced
 ---
 
-{% assign posts = site.categories.Advanced %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+!!
