@@ -7,5 +7,5 @@ sidebar:
   nav: "python-menu"
 ---
 
-{% assign posts = site.categories.Level0 %}
+{% assign posts = site.categories.CodingTest %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
