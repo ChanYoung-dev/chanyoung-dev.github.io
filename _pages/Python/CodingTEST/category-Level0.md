@@ -1,7 +1,7 @@
 ---
 title: "Level0"
 layout: archive
-permalink: Python/CodingTEST/Level0/
+permalink: Python/CodingTest/Level0/
 sidebar_main: true
 sidebar:
   - title: "Python🐸"

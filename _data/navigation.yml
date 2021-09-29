@@ -48,11 +48,11 @@ Total:
         url: /Python/CodingTest/
         children:
           - title: "ㅤㅤㅤㅤLevel0"
-            url: /Python/CodingTEST/Level0/
+            url: /Python/CodingTest/Level0/
           - title: "ㅤㅤㅤㅤLevel1"
-            url: /Python/CodingTEST/Level1/
+            url: /Python/CodingTest/Level1/
           - title: "ㅤㅤㅤㅤLevel2"
-            url: /Python/CodingTEST/Level2/
+            url: /Python/CodingTest/Level2/
       - title: ㅤAdvanced
         url: /Python/Advanced/
 
@@ -94,11 +94,11 @@ python-menu:
     url: /Python/CodingTest
     children:
       - title: "Level0"
-        url: /Python/CodingTEST/Level0/
+        url: /Python/CodingTest/Level0/
       - title: "Level1"
-        url: /Python/CodingTEST/Level1/
+        url: /Python/CodingTest/Level1/
       - title: "Level2"
-        url: /Python/CodingTEST/Level2/
+        url: /Python/CodingTest/Level2/
   - title: Advanced
     url: /Python/Advanced
 
