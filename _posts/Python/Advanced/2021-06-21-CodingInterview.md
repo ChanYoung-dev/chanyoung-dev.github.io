@@ -3,11 +3,13 @@ permalink: /Python/Advanced/CodingInterview
 title: "CodingInterview에서의 Python"
 toc: true
 categories:
-  - Advanced
+  - Python🐸Advanced
 comments: true
 sidebar:
-  - title: "Python"
+  - title: "Python🐸"
   - nav: "python-menu"
+excerpt: >
+  "코딩인터뷰 책을 기반으로 하여 정리한 파이썬"
 ---
 
 # 1️⃣. 파이썬

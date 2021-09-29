@@ -4,7 +4,8 @@ layout: archive
 permalink: Python/CodingTEST/Level0
 sidebar_main: true
 sidebar:
-  nav: "python-menu"
+  - title: "Python🐸"
+  - nav: "python-menu"
 ---
 
 {% assign posts = site.categories.CodingTest %}

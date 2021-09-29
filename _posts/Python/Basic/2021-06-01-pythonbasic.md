@@ -6,7 +6,7 @@ comments: true
 categories:
   - Python🐸Basic
 sidebar:
-  - title: "Python"
+  - title: "Python🐸"
   - nav: "python-menu"
 ---
 

@@ -6,7 +6,7 @@ categories:
   - Python🐸CodingTest
 comments: true
 sidebar:
-  - title: "Python"
+  - title: "Python🐸"
   - nav: "python-menu"
 tags:
   - Level1
