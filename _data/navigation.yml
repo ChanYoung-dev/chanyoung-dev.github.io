@@ -27,23 +27,23 @@ Total:
           - title: "ㅤㅤㅤ ↪️Basic"
             url: /Python/Basic/Basic
           - title: "ㅤㅤㅤㅤDataStructure"
-            url: /Python/Basic/DataStructure/
+            url: /Python/Basic/DataStructure
           - title: "ㅤㅤㅤㅤConditional_Sentence"
-            url: /Python/Basic/Conditional_Sentence/
+            url: /Python/Basic/Conditional_Sentence
           - title: "ㅤㅤㅤㅤFunction&Variable"
-            url: /Python/Basic/Function&Variable/
+            url: /Python/Basic/Function&Variable
           - title: "ㅤㅤㅤㅤInput&Output"
-            url: /Python/Basic/Input&Output/
+            url: /Python/Basic/Input&Output
           - title: "ㅤㅤㅤㅤClass"
-            url: /Python/Basic/Class/
+            url: /Python/Basic/Class
           - title: "ㅤㅤㅤㅤException_Handling"
-            url: /Python/Basic/Exception_Handling/
+            url: /Python/Basic/Exception_Handling
           - title: "ㅤㅤㅤㅤModule"
-            url: /Python/Basic/Module/
+            url: /Python/Basic/Module
           - title: "ㅤㅤㅤㅤString"
-            url: /Python/Basic/String/
+            url: /Python/Basic/String
           - title: "ㅤㅤㅤㅤObject"
-            url: /Python/Basic/Object/
+            url: /Python/Basic/Object
       - title: ㅤCodingTest
         url: /Python/CodingTest
         children:
@@ -75,21 +75,21 @@ python-menu:
       - title: "DataStructure"
         url: /Python/Basic/DataStructure
       - title: "Conditional_Sentence"
-        url: /Python/Basic/Conditional_Sentence/
+        url: /Python/Basic/Conditional_Sentence
       - title: "Function&Variable"
-        url: /Python/Basic/Function&Variable/
+        url: /Python/Basic/Function&Variable
       - title: "Input&Output"
-        url: /Python/Basic/Input&Output/
+        url: /Python/Basic/Input&Output
       - title: "Class"
-        url: /Python/Basic/Class/
+        url: /Python/Basic/Class
       - title: "Exception_Handling"
-        url: /Python/Basic/Exception_Handling/
+        url: /Python/Basic/Exception_Handling
       - title: "Module"
-        url: /Python/Basic/Module/
+        url: /Python/Basic/Module
       - title: "String"
-        url: /Python/Basic/String/
-      - title: "Object!!"
-        url: /Python/Basic/Object/
+        url: /Python/Basic/String
+      - title: "Object!!!"
+        url: /Python/Basic/Object
   - title: CodingTest
     url: /Python/CodingTest
     children:
