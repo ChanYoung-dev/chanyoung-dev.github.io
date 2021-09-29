@@ -3,7 +3,7 @@ permalink: /Python/Basic/Exception_Handling
 title: "Python/Basic/Exception_Handling"
 toc: true
 categories:
-  - Exception_Handling
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"
@@ -30,6 +30,7 @@ except 에러 종류2:
 ```
 
 - ### 실습
+
   ```python
   num1 = 6
   num2 = 3
@@ -41,7 +42,9 @@ except 에러 종류2:
   #print("{0} / {1} = {2} 입니다.".format(num1, num2, int(num1/num2)))
   # ValueError: invalid literal for int() with base 10: '삼'
   ```
+
   위 에러를 예외처리하자
+
   - #### 숫자가아닌 문자가 입력되었을땐
     ```python
     try:

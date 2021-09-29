@@ -4,7 +4,7 @@ title: "Python"
 toc: true
 comments: true
 sidebar:
-  - title: "Python"
+  - title: "Python🧑🏻‍💻"
     url: /Python/
   - nav: "python-menu"
 ---

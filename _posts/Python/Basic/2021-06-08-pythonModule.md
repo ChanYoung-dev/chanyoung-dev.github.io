@@ -3,7 +3,7 @@ permalink: /Python/Basic/Module
 title: "Python/Basic/Module"
 toc: true
 categories:
-  - Module
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"
@@ -26,8 +26,10 @@ def price_soldier(people):
 theater_module.py 파일에 있는 함수들을 사용해보자
 
 - ## import
+
   - ### import
     module.py에 아래 코드를 실습해보자
+
   ```python
   import theater_module
   theater_module.price(3)
@@ -39,7 +41,9 @@ theater_module.py 파일에 있는 함수들을 사용해보자
   3명의 가격은 12000입니다
   '''
   ```
+
   - ### import ~ as
+
   ```python
   import theater_module as mv
   mv.price(3)
@@ -53,9 +57,10 @@ theater_module.py 파일에 있는 함수들을 사용해보자
   3명의 가격은 12000입니다
   '''
   ```
+
 - ## from ~ import
   - ### from ~ import \*
-  모듈내 모든 것을 가져다가 사용하겠다.
+    모듈내 모든 것을 가져다가 사용하겠다.
   ```python
   from theater_module import *
   price(3)

@@ -3,7 +3,7 @@ permalink: /Python/Basic/String
 title: "Python/Basic/String"
 toc: true
 categories:
-  - String
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"
@@ -150,7 +150,8 @@ print(match_Object.span()) # (2, 3) 일치한 문자열의 시작,끝 튜플로 
 
   - #### ^
     > ^는 여는 대괄호([) 뒤에 바로 있으면 ^뒤 문자는 예외처리이다. 즉 여집합
-    > \[^abcd] a나 b나 c가 아닌 것들 ~(a or b or c)
+    >
+    > > \[^abcd] a나 b나 c가 아닌 것들 ~(a or b or c)
 
   ```python
   print(re.search('[^abcd]', s)) # <re.Match object; span=(0, 1), match='h'>

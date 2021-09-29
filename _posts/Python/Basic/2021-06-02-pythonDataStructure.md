@@ -3,7 +3,7 @@ permalink: /Python/Basic/DataStructure
 title: "Python/Basic/DataStructure"
 toc: true
 categories:
-  - DataStructure
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"
@@ -452,12 +452,14 @@ print(name, age, hobby)
 ```
 
 - ### 문법
+
   - #### 튜플 접근
-  > len(tuple)로 요소의 개수를 알아낼 수 있습니다.  
-  >  [n:m]으로 요소에 접근이 가능합니다. 사용법은 문자열과 동일합니다.  
-  >  반복문을 이용하여 접근이 가능합니다.  
-  >  +연산을 이용하여 결합이 가능합니다.  
-  >  \*연산을 이용하여 반복할 수 있습니다
+    > len(tuple)로 요소의 개수를 알아낼 수 있습니다.  
+    >  [n:m]으로 요소에 접근이 가능합니다. 사용법은 문자열과 동일합니다.  
+    >  반복문을 이용하여 접근이 가능합니다.  
+    >  +연산을 이용하여 결합이 가능합니다.  
+    >  \*연산을 이용하여 반복할 수 있습니다
+
   ```python
   tuple5 = '회원목록', ('한놈','두식이'), (33, 25), (True, False)
   print(tuple5, type(tuple5)) # ('회원목록', ('한놈', '두식이'), (33, 25), (True, False)) <class 'tuple'>
@@ -489,9 +491,11 @@ print(name, age, hobby)
   print(tuple3) # (1, 2, 3, 'a', 'b', 'c', 'd')
   print(tuple4) # ('a', 'b', 'c', 'd', 'a', 'b', 'c', 'd', 'a', 'b', 'c', 'd')
   ```
+
   - #### 튜플의 변경이나 삭제
     > tuple의 요소 값 변경 불가능  
     > tuple 요소 삭제 불가
+
   ```python
   tuple1 = 1, 2, 3, 4
   print(tuple1, type(tuple1)) # (1, 2, 3, 4) <class 'tuple'>
@@ -618,7 +622,9 @@ print(set6, type(set6))
 ```
 
 - ### 예시
+
   - #### 애국가는 몇개의 음절로 만들어졌을까
+
   ```python
   national_anthem = '''
   동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
@@ -647,7 +653,9 @@ print(set6, type(set6))
   print('애국가에는 총 {}개 단어가 중복 사용되었습니다.'.format(len(word_list)-len(word_set)))
   #애국가에는 총 26개 단어가 중복 사용되었습니다.
   ```
+
   - #### 중복되지않는 번호 뽑기
+
   ```python
   from random import *
   for i in range(1,6):

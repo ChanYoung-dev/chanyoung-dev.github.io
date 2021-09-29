@@ -3,7 +3,7 @@ permalink: /Python/Basic/Conditional_Sentence
 title: "Python/Basic/Conditional_Sentence"
 toc: true
 categories:
-  - Conditional_Sentence
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"

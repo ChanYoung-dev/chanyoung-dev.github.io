@@ -3,7 +3,7 @@
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <label for="ac-toc">{{ page.sidebar[0].title | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     {% for nav in navigation %}
       <li>
@@ -13,7 +13,9 @@
             {{ nav.title }}
             <!-- nav.title과 같은 이름의 카테고리를 갖은 포스트의 갯수를 카운트한다. -->
             {% for category in site.categories %}
-              {% if category[0] == nav.title %}
+              <!-- 사이드바에서 설정해 놓은 title은 Python_이다. 카테고리는 Python_카테고리명 으로 정했기 때문에 카테고리명과 사이드바 nav의 각 title과 비교하게 된다.-->
+              {% assign title = category[0] | remove: page.sidebar[0].title %}
+              {% if title == nav.title %}
                 ({{category[1].size}})
               {% endif %}
             {% endfor %}
@@ -23,7 +25,9 @@
             {{ nav.title }}
             <!-- nav.title과 같은 이름의 카테고리를 갖은 포스트의 갯수를 카운트한다. -->
             {% for category in site.categories %}
-              {% if category[0] == nav.title %}
+            <!-- 사이드바에서 설정해 놓은 title은 Python_이다. 카테고리는 Python_카테고리명 으로 정했기 때문에 카테고리명과 사이드바 nav의 각 title과 비교하게 된다.-->
+              {% assign title = category[0] | remove: page.sidebar[0].title %}
+              {% if title == nav.title %}
                 ({{category[1].size}})
               {% endif %}
             {% endfor %}

@@ -4,12 +4,10 @@ title: "Python/Basic/Basic"
 toc: true
 comments: true
 categories:
-  - Basic
+  - Python🧑🏻‍💻Basic
 sidebar:
   - title: "Python"
   - nav: "python-menu"
-tag:
-  - No_category
 ---
 
 # 1. Basic

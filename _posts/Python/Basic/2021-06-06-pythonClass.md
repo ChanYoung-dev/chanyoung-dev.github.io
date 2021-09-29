@@ -3,7 +3,7 @@ permalink: /Python/Basic/Class
 title: "Python/Basic/Class"
 toc: true
 categories:
-  - Class
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"

@@ -3,7 +3,7 @@ permalink: /Python/Basic/Input&Output
 title: "Python/Basic/Input&Output"
 toc: true
 categories:
-  - Input&Output
+  - Python🧑🏻‍💻Basic
 comments: true
 sidebar:
   - title: "Python"
@@ -92,6 +92,7 @@ sidebar:
     ```
 
 - ### 입력
+
   ```python
   answer = input("아무 값이나 입력하세요 : ")
   print("입력하신 값은 " + answer + "입니다.")
@@ -100,8 +101,10 @@ sidebar:
   입력하신 값은 34입니다.
   '''
   ```
+
   answer가 숫자였으면 print문 안에서는 str(answer)로 묶어줘야하는데 묶지않아도 출력이 잘 나온다.  
    type(answer)를 하면 이유를 알 수 있는데
+
   ```python
   answer = input("아무 값이나 입력하세요 : ")
   print(type(answer))
@@ -110,9 +113,12 @@ sidebar:
   <class 'str'>
   '''
   ```
+
   **🦊 숫자를 입력하든 무엇을 입력하든 str이다.**
+
   - #### eval
     인수를 유효한 파이썬 표현식으로 인식한다.
+
   ```python
   data = eval(input("실수를 입력하시오 : "))
   print(data, type(data), data + 1.2)
@@ -237,7 +243,9 @@ encoding은 파일 내용으로 쓰는 언어와 관련된 것인데 utf8로 설
   ```
 
   - #### 읽기(r)
+
     - 파일전체읽기
+
     ```python
     score_file = open("score.txt", "r", encoding="utf8")
     print(score_file.read()) #전체읽어오기
@@ -249,7 +257,9 @@ encoding은 파일 내용으로 쓰는 언어와 관련된 것인데 utf8로 설
     코딩 : 100
     '''
     ```
+
     - 한줄씩 읽기
+
     ```python
     score_file = open("score.txt", "r", encoding="utf8")
     print(score_file.readline(), end="")
@@ -266,9 +276,11 @@ encoding은 파일 내용으로 쓰는 언어와 관련된 것인데 utf8로 설
     코딩 : 100
     '''
     ```
+
     - while반복문을 이용하여 줄파악
       하지만 파일을 열어보기전까진 파일이 총 몇 줄로 구성되어있는지는 모른다.
       이 때 while 반복문을 이용하여 줄이 있는 동안 읽어오기를 해보자
+
       ```python
       score_file = open("score.txt", "r", encoding = "utf8")
 
@@ -280,6 +292,7 @@ encoding은 파일 내용으로 쓰는 언어와 관련된 것인데 utf8로 설
 
       score_file.close()
       ```
+
     - readlines()를 이용하여 파일이 몇 줄인지 파악하기
       readlines()는 **list**형태로 저장한다.
 
