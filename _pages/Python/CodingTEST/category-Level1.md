@@ -7,5 +7,3 @@ sidebar:
   - nav: "python-menu"
 taxonomy: Level1
 ---
-
-why??
