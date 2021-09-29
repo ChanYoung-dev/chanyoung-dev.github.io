@@ -293,3 +293,23 @@ figure.highlight {
     font-weight: bold;
   }
 }
+.page__content li.child {
+  font-size: $type-size-6;
+  font-weight: lighter;
+}
+
+.page__content .nav__sub-title_home {
+  font-size: $type-size-5;
+}
+
+.page__content .nav__listhome {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 15px 30px;
+}
+
+#page-title {
+  padding-bottom: 10px;
+  margin: 20px 0;
+  border-bottom: 5px solid $border-color;
+}
