@@ -73,7 +73,7 @@ python-menu:
       - title: "Basic"
         url: /Python/Basic/Basic
       - title: "DataStructure"
-        url: /Python/Basic/DataStructure/
+        url: /Python/Basic/DataStructure
       - title: "Conditional_Sentence"
         url: /Python/Basic/Conditional_Sentence/
       - title: "Function&Variable"
