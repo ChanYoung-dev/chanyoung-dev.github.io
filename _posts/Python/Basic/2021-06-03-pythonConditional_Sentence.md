@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Conditional_Sentence
+permalink: /Python/Basic/Conditional_Sentence/
 title: "Python/Basic/Conditional_Sentence"
 toc: true
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "Advanced"
 layout: category
-permalink: Python/Advanced
+permalink: Python/Advanced/
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"

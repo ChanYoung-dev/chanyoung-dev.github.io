@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/DataStructure
+permalink: /Python/Basic/DataStructure/
 title: "Python/Basic/DataStructure"
 toc: true
 categories:

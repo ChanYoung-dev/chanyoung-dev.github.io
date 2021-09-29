@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Module
+permalink: /Python/Basic/Module/
 title: "Python/Basic/Module"
 toc: true
 categories:

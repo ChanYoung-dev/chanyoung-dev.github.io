@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Exception_Handling
+permalink: /Python/Basic/Exception_Handling/
 title: "Python/Basic/Exception_Handling"
 toc: true
 categories:

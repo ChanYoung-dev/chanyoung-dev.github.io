@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/String
+permalink: /Python/Basic/String/
 title: "Python/Basic/String"
 toc: true
 categories:

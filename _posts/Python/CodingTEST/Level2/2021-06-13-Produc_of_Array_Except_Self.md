@@ -1,5 +1,5 @@
 ---
-permalink: /Python/CodingTEST/Level2/Produc_of_Array_Except_Self
+permalink: /Python/CodingTEST/Level2/Produc_of_Array_Except_Self/
 title: "Produc_of_Array_Except_Self"
 toc: true
 categories:

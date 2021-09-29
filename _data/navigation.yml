@@ -22,39 +22,39 @@ Total:
     url: /Python/
     children:
       - title: ㅤBasic
-        url: /Python/Basic
+        url: /Python/Basic/
         children:
           - title: "ㅤㅤㅤ ↪️Basic"
-            url: /Python/Basic/Basic
+            url: /Python/Basic/Basic/
           - title: "ㅤㅤㅤㅤDataStructure"
-            url: /Python/Basic/DataStructure
+            url: /Python/Basic/DataStructure/
           - title: "ㅤㅤㅤㅤConditional_Sentence"
-            url: /Python/Basic/Conditional_Sentence
+            url: /Python/Basic/Conditional_Sentence/
           - title: "ㅤㅤㅤㅤFunction&Variable"
-            url: /Python/Basic/Function&Variable
+            url: /Python/Basic/Function&Variable/
           - title: "ㅤㅤㅤㅤInput&Output"
-            url: /Python/Basic/Input&Output
+            url: /Python/Basic/Input&Output/
           - title: "ㅤㅤㅤㅤClass"
-            url: /Python/Basic/Class
+            url: /Python/Basic/Class/
           - title: "ㅤㅤㅤㅤException_Handling"
-            url: /Python/Basic/Exception_Handling
+            url: /Python/Basic/Exception_Handling/
           - title: "ㅤㅤㅤㅤModule"
-            url: /Python/Basic/Module
+            url: /Python/Basic/Module/
           - title: "ㅤㅤㅤㅤString"
-            url: /Python/Basic/String
+            url: /Python/Basic/String/
           - title: "ㅤㅤㅤㅤObject"
-            url: /Python/Basic/Object
+            url: /Python/Basic/Object/
       - title: ㅤCodingTest
-        url: /Python/CodingTest
+        url: /Python/CodingTest/
         children:
           - title: "ㅤㅤㅤㅤLevel0"
-            url: /Python/CodingTEST/Level0
+            url: /Python/CodingTEST/Level0/
           - title: "ㅤㅤㅤㅤLevel1"
-            url: /Python/CodingTEST/Level1
+            url: /Python/CodingTEST/Level1/
           - title: "ㅤㅤㅤㅤLevel2"
-            url: /Python/CodingTEST/Level2
+            url: /Python/CodingTEST/Level2/
       - title: ㅤAdvanced
-        url: /Python/Advanced
+        url: /Python/Advanced/
 
   - title: "2. Git"
     url: /Git/
@@ -71,34 +71,34 @@ python-menu:
   - title: Basic
     children:
       - title: "Basic"
-        url: /Python/Basic/Basic
+        url: /Python/Basic/Basic/
       - title: "DataStructure"
-        url: /Python/Basic/DataStructure
+        url: /Python/Basic/DataStructure/
       - title: "Conditional_Sentence"
-        url: /Python/Basic/Conditional_Sentence
+        url: /Python/Basic/Conditional_Sentence/
       - title: "Function&Variable"
-        url: /Python/Basic/Function&Variable
+        url: /Python/Basic/Function&Variable/
       - title: "Input&Output"
-        url: /Python/Basic/Input&Output
+        url: /Python/Basic/Input&Output/
       - title: "Class"
-        url: /Python/Basic/Class
+        url: /Python/Basic/Class/
       - title: "Exception_Handling"
-        url: /Python/Basic/Exception_Handling
+        url: /Python/Basic/Exception_Handling/
       - title: "Module"
-        url: /Python/Basic/Module
+        url: /Python/Basic/Module/
       - title: "String"
-        url: /Python/Basic/String
+        url: /Python/Basic/String/
       - title: "Object!!!"
-        url: /Python/Basic/Object
+        url: /Python/Basic/Object/
   - title: CodingTest
     url: /Python/CodingTest
     children:
       - title: "Level0"
-        url: /Python/CodingTEST/Level0
+        url: /Python/CodingTEST/Level0/
       - title: "Level1"
-        url: /Python/CodingTEST/Level1
+        url: /Python/CodingTEST/Level1/
       - title: "Level2"
-        url: /Python/CodingTEST/Level2
+        url: /Python/CodingTEST/Level2/
   - title: Advanced
     url: /Python/Advanced
 
@@ -106,6 +106,6 @@ Blog-menu:
   - title: Markdown
     children:
       - title: "Jekyll 마크다운에 이미지 넣기"
-        url: "/Blog/Markdown/PutImage"
+        url: /Blog/Markdown/PutImage/
   - title: "Enviroments_Settings"
-    url: /Blog/Enviroments_Settings
+    url: /Blog/Enviroments_Settings/

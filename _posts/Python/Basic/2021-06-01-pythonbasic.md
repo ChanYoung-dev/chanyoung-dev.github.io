@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Basic
+permalink: /Python/Basic/Basic/
 title: "Python/Basic/Basic"
 toc: true
 comments: true

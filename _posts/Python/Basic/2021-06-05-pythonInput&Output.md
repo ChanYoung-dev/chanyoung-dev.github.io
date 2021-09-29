@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Input&Output
+permalink: /Python/Basic/Input&Output/
 title: "Python/Basic/Input&Output"
 toc: true
 categories:

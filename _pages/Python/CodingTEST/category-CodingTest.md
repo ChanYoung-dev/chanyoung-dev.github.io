@@ -1,6 +1,6 @@
 ---
 title: "CodingTest"
-permalink: Python/CodingTest
+permalink: Python/CodingTest/
 layout: tags_category
 sidebar:
   - title: "Python🐸"

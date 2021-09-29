@@ -1,7 +1,7 @@
 ---
 title: "Markdown"
 layout: archive
-permalink: Blog/Markdown
+permalink: Blog/Markdown/
 sidebar_main: true
 sidebar:
   nav: "Blog-menu"

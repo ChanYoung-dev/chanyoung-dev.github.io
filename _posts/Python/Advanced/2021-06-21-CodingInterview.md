@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Advanced/CodingInterview
+permalink: /Python/Advanced/CodingInterview/
 title: "CodingInterview에서의 Python"
 toc: true
 categories:

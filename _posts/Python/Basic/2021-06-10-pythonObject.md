@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Object
+permalink: /Python/Basic/Object/
 title: "Python/Basic/Object"
 toc: true
 categories:

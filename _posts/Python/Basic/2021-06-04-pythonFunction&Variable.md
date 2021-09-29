@@ -1,5 +1,5 @@
 ---
-permalink: /Python/Basic/Function&Variable
+permalink: /Python/Basic/Function&Variable/
 title: "Python/Basic/Function&Variable"
 toc: true
 categories:
