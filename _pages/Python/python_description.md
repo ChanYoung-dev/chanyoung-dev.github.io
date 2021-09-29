@@ -24,4 +24,4 @@ sidebar:
 
 > 👇 Github소스
 
-<script src="https://gist.github.com/ChanYoung-dev/08afabaf65e0bebdcde1d350b1df292c.js"></script>
+{% gist ChanYoung-dev/08afabaf65e0bebdcde1d350b1df292c %}

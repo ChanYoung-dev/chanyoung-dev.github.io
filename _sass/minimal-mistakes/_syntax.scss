@@ -317,9 +317,31 @@ figure.highlight {
   }
 }
 
+/* https://github.com/lonekorean/gist-syntax-themes */
+@import url("https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 .gist {
   th,
   td {
-    border-bottom: 0;
+    border-bottom: 10px;
   }
+}
+.gist .gist-data .js-gist-file-update-container {
+  background-color: #333333;
+}
+
+.markdown-body {
+  margin: 0px 20px;
+  color: #f8f8f2;
+}
+
+.markdown-body a {
+  color: #f8f8f2;
+  transition: all 0s ease-in-out;
+}
+
+.markdown-body a:hover {
+  color: #f90;
 }
