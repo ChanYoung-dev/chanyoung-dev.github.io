@@ -4,9 +4,9 @@ title: "github page & Jekyll에서의 마크다운 파일에 image(사진) 넣�
 toc: true
 comments: true
 categories:
-  - Markdown
+  - Blog🐨Markdown
 sidebar:
-  - title: "Blog"
+  - title: "Blog🐨"
   - nav: "Blog-menu"
 ---
 

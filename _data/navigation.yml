@@ -107,5 +107,10 @@ Blog-menu:
     children:
       - title: "Jekyll 마크다운에 이미지 넣기"
         url: /Blog/Markdown/PutImage/
+      - title: "마크다운 파일에 목차 링크 toc 넣기"
+        url: /Blog/Markdown/toc/
   - title: "Enviroments_Settings"
     url: /Blog/Enviroments_Settings/
+    children:
+      - title: "Jekyll 설치하기"
+        url: /Blog/Enviroments_Settings/JekyllInstall/
