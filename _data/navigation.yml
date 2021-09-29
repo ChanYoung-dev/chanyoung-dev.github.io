@@ -47,7 +47,7 @@ Total:
       - title: ㅤCodingTest
         url: /Python/CodingTest/
         children:
-          - title: "ㅤㅤㅤㅤLevel0"
+          - title: "ㅤㅤㅤ↪️Level0"
             url: /Python/CodingTest/Level0/
           - title: "ㅤㅤㅤㅤLevel1"
             url: /Python/CodingTest/Level1/
@@ -55,13 +55,28 @@ Total:
             url: /Python/CodingTest/Level2/
       - title: ㅤAdvanced
         url: /Python/Advanced/
-
-  - title: "2. Git"
+        children:
+          - title: "ㅤㅤㅤ↪️CodingInterview"
+            url: /Python/Advanced/CodingInterview/
+  - title: "2. Git2"
     url: /Git/
   - title: "3. FrontEnd"
     url: /FrontEnd/
   - title: "4. Blog"
     url: /Blog/
+    children:
+      - title: ㅤMarkdown
+        url: /Blog/Markdown/
+        children:
+          - title: "ㅤㅤㅤ ↪️github page와 jekyll에 이미지 넣기"
+            url: /Blog/Markdown/PutImage/
+          - title: "ㅤㅤㅤㅤ마크다운 파일에 toc 링크 넣기"
+            url: /Blog/Markdown/toc/
+      - title: ㅤEnviroments_Settings
+        url: /Blog/Enviroments_Settings/
+        children:
+          - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
+            url: /Blog/Enviroments_Settings/JekyllInstall
   - title: "5. Iot"
     url: /Iot/
   - title: "6. ComputerScience"
