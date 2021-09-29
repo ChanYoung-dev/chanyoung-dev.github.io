@@ -3,7 +3,7 @@ permalink: /Python/Basic/Function&Variable
 title: "Python/Basic/Function&Variable"
 toc: true
 categories:
-  - Python🧑🏻‍💻Basic
+  - Python🐸Basic
 comments: true
 sidebar:
   - title: "Python"

@@ -3,7 +3,7 @@ permalink: /Python/Basic/Exception_Handling
 title: "Python/Basic/Exception_Handling"
 toc: true
 categories:
-  - Python🧑🏻‍💻Basic
+  - Python🐸Basic
 comments: true
 sidebar:
   - title: "Python"

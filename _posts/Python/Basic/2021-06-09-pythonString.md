@@ -3,7 +3,7 @@ permalink: /Python/Basic/String
 title: "Python/Basic/String"
 toc: true
 categories:
-  - Python🧑🏻‍💻Basic
+  - Python🐸Basic
 comments: true
 sidebar:
   - title: "Python"

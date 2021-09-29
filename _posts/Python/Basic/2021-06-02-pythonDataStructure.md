@@ -3,7 +3,7 @@ permalink: /Python/Basic/DataStructure
 title: "Python/Basic/DataStructure"
 toc: true
 categories:
-  - Python🧑🏻‍💻Basic
+  - Python🐸Basic
 comments: true
 sidebar:
   - title: "Python"

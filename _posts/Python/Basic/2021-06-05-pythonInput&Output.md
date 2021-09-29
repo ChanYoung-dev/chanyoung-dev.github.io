@@ -3,7 +3,7 @@ permalink: /Python/Basic/Input&Output
 title: "Python/Basic/Input&Output"
 toc: true
 categories:
-  - Python🧑🏻‍💻Basic
+  - Python🐸Basic
 comments: true
 sidebar:
   - title: "Python"
