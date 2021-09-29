@@ -3,7 +3,7 @@ permalink: /Python/CodingTEST/Level1/How_to_use_linked_list_in_editor
 title: "How_to_use_linked_list_in_editor"
 toc: true
 categories:
-  - CodingTest
+  - Python🐸CodingTest
 comments: true
 sidebar:
   - title: "Python"

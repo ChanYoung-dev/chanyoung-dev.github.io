@@ -3,7 +3,7 @@ permalink: /Python/CodingTEST/Level1/Merge_Two_Sorted_Lists
 title: "Merge_Two_Sorted_Lists"
 toc: true
 categories:
-  - CodingTest
+  - Python🐸CodingTest
 comments: true
 sidebar:
   - title: "Python"
