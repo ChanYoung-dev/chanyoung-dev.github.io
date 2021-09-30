@@ -26,8 +26,8 @@ excerpt: >
 
    터미널에서
 
-   ```shell
-   rbenv version
+   ```sh
+rbenv version
    ```
 
    설치되어있으면 version이 뜰 것이다.
@@ -35,7 +35,7 @@ excerpt: >
 ---
 
    ```sh
-   rbenv versions
+rbenv versions
    ```
 
    위 명령어를 터미널에 쳤을때 system으로 적혀있으면 system에서 설치한 rbenv이다.
