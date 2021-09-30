@@ -86,6 +86,8 @@ Total:
         children:
           - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
             url: /Blog/Enviroments_Settings/JekyllInstall
+          - title: "ㅤㅤㅤㅤsitemap.xml 오류,에러 해결하기"
+            url: /Blog/Enviroments_Settings/sitemaperror/
   - title: "5. Iot"
     url: /Iot/
   - title: "6. ComputerScience"
@@ -138,6 +140,8 @@ Blog-menu:
     children:
       - title: "Jekyll 설치하기"
         url: /Blog/Enviroments_Settings/JekyllInstall/
+      - title: "sitemap.xml 오류,에러 해결하기"
+        url: /Blog/Enviroments_Settings/sitemaperror/
 
 Web-menu:
   - title: Frontend
