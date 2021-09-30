@@ -1,6 +1,6 @@
 ---
 permalink: /Blog/Markdown/PutImage/
-title: "github page & Jekyll에서의 마크다운 파일에 image(사진) 넣기"
+title: "github page, Jekyll에서의 마크다운 파일에 image(사진) 넣기"
 toc: true
 comments: true
 categories:

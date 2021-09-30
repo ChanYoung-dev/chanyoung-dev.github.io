@@ -30,10 +30,10 @@ Total:
             url: /Python/Basic/DataStructure/
           - title: "ㅤㅤㅤㅤConditional_Sentence"
             url: /Python/Basic/Conditional_Sentence/
-          - title: "ㅤㅤㅤㅤFunction&Variable"
-            url: /Python/Basic/Function&Variable/
-          - title: "ㅤㅤㅤㅤInput&Output"
-            url: /Python/Basic/Input&Output/
+          - title: "ㅤㅤㅤㅤFunctionVariable"
+            url: /Python/Basic/FunctionVariable/
+          - title: "ㅤㅤㅤㅤInputOutput"
+            url: /Python/Basic/InputOutput/
           - title: "ㅤㅤㅤㅤClass"
             url: /Python/Basic/Class/
           - title: "ㅤㅤㅤㅤException_Handling"
@@ -100,10 +100,10 @@ python-menu:
         url: /Python/Basic/DataStructure/
       - title: "Conditional_Sentence"
         url: /Python/Basic/Conditional_Sentence/
-      - title: "Function&Variable"
-        url: /Python/Basic/Function&Variable/
-      - title: "Input&Output"
-        url: /Python/Basic/Input&Output/
+      - title: "FunctionVariable"
+        url: /Python/Basic/FunctionVariable/
+      - title: "InputOutput"
+        url: /Python/Basic/InputOutput/
       - title: "Class"
         url: /Python/Basic/Class/
       - title: "Exception_Handling"

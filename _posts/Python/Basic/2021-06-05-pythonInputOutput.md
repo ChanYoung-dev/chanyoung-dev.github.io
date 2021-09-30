@@ -1,6 +1,6 @@
 ---
-permalink: /Python/Basic/Input&Output/
-title: "Python/Basic/Input&Output"
+permalink: /Python/Basic/InputOutput/
+title: "Python/Basic/InputOutput"
 toc: true
 categories:
   - Python🐸Basic
@@ -10,7 +10,7 @@ sidebar:
   - nav: "python-menu"
 ---
 
-# input & output
+# input 과 output
 
 ## 1. 표준 입출력
 

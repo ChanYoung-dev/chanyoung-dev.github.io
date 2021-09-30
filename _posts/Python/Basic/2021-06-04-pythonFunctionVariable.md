@@ -1,6 +1,6 @@
 ---
-permalink: /Python/Basic/Function&Variable/
-title: "Python/Basic/Function&Variable"
+permalink: /Python/Basic/FunctionVariable/
+title: "Python/Basic/FunctionVariable"
 toc: true
 categories:
   - Python🐸Basic
