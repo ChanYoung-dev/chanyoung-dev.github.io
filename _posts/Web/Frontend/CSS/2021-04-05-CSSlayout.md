@@ -1,5 +1,5 @@
 ---
-permalink: /Web/Frontend/CSS/CSSbasic
+permalink: /Web/Frontend/CSS/CSSLayout/
 title: "CSS layout"
 toc: true
 categories:

@@ -1,5 +1,5 @@
 ---
-permalink: /Web/Frontend/CSS/CSSCentering
+permalink: /Web/Frontend/CSS/CSSCentering/
 title: "CSS Centering"
 toc: true
 categories:

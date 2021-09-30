@@ -1,7 +1,7 @@
 ---
 title: "Javascript"
 layout: tag
-permalink: /Web/Frontend/Javascriptt/
+permalink: /Web/Frontend/Javascript/
 sidebar:
   - title: "Web🐮"
   - nav: "Web-menu"

@@ -1,5 +1,5 @@
 ---
-permalink: /Web/Frontend/CSS/CSSvarible
+permalink: /Web/Frontend/CSS/CSSvarible/
 title: "CSS 변수"
 toc: true
 categories:

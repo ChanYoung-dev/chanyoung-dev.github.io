@@ -1,5 +1,5 @@
 ---
-permalink: /Web/Frontend/CSS/CSSflexbox
+permalink: /Web/Frontend/CSS/CSSflexbox/
 title: "CSS flexbox"
 toc: true
 categories:
