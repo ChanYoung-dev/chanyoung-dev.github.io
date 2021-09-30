@@ -4,8 +4,8 @@ main:
     url: /Python/
   - title: "Git"
     url: /Git/
-  - title: "FrontEnd"
-    url: /FrontEnd/
+  - title: "Web"
+    url: /Web/
   - title: "Blog"
     url: /Blog/
   - title: "Iot"
@@ -58,10 +58,19 @@ Total:
         children:
           - title: "ㅤㅤㅤ↪️CodingInterview"
             url: /Python/Advanced/CodingInterview/
-  - title: "2. Git2"
+  - title: "2. Git"
     url: /Git/
-  - title: "3. FrontEnd"
-    url: /FrontEnd/
+  - title: "3. Web"
+    url: /Web/
+    children:
+      - title: ㅤFrontend
+        children:
+          - title: "ㅤㅤㅤ↪️HTML"
+            url: /Web/Frontend/HTML/
+          - title: "ㅤㅤㅤㅤCSS"
+            url: /Web/Frontend/CSS/
+          - title: "ㅤㅤㅤㅤJavascript"
+            url: /Web/Frontend/Javascript/
   - title: "4. Blog"
     url: /Blog/
     children:
@@ -103,7 +112,7 @@ python-menu:
         url: /Python/Basic/Module/
       - title: "String"
         url: /Python/Basic/String/
-      - title: "Object!!!"
+      - title: "Object"
         url: /Python/Basic/Object/
   - title: CodingTest
     url: /Python/CodingTest
@@ -129,3 +138,14 @@ Blog-menu:
     children:
       - title: "Jekyll 설치하기"
         url: /Blog/Enviroments_Settings/JekyllInstall/
+
+Web-menu:
+  - title: Frontend
+    children:
+      - title: "HTML"
+        url: /Web/Frontend/HTML/
+      - title: "CSS"
+        url: /Web/Frontend/CSS/
+      - title: "Javascript"
+        url: /Web/Frontend/Javascript/
+      

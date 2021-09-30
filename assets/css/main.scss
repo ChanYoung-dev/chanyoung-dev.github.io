@@ -311,9 +311,14 @@ figure.highlight {
 #page-title {
   padding-bottom: 10px;
   margin: 20px 0;
-  border-bottom: 5px solid $border-color;
+  border-bottom: 10px solid $border-color;
 }
 
 .archive .verychild{
   line-height: 1.8;
+}
+
+.page__content h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 5px solid #f2f3f3;
 }
