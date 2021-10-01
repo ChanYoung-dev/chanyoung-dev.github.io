@@ -32,12 +32,12 @@ fatal: unable to access 'https://github.com/emrhssla/WebStudy.git/': The request
 
 ![]({{site.baseurl}}/assets/images/Cooperation/gitloginerror.png)
 
-*메뉴에서 Settings 클릭*
+메뉴에서 Settings 클릭
 
 
 ![]({{site.baseurl}}/assets/images/Cooperation/gitloginerror2.png)
 
-*email 클릭*
+email 클릭
 
 ![]({{site.baseurl}}/assets/images/Cooperation/gitloginerror3.png)
 
