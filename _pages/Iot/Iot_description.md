@@ -1,14 +1,14 @@
 ---
-permalink: /Python/
-title: "Python🐸"
+permalink: /Iot/
+title: "Iot🐵"
 sidebar:
-  - title: "Python🐸"
-  - nav: "python-menu"
+  - title: "Iot🐵"
+  - nav: "Iot-menu"
 ---
 
 - # Introduce
 
-파이썬(python) 기본 공부 / Study for python basic
+사물인터넷 기본 공부 / Study for Iot
 
 - # 목차
 
@@ -20,6 +20,3 @@ sidebar:
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-> 👇 Github소스
-
-{% gist ChanYoung-dev/08afabaf65e0bebdcde1d350b1df292c %}

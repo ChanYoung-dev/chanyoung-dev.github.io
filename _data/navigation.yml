@@ -61,7 +61,7 @@ Total:
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
-      - tilte: ㅤGit
+      - title: ㅤGit
         children:
           - title: "ㅤㅤㅤ↪️Password authentication,a personal access token 로그인 문제 해결방법"
             url: /Cooperation/Git/loginerror/
@@ -95,6 +95,12 @@ Total:
             url: /Blog/Enviroments_Settings/sitemaperror/
   - title: "5. Iot"
     url: /Iot/
+    children:
+      - title: ㅤSBC
+        url: /Iot/SBC/
+        children: 
+          - title: "ㅤㅤㅤㅤRaspberryPi"
+            url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /ComputerScience/
 
@@ -165,4 +171,9 @@ Cooperation-menu:
       - title: "Password authentication,a personal access token 로그인 문제 해결방법"
         url : /Cooperation/Git/loginerror/
 
-
+Iot-menu:
+  - title: SBC
+    url: /Iot/SBC/
+    children: 
+      - title: "RaspberryPi"
+        url: /Iot/SBC/RaspberryPi
