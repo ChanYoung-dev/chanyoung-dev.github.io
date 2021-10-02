@@ -1,0 +1,9 @@
+<div class="list_tag">
+    <h2>{{include.name}}</h2>
+    {% for tag in site.tags %}
+                    {% if tag[0] == include.name %}
+                        {% assign posts = tag.last %}
+                    {% endif %}
+                {% endfor %}
+    {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+    </div>
