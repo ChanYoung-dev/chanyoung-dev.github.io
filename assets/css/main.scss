@@ -25,6 +25,7 @@ figure.highlight {
   flex-direction: column;
   height: 100%;
   text-align: center;
+  margin: 0.5em;
 }
 
 .toggle-btn-chan {
@@ -118,6 +119,10 @@ figure.highlight {
   z-index: 1;
 }
 
+.masthead__inner-wrap{
+  position: relative;
+  padding: 0 0.4em;
+}
 .masthead__menu .visible-links-chan {
   padding: 5px;
   margin-top: 10px;
@@ -400,3 +405,4 @@ img.margin-right{
 hr{
   border-top: 1px solid #6f777d;
 }
+
