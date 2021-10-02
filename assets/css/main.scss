@@ -384,3 +384,15 @@ pre.highlight{
 .page__content em{
   font-size: $type-size-6;
 }
+
+img.margin-right{
+  margin-right: 4px;
+}
+
+@media screen and (max-width:768px){
+
+	img.margin-right{
+    margin-right: 1px;
+  }
+
+}
