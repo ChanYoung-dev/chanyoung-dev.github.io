@@ -12,6 +12,8 @@ main:
     url: /Iot/
   - title: "ComputerScience"
     url: /ComputerScience/
+  - title: "C"
+    url: /C/
 
 profile:
   - title: Who am I? 🤔 ↗
@@ -103,6 +105,8 @@ Total:
             url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /ComputerScience/
+  - title: "7. C"
+    url: /C/
 
 python-menu:
   - title: Basic
@@ -176,4 +180,11 @@ Iot-menu:
     url: /Iot/SBC/
     children: 
       - title: "RaspberryPi"
-        url: /Iot/SBC/RaspberryPi
+        url: /Iot/SBC/RaspberryPi/
+
+C-menu:
+  - title: Application
+    url: /C/Application/
+    children:
+      - title: "Calculator"
+        url: /C/Application/Calculator/

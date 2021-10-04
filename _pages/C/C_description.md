@@ -1,16 +1,16 @@
 ---
-permalink: /Blog/
-title: "Blog🐨"
+permalink: /C/
+title: "C🐷"
 toc: false
 comments: false
 sidebar:
-  - title: "Blog🐨"
-  - nav: "Blog-menu"
+  - title: "C🐷"
+  - nav: "C-menu"
 ---
 
 - # Introduce
 
-Jekyll와 github page와 Markdown 파일을 이용하여 만든 블로그 개발일지
+프로그래밍 언어의 조상인 C를 해보자!
 
 - # 목차
 
@@ -22,6 +22,4 @@ Jekyll와 github page와 Markdown 파일을 이용하여 만든 블로그 개발
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-> 👇 Github소스
 
-[블로그 소스 ↗️ ](https://github.com/ChanYoung-dev/chanyoung-dev.github.io)
