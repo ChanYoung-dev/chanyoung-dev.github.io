@@ -160,6 +160,7 @@ Blog-menu:
 
 Web-menu:
   - title: Frontend
+    url: /Web/Frontend/
     children:
       - title: "HTML"
         url: /Web/Frontend/HTML/

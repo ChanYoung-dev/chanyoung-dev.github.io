@@ -4,7 +4,7 @@ title: "sitemap.xml 오류,에러 해결하기"
 toc: true
 comments: true
 categories:
-  - Blog🐨Markdown
+  - Blog🐨Enviroments_Settings
 sidebar:
   - title: "Blog🐨"
   - nav: "Blog-menu"

@@ -4,7 +4,7 @@ title: "Jekyll 설치하기"
 toc: true
 comments: true
 categories:
-  - Blog🐨Markdown
+  - Blog🐨Enviroments_Settings
 sidebar:
   - title: "Blog🐨"
   - nav: "Blog-menu"
