@@ -20,8 +20,6 @@ comments: true
 sidebar:
   - nav: "Total"
 ---
-
-{% include feature_row %}
 {% for s in page.sidebar %}
 {% if s.image %}
 <img src="{{ s.image | relative_url }}"

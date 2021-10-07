@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "🏠 Home"
+    url: /
   - title: "Python"
     url: /Python/
   - title: "Cooperation"
@@ -23,7 +25,7 @@ Total:
   - title: "1. Python"
     url: /Python/
     children:
-      - title: ㅤBasic
+      - title: ㅤ• Basic
         url: /Python/Basic/
         children:
           - title: "ㅤㅤㅤ ↪️Basic"
@@ -46,7 +48,7 @@ Total:
             url: /Python/Basic/String/
           - title: "ㅤㅤㅤㅤObject"
             url: /Python/Basic/Object/
-      - title: ㅤCodingTest
+      - title: ㅤ• CodingTest
         url: /Python/CodingTest/
         children:
           - title: "ㅤㅤㅤ↪️Level0"
@@ -55,7 +57,7 @@ Total:
             url: /Python/CodingTest/Level1/
           - title: "ㅤㅤㅤㅤLevel2"
             url: /Python/CodingTest/Level2/
-      - title: ㅤAdvanced
+      - title: ㅤ• Advanced
         url: /Python/Advanced/
         children:
           - title: "ㅤㅤㅤ↪️CodingInterview"
@@ -63,14 +65,14 @@ Total:
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
-      - title: ㅤGit
+      - title: ㅤ• Git
         children:
           - title: "ㅤㅤㅤ↪️Password authentication,a personal access token 로그인 문제 해결방법"
             url: /Cooperation/Git/loginerror/
   - title: "3. Web"
     url: /Web/
     children:
-      - title: ㅤFrontend
+      - title: ㅤ• Frontend
         children:
           - title: "ㅤㅤㅤ↪️HTML"
             url: /Web/Frontend/HTML/
@@ -81,14 +83,14 @@ Total:
   - title: "4. Blog"
     url: /Blog/
     children:
-      - title: ㅤMarkdown
+      - title: ㅤ• Markdown
         url: /Blog/Markdown/
         children:
           - title: "ㅤㅤㅤ ↪️github page와 jekyll에 이미지 넣기"
             url: /Blog/Markdown/PutImage/
           - title: "ㅤㅤㅤㅤ마크다운 파일에 toc 링크 넣기"
             url: /Blog/Markdown/toc/
-      - title: ㅤEnviroments_Settings
+      - title: ㅤ• Enviroments_Settings
         url: /Blog/Enviroments_Settings/
         children:
           - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
@@ -98,15 +100,21 @@ Total:
   - title: "5. Iot"
     url: /Iot/
     children:
-      - title: ㅤSBC
+      - title: ㅤ• SBC
         url: /Iot/SBC/
         children: 
-          - title: "ㅤㅤㅤㅤRaspberryPi"
+          - title: "ㅤㅤㅤㅤ↪️RaspberryPi"
             url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /ComputerScience/
   - title: "7. C"
     url: /C/
+    children:
+      - title: ㅤ• Application
+        url: /C/Application/
+        children:
+          - title: "ㅤㅤㅤ↪️Calculator"
+            url: /C/Application/Calculator/
 
 python-menu:
   - title: Basic
