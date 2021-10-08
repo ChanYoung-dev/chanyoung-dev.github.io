@@ -1,6 +1,6 @@
 ---
 permalink: /Python/Basic/String/
-title: "Python/Basic/String"
+title: "String"
 toc: true
 categories:
   - Python🐸Basic
@@ -8,6 +8,8 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+tags: python-basic
+list_name: python-basic
 ---
 
 [특수시퀸스](#6-특수-시퀸스)

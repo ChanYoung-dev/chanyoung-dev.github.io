@@ -1,6 +1,6 @@
 ---
 permalink: /Python/Basic/Exception_Handling/
-title: "Python/Basic/Exception_Handling"
+title: "Exception_Handling"
 toc: true
 categories:
   - Python🐸Basic
@@ -8,6 +8,8 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+tags: python-basic
+list_name: python-basic
 ---
 
 ## 1. 예외처리

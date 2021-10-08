@@ -1,6 +1,6 @@
 ---
 permalink: /Python/Basic/InputOutput/
-title: "Python/Basic/InputOutput"
+title: "InputOutput"
 toc: true
 categories:
   - Python🐸Basic
@@ -8,6 +8,8 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+tags: python-basic
+list_name: python-basic
 ---
 
 # input 과 output

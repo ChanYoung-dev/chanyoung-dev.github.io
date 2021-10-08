@@ -1,6 +1,6 @@
 ---
 permalink: /Python/Basic/Object/
-title: "Python/Basic/Object"
+title: "Object"
 toc: true
 categories:
   - Python🐸Basic
@@ -8,6 +8,8 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+tags: python-basic
+list_name: python-basic
 ---
 
 # 1. 불변/가변 객체

@@ -1,6 +1,6 @@
 ---
 permalink: /Python/Basic/Basic/
-title: "Python/Basic/Basic"
+title: "Basic"
 toc: true
 comments: true
 categories:
@@ -8,6 +8,8 @@ categories:
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+tags: python-basic
+list_name: python-basic
 ---
 
 # 1. Basic
