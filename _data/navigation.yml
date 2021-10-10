@@ -13,7 +13,7 @@ main:
   - title: "Iot"
     url: /Iot/
   - title: "ComputerScience"
-    url: /ComputerScience/
+    url: /CS/
   - title: "C"
     url: /C/
 
@@ -106,7 +106,7 @@ Total:
           - title: "ㅤㅤㅤㅤ↪️RaspberryPi"
             url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
-    url: /ComputerScience/
+    url: /CS/
   - title: "7. C"
     url: /C/
     children:
@@ -197,3 +197,11 @@ C-menu:
     children:
       - title: "Calculator"
         url: /C/Application/Calculator/
+
+CS-menu:
+  - title: Network
+    url: /CS/Network/
+  - title: OS
+    url: /CS/OS/
+  - title: DataStructure
+    url: /CS/DS/
