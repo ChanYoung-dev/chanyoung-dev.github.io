@@ -10,7 +10,7 @@
 
 div.highlighter-rouge,
 figure.highlight {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: $md-codebox-shadow;
 }
 
@@ -371,11 +371,11 @@ em>code:before, em>code:after{
   box-shadow: $md-codebox-shadow;
   transform: translateY(-10px);
 }
-
+/*
 pre.highlight{
   box-shadow: $md-codebox-shadow;
 }
-
+*/
 .language-sh .highlight{
   box-shadow: none;
   
