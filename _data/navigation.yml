@@ -107,6 +107,13 @@ Total:
             url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /CS/
+    children:
+      - title: ㅤ• Network
+        url: /CS/Network/
+      - title: ㅤ• OS
+        url: /CS/OS/
+      - title: ㅤ• Algorithm
+        url: /CS/Algorithm/
   - title: "7. C"
     url: /C/
     children:
@@ -203,5 +210,5 @@ CS-menu:
     url: /CS/Network/
   - title: OS
     url: /CS/OS/
-  - title: DataStructure
-    url: /CS/DS/
+  - title: Algorithm
+    url: /CS/Algorithm/
