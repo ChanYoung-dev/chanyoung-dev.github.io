@@ -70,28 +70,31 @@ list_name: python-basic
     ```
 
   - #### zfill
+    * 채우기 기능
+      길이가 문자열보다 적을 경우에는 모든 문자열을 출력합니다.  
+      빈공간 0으로 채우기
+      ```python 
+      for i in range(1,21):
+        print("대기번호"+ str(i).zfill(3)) #print("대기번호 {0}".format(i)zfill(3)) = X 
+      ''' 대기번호001 대기번호002 ~ 대기번호019 대기번호020 ''' 
+      ```
 
-  * 채우기 기능
-    길이가 문자열보다 적을 경우에는 모든 문자열을 출력합니다.  
-    빈공간 0으로 채우기
-    `python for i in range(1,21): print("대기번호"+ str(i).zfill(3)) #print("대기번호 {0}".format(i)zfill(3)) = X ''' 대기번호001 대기번호002 ~ 대기번호019 대기번호020 ''' `
+    * 정수타입일 경우 0채우기
 
-  * 정수타입일 경우 0채우기
+      ```python
+      target = 2
+      a = format(target, '03')
+      b = '{0:06d}'.format(target)
 
-    ```python
-    target = 2
-    a = format(target, '03')
-    b = '{0:06d}'.format(target)
+      print(a, b)
+      #002 000002
+      ```
 
-    print(a, b)
-    #002 000002
-    ```
-
-  - ### \*
-    ```
-    print("-" * 40)
-    #--------------
-    ```
+    - ### \*
+      ```
+      print("-" * 40)
+      #--------------
+      ```
 
 - ### 입력
 
