@@ -1,12 +1,9 @@
 ---
 title: "Level0"
-layout: archive
+layout: tag
 permalink: Python/CodingTest/Level0/
-sidebar_main: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
+taxonomy: Level0
 ---
-
-{% assign posts = site.categories.CodingTest %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
