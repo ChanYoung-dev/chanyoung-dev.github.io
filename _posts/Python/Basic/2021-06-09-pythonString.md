@@ -195,7 +195,7 @@ print(re.findall(r'\bone\b|\bonetwo\b', s))  # ['one', 'onetwo']
 re.search(pattern, string, flags)
 ```
 
-매개변수 중 flags를 살펴보자
+매개변수 중 `flags`를 살펴보자
 
 - ### re.I
   > 대소문자 구분 없이 일치
@@ -223,6 +223,8 @@ print(re.search('o..', s, re.S)) # <re.Match object; span=(4, 7), match='o\nh'>
 # |사용
 print(re.search('h...o..', s, re.S | re.I)) # <re.Match object; span=(0, 7), match='Hello\nh'>
 # inline flag로도 할 수 있다.
+# i = re.I
+# s = re.S
 print(re.search('(?is)h...o..', s)) # <re.Match object; span=(0, 7), match='Hello\nh'>
 
 # 일부로 사용하려면 (?s:pattern)으로 묶어주면 된다.
