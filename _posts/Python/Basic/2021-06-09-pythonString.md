@@ -11,7 +11,9 @@ sidebar:
 tags: 
   - python-basic
   - 정규표현식
-list_name: python-basic
+list_name: 
+  - python-basic
+  - 정규표현식
 
 ---
 
