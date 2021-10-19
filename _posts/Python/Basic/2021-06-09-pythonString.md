@@ -8,8 +8,11 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
-tags: python-basic
+tags: 
+  - python-basic
+  - 정규표현식
 list_name: python-basic
+
 ---
 
 [특수시퀸스](#6-특수-시퀸스)
