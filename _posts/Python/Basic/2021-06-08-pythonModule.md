@@ -223,9 +223,9 @@ print(inspect.getfile(random))
 2. beautifulsoup4 검색
 3. 터미널에서 pip install beautifulsoup4 입력
 4. 잘 설치되었는지 확인하기
-   ![terminal](./img/terminal.png "terminal")
+   ![terminal]({{site.baseurl}}/assets/images/python/terminal.png "terminal")
 5. 사이트에 나와있는 quick start 예제로 동작확인
-   ![beautifulsoup4](./img/pypi_beautifulsoup4.png "beautifulsoup4")
+   ![beautifulsoup4]({{site.baseurl}}/assets/images/python/pypi_beautifulsoup4.png "beautifulsoup4")
 
 ```python
 from bs4 import BeautifulSoup
