@@ -12,3 +12,17 @@ const arrowUp = document.querySelector('.arrow-up')
 arrowUp.addEventListener('click', () => {
     window.scrollTo({top:0, left:0, behavior:'smooth'});
 });
+
+
+document.addEventListener('scroll', ()=>{
+        if(window.scrollY > 0){
+                
+            arrowUp.classList.add('visible');
+            
+        }
+        else {
+            arrowUp.classList.remove('visible');
+        }
+    }
+
+);

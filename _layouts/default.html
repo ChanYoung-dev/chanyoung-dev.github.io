@@ -40,23 +40,6 @@
       <i class="fas fa-arrow-up"></i>
     </button>
 
-    <div class="toggle-div-chan">
-      <button class="toggle-btn-chan">
-        <p>📦 🔽</p>
-      </button>
-      
-      <button class="navicon2 hidden">
-        📦 🔼
-      </button>
-      <ul class="visible-links-chan hidden">
-        {%- for link in site.data.navigation.main -%}
-        <li class="masthead__menu-item-chan">
-          <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-        </li>
-      {%- endfor -%}
-      </ul>
-    </div>
-
     {% include scripts.html %}
 
   </body>
