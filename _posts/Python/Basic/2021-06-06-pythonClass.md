@@ -292,7 +292,7 @@ firebat.damaged(25) # 공격1번받음
 class 자식클래스(부모클래스1, 부모클래스2, ...):
 ```
 
-![다중상속](./img/다중상속.png "다중상속")
+![다중상속]({{site.baseurl}}/assets/images/python/다중상속.png "다중상속")
 
 ```python
 class Flyable:
@@ -396,7 +396,7 @@ battlecruiser.move("9시")
 '''
 ```
 
-## ![Overriding](./img/overriding.png "오버라이딩")
+## ![Overriding]({{site.baseurl}}/assets/images/python/overriding.png "오버라이딩")
 
 - ### 현재까지 전체코드
 
@@ -604,7 +604,7 @@ for unit in attack_units:
     unit.move("1시")
 ```
 
-![종합](./img/result.png "종합")
+![종합]({{site.baseurl}}/assets/images/python/result.png "종합")
 
 ## 12. 인스턴스
 

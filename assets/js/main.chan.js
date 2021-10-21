@@ -7,3 +7,8 @@ toggleBtn.addEventListener('click', () => {
     btn.classList.toggle('close');
     navcon.classList.toggle('hidden');
 });
+
+const arrowUp = document.querySelector('.arrow-up')
+arrowUp.addEventListener('click', () => {
+    window.scrollTo({top:0, left:0, behavior:'smooth'});
+});
