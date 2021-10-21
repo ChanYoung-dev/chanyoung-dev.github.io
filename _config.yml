@@ -292,3 +292,4 @@ defaults:
       toc: false
       toc_sticky: true
       toc_label: "목차"
+      classes: wide

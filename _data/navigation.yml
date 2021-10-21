@@ -85,11 +85,6 @@ Total:
     children:
       - title: ㅤ• Markdown
         url: /Blog/Markdown/
-        children:
-          - title: "ㅤㅤㅤ ↪️github page와 jekyll에 이미지 넣기"
-            url: /Blog/Markdown/PutImage/
-          - title: "ㅤㅤㅤㅤ마크다운 파일에 toc 링크 넣기"
-            url: /Blog/Markdown/toc/
       - title: ㅤ• Enviroments_Settings
         url: /Blog/Enviroments_Settings/
         children:
@@ -160,11 +155,7 @@ python-menu:
 
 Blog-menu:
   - title: Markdown
-    children:
-      - title: "Jekyll 마크다운에 이미지 넣기"
-        url: /Blog/Markdown/PutImage/
-      - title: "마크다운 파일에 목차 링크 toc 넣기"
-        url: /Blog/Markdown/toc/
+    url: /Blog/Markdown/
   - title: "Enviroments_Settings"
     url: /Blog/Enviroments_Settings/
     children:
