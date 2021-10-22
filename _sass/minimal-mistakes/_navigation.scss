@@ -533,7 +533,13 @@
 }
 
 .toc header {
-  display: none;
+  display: block;
+  @include breakpoint($large) {
+    display: none;
+  }
+  @include breakpoint($x-large) {
+    display: none;
+  }
 }
 .toc__menu {
   margin: 0;

@@ -280,6 +280,7 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "목차"
+      toc_icon: "book-open"
 
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
   - scope:
@@ -293,3 +294,4 @@ defaults:
       toc_sticky: true
       toc_label: "목차"
       classes: wide
+      toc_icon: "book-open"
