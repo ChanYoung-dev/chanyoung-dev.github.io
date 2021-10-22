@@ -415,43 +415,60 @@ hr{
 }
 
 .arrow-up {
-  border: 1px solid #252525;
+  border-color: transparent;
+  background-color: transparent;
+  color: grey;
   position: fixed;
-  bottom: 1px;
-  right: 1px;
+  bottom: 5px;
+  right: 3px;
   width: 50px;
   height: 50px;
   font-size: 25px;
-  background: #485563; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #29323c,
-    #485563
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #29323c,
-    #485563
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: whitesmoke;
-  border-radius: 50%;
   opacity: 0;
   pointer-events: none;
   transition: opacity 300ms ease-in;
   
   @include breakpoint($large) {
+    border: 1px solid #252525;
     bottom: 20px;
     right: 20px;
     width: 50px;
     height: 50px;
     font-size: 35px;
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #29323c,
+      #485563
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #29323c,
+      #485563
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    border-radius: 50%;
   }
   @include breakpoint($x-large) {
+    border: 1px solid #252525;
     bottom: 32x;
     right: 32px;
     width: 70px;
     height: 70px;
     font-size: 50px;
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #29323c,
+      #485563
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #29323c,
+      #485563
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    border-radius: 50%;
   }
 }
 
