@@ -417,11 +417,11 @@ hr{
 .arrow-up {
   border: 1px solid #252525;
   position: fixed;
-  bottom: 50px;
-  right: 100px;
-  width: 70px;
-  height: 70px;
-  font-size: 50px;
+  bottom: 16px;
+  right: 16px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
   background: #485563; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -439,6 +439,20 @@ hr{
   pointer-events: none;
   transition: opacity 300ms ease-in;
   
+  @include breakpoint($large) {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+  }
+  @include breakpoint($x-large) {
+    bottom: 32x;
+    right: 32px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+  }
 }
 
 .arrow-up.visible {
