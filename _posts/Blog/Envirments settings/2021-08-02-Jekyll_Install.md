@@ -1,10 +1,10 @@
 ---
-permalink: /Blog/Enviroments_Settings/JekyllInstall/
+permalink: /Blog/Setting/JekyllInstall/
 title: "Jekyll 설치하기"
 toc: true
 comments: true
 categories:
-  - Blog🐨Enviroments_Settings
+  - Blog🐨Setting
 sidebar:
   - title: "Blog🐨"
   - nav: "Blog-menu"

@@ -1,10 +1,10 @@
 ---
-permalink: /Blog/Enviroments_Settings/sitemaperror/
+permalink: /Blog/Setting/sitemaperror/
 title: "sitemap.xml 오류,에러 해결하기"
 toc: true
 comments: true
 categories:
-  - Blog🐨Enviroments_Settings
+  - Blog🐨Setting
 sidebar:
   - title: "Blog🐨"
   - nav: "Blog-menu"

@@ -85,13 +85,13 @@ Total:
     children:
       - title: ㅤ• Markdown
         url: /Blog/Markdown/
-      - title: ㅤ• Enviroments_Settings
-        url: /Blog/Enviroments_Settings/
+      - title: ㅤ• Setting
+        url: /Blog/Setting/
         children:
           - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
-            url: /Blog/Enviroments_Settings/JekyllInstall
+            url: /Blog/Setting/JekyllInstall
           - title: "ㅤㅤㅤㅤsitemap.xml 오류,에러 해결하기"
-            url: /Blog/Enviroments_Settings/sitemaperror/
+            url: /Blog/Setting/sitemaperror/
   - title: "5. Iot"
     url: /Iot/
     children:
@@ -156,13 +156,13 @@ python-menu:
 Blog-menu:
   - title: Markdown
     url: /Blog/Markdown/
-  - title: "Enviroments_Settings"
-    url: /Blog/Enviroments_Settings/
+  - title: "Setting"
+    url: /Blog/Setting/
     children:
       - title: "Jekyll 설치하기"
-        url: /Blog/Enviroments_Settings/JekyllInstall/
+        url: /Blog/Setting/JekyllInstall/
       - title: "sitemap.xml 오류,에러 해결하기"
-        url: /Blog/Enviroments_Settings/sitemaperror/
+        url: /Blog/Setting/sitemaperror/
 
 Web-menu:
   - title: Frontend
