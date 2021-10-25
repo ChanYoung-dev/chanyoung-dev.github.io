@@ -73,6 +73,7 @@ Total:
     url: /Web/
     children:
       - title: ㅤ• Frontend
+        url: /Web/Frontend/
         children:
           - title: "ㅤㅤㅤ↪️HTML"
             url: /Web/Frontend/HTML/
@@ -80,6 +81,11 @@ Total:
             url: /Web/Frontend/CSS/
           - title: "ㅤㅤㅤㅤJavascript"
             url: /Web/Frontend/Javascript/
+      - title: ㅤ• Django
+        url: /Web/Django/
+        children:
+          - title: "ㅤㅤㅤ↪️Django_beginner"
+            url: /Web/Django/Django_beginner/
   - title: "4. Blog"
     url: /Blog/
     children:
@@ -174,7 +180,11 @@ Web-menu:
         url: /Web/Frontend/CSS/
       - title: "Javascript"
         url: /Web/Frontend/Javascript/
-
+  - title: Django
+    url: /Web/Django/
+    children:
+      - title: "Django_beginner"
+        url: /Web/Django/Django_beginner/
 
 Cooperation-menu:
   - title: Git
