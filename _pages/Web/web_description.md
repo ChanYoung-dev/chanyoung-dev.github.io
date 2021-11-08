@@ -20,6 +20,4 @@ Web 공부 & 개발 일지
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-> 👇 Github소스
 
-{% gist ChanYoung-dev/08afabaf65e0bebdcde1d350b1df292c %}
