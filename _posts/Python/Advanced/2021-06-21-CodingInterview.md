@@ -10,6 +10,8 @@ sidebar:
   - nav: "python-menu"
 excerpt: >
   "코딩인터뷰 책을 기반으로 하여 정리한 파이썬"
+tags: python심화
+list_name: python심화
 ---
 
 # 1️⃣. 파이썬

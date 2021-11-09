@@ -6,6 +6,7 @@ sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 taxonomy:
+  - Level0
   - Level1
   - Level2
 ---

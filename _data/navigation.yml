@@ -46,8 +46,6 @@ Total:
             url: /Python/Basic/Module/
           - title: "ㅤㅤㅤㅤString"
             url: /Python/Basic/String/
-          - title: "ㅤㅤㅤㅤObject"
-            url: /Python/Basic/Object/
       - title: ㅤ• CodingTest
         url: /Python/CodingTest/
         children:
@@ -147,8 +145,6 @@ python-menu:
         url: /Python/Basic/Module/
       - title: "String"
         url: /Python/Basic/String/
-      - title: "Object"
-        url: /Python/Basic/Object/
   - title: CodingTest
     url: /Python/CodingTest
     children:

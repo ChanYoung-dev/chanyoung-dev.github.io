@@ -10,6 +10,8 @@ sidebar:
   - nav: "python-menu"
 excerpt: >
   "N진법 변환"
+tags: python심화
+list_name: python심화
 ---
 
 ## N진법 선언
