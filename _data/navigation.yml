@@ -60,6 +60,12 @@ Total:
         children:
           - title: "ㅤㅤㅤ↪️CodingInterview"
             url: /Python/Advanced/CodingInterview/
+          - title: "ㅤㅤㅤㅤ  불변/가변객체와 참조/값에 의한 복사"
+            url: /Python/Advanced/Object/
+          - title: "ㅤㅤㅤㅤ  N진법변환"
+            url: /Python/Advanced/ConvertNumber/
+          - title: "ㅤㅤㅤㅤ  AND와 OR 심화"
+            url: /Python/Advanced/pythonor/
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
@@ -156,6 +162,15 @@ python-menu:
         url: /Python/CodingTest/Level2/
   - title: Advanced
     url: /Python/Advanced
+    children:
+      - title: "CodingInterview"
+        url: /Python/Advanced/CodingInterview/
+      - title: "불변/가변객체와 참조/값에 의한 복사"
+        url: /Python/Advanced/Object/
+      - title: "N진법변환"
+        url: /Python/Advanced/ConvertNumber/
+      - title: "AND와 OR 심화"
+        url: /Python/Advanced/pythonor/
 
 Blog-menu:
   - title: Markdown
