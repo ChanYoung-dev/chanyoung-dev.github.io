@@ -29,20 +29,3 @@ sidebar:
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-
-<!--주석처리: post by categories
-{{ content }}
-주석처리: 최근 고생이력
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "최근에 고생한 일" }}</h3>
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-{% include paginator.html %}-->
