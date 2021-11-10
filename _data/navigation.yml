@@ -66,6 +66,8 @@ Total:
             url: /Python/Advanced/ConvertNumber/
           - title: "ㅤㅤㅤㅤ  AND와 OR 심화"
             url: /Python/Advanced/pythonor/
+          - title: "Python에서 N차원 배열을 1차원 배열로 만들기"
+            url: /Python/Advanced/ConvertArray/
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
@@ -171,6 +173,9 @@ python-menu:
         url: /Python/Advanced/ConvertNumber/
       - title: "AND와 OR 심화"
         url: /Python/Advanced/pythonor/
+      - title: "Python에서 N차원 배열을 1차원 배열로 만들기"
+        url: /Python/Advanced/ConvertArray/
+
 
 Blog-menu:
   - title: Markdown
