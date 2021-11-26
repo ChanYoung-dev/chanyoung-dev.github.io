@@ -2,20 +2,22 @@
 main:
   - title: "🏠 Home"
     url: /
-  - title: "Python"
+  - title: "Python🐸"
     url: /Python/
-  - title: "Cooperation"
+  - title: "Cooperation🐶"
     url: /Cooperation/
-  - title: "Web"
+  - title: "Web🐮"
     url: /Web/
-  - title: "Blog"
+  - title: "Blog🐨"
     url: /Blog/
-  - title: "Iot"
+  - title: "Iot🐵"
     url: /Iot/
-  - title: "ComputerScience"
+  - title: "ComputerScience🐰"
     url: /CS/
-  - title: "C"
+  - title: "C🐷"
     url: /C/
+  - title: "DB🦁"
+    url: /DB/
 
 profile:
   - title: Who am I? 🤔 ↗
@@ -66,7 +68,7 @@ Total:
             url: /Python/Advanced/ConvertNumber/
           - title: "ㅤㅤㅤㅤ  AND와 OR 심화"
             url: /Python/Advanced/pythonor/
-          - title: "Python에서 N차원 배열을 1차원 배열로 만들기"
+          - title: "ㅤㅤㅤㅤ  Python에서 N차원 배열을 1차원 배열로 만들기"
             url: /Python/Advanced/ConvertArray/
   - title: "2. Cooperation"
     url: /Cooperation/
@@ -131,6 +133,11 @@ Total:
         children:
           - title: "ㅤㅤㅤ↪️Calculator"
             url: /C/Application/Calculator/
+  - title: "8. DB"
+    url: /DB/
+    children:
+      - title: ㅤ• SQL
+        url: /DB/SQL
 
 python-menu:
   - title: Basic
@@ -233,3 +240,7 @@ CS-menu:
     url: /CS/OS/
   - title: Algorithm
     url: /CS/Algorithm/
+
+DB-menu:
+  - title: SQL
+    url: /DB/SQL/
