@@ -73,6 +73,11 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: 3em;
+  text-align: center;
+  @include breakpoint($large) {
+    font-size: 3em;
+  }
 
   a {
     color: $text-color;
@@ -280,6 +285,9 @@ body {
   }
 }
 
+.page__date{
+  text-align: right;
+}
 .page__share-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
