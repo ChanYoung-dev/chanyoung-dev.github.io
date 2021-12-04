@@ -1,6 +1,7 @@
 ---
 permalink: /Cooperation/
 title: "Cooperation🐶"
+classes: wide
 sidebar:
   - title: "Cooperation🐶"
   - nav: "Cooperation-menu"
