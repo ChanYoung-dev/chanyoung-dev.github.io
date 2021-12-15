@@ -67,14 +67,16 @@ list_name:
   </p>
     - ###### Garage Collection
       단편화 공간을 모아서 하나의 큰 가용 공간을 만드는 것  
-      외부 단편화 해결을 할 수 있고 2가지 방법이 있다.
-      **1. 통합**
+      외부 단편화 해결을 할 수 있고 2가지 방법이 있다.  
+
+
+      **1. 통합**  
       하나의 작업이 끝났을 때 다른 빈 공간과 인접한지 점검하여 하나로 합침
       <p align="center">
         <img src="{{site.baseurl}}/assets/images/CS/integrated.png" alt="" width="500px">
         <figcaption align="center">Coalesing</figcaption>
       </p>
-      **2. 압축**
+      **2. 압축**  
       모든 사용 가능한 메모리를 하나의 큰 가용공간으로 만듬
       <p align="center">
         <img src="{{site.baseurl}}/assets/images/CS/compression.png" alt="" width="500px">
