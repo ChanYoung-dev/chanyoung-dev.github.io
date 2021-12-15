@@ -19,7 +19,7 @@ list_name:
 
 # 워킹 셋
 - 프로세스가 일정 시간 동안 자주 참조하는 페이지들의 집합
-- 프로그램의 [Locality]({{site.baseurl}}/CS/OS/Locality/) 특징을 이용한다
+- 프로그램의 [Locality](https://chanyoung-dev.github.io/CS/OS/Locality) 특징을 이용한다
 - 자주 참조되는 워킹 셋을 **주기억장치**에 상주시킴으로써 페이지 부재 및 페이지 교체 현상을 줄인다
 - 시간이 지남에 따라 자주 참조하는 페이지들의 집합이 변화하기 때문에 **워킹 셋은 시간에 따라 바뀌게 된다**
 
