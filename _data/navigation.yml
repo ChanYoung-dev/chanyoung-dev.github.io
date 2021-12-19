@@ -91,11 +91,11 @@ Total:
             url: /Web/Frontend/Javascript/
           - title: "ㅤㅤㅤㅤResponsiveWeb"
             url: /Web/Frontend/ResponsiveWeb/
-      - title: ㅤ• Django
-        url: /Web/Django/
+      - title: ㅤ• Backend
+        url: /Web/Backend/
         children:
-          - title: "ㅤㅤㅤ↪️Django_beginner"
-            url: /Web/Django/Django_beginner/
+          - title: "ㅤㅤㅤ↪️Backend_beginner"
+            url: /Web/Backend/Bakend_beginner/
   - title: "4. Blog"
     url: /Blog/
     children:
@@ -207,11 +207,11 @@ Web-menu:
         url: /Web/Frontend/Javascript/
       - title: "ResponsiveWeb"
         url: /Web/Frontend/ResponsiveWeb/
-  - title: Django
-    url: /Web/Django/
+  - title: Backend
+    url: /Web/Backend/
     children:
-      - title: "Django_beginner"
-        url: /Web/Django/Django_beginner/
+      - title: "Backend_beginner"
+        url: /Web/Backend/Backend_beginner/
 
 Cooperation-menu:
   - title: Git

@@ -1,10 +1,10 @@
 ---
-title: "Django"
-permalink: Web/Django/
+title: "Backend"
+permalink: Web/Backend/
 layout: tags_category
 sidebar:
   - title: "Web🐮"
   - nav: "Web-menu"
 taxonomy:
-  - Django_beginner
+  - Backend_beginner
 ---
