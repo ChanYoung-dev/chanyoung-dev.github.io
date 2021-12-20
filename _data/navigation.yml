@@ -95,7 +95,7 @@ Total:
         url: /Web/Backend/
         children:
           - title: "ㅤㅤㅤ↪️Backend_beginner"
-            url: /Web/Backend/Bakend_beginner/
+            url: /Web/Backend/Backend_beginner/
   - title: "4. Blog"
     url: /Blog/
     children:

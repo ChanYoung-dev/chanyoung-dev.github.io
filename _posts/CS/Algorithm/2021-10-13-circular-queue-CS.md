@@ -1,13 +1,16 @@
 ---
-permalink: /CS/Network/CircularQue/
+permalink: /CS/Algorithm/CircularQue/
 title: "원형큐"
 toc: true
 categories:
   - CS🐰Algorithm
+  - Python🐸CodingTest
 comments: true
 sidebar:
   - title: "CS🐰"
   - nav: "CS-menu"
+tags:
+  - Level0
 ---
 
 # 파이썬으로 원형 큐 구현하기
