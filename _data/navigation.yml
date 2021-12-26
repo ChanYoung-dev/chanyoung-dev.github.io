@@ -9,7 +9,7 @@ main:
   - title: "Web🐮"
     url: /Web/
   - title: "Blog🐨"
-    url: /Blog/
+    url: Blog/
   - title: "Iot🐵"
     url: /Iot/
   - title: "ComputerScience🐰"
@@ -97,17 +97,17 @@ Total:
           - title: "ㅤㅤㅤ↪️Backend_beginner"
             url: /Web/Backend/Backend_beginner/
   - title: "4. Blog"
-    url: /Blog/
+    url: Blog/
     children:
       - title: ㅤ• Markdown
-        url: /Blog/Markdown/
+        url: Blog/Markdown/
       - title: ㅤ• Setting
-        url: /Blog/Setting/
+        url: Blog/Setting/
         children:
           - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
-            url: /Blog/Setting/JekyllInstall
+            url: Blog/Setting/JekyllInstall
           - title: "ㅤㅤㅤㅤsitemap.xml 오류,에러 해결하기"
-            url: /Blog/Setting/sitemaperror/
+            url: Blog/Setting/sitemaperror/
   - title: "5. Iot"
     url: /Iot/
     children:
@@ -186,14 +186,14 @@ python-menu:
 
 Blog-menu:
   - title: Markdown
-    url: /Blog/Markdown/
+    url: Blog/Markdown/
   - title: "Setting"
-    url: /Blog/Setting/
+    url: Blog/Setting/
     children:
       - title: "Jekyll 설치하기"
-        url: /Blog/Setting/JekyllInstall/
+        url: Blog/Setting/JekyllInstall/
       - title: "sitemap.xml 오류,에러 해결하기"
-        url: /Blog/Setting/sitemaperror/
+        url: Blog/Setting/sitemaperror/
 
 Web-menu:
   - title: Frontend
