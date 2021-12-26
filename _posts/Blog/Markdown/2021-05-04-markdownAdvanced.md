@@ -1,5 +1,5 @@
 ---
-permalink: /Blog/Markdown/AdvancedMarkdown/
+permalink: Blog/Markdown/AdvancedMarkdown/
 title: "고급 Markdown"
 toc: true
 categories:
