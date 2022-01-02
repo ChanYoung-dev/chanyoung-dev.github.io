@@ -1,11 +1,9 @@
 ---
-title: "CodingTest"
-permalink: Python/CodingTest1/
-layout: tags_category
+title: "Basic"
+layout: category
+permalink: Python/Basic/
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
-taxonomy:
-  - Level1
-  - Level2
+taxonomy: Python🐸Basic
 ---
