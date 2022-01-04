@@ -64,7 +64,7 @@ list_name:
   - LAN 사이를 연결하거나 LAN안에서의 컴퓨터 그룹을 연결
 - #### Router
   - 네트워크 계층
-  - LAN과 LAN/MAN 연결 및 최적 경로 썰정
+  - LAN과 LAN/MAN 연결 및 최적 경로([Routing](https://chanyoung-dev.github.io/CS/Network/Routing/)) 설정
 - #### Gateway
   - 프로토콜 구조가 전혀 다른 네트워크 연결 수행
   - 상위 계층 간을 연겨려하여 데이터 형식 변환, 주소 변환, 프로토콜 변환 수행
