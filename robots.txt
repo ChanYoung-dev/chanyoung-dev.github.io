@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chanyoung-dev.github.io/sitemap.xml
+Sitemap: https://devlogss.ga/sitemap.xml
