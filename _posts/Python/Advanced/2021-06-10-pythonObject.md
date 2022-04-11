@@ -56,7 +56,7 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
   b=a
   print(a, b) # [4, 7] [4, 7]
   a[1]=8
-  print(a, b) # [4, 7] [4, 7]
+  print(a, b) # [4, 8] [4, 8]
 ```
 
 ---
@@ -65,9 +65,9 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
 ```python
   a=[4,7]
   b=a[:] #값에 의한 복사
-  print(a,b)
+  print(a,b) # [4, 7] [4, 7]
   a[1]=8
-  print(a, b)
+  print(a, b) # [4, 8] [4, 7]
 ```
 
 
@@ -102,7 +102,7 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
   s = ["h", "e", "l", "l", "o"]
   print("s3:", s)  # ['h', 'e', 'l', 'l', 'o']
   print("s3:", id(s)) # s: 4389130480
-  # 4303818656
+  
   ```
 
   같은 값이어도 전부다 다르다
@@ -118,7 +118,7 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
     #num: 4541833072
     num2 = 4
     print("num2:", id(num2))
-    #num2: 4509069168
+    #num2: 4541833072
     ```
     - #### 문자열
     ```python
@@ -150,9 +150,10 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
   ```python
   s = "hellow"
   print(id(s))
-  #s[3] = "e"
+  s[3] = "e"
   print("s:", s)
   print(id(s))
+  # TypeError: 'str' object does not support item assignment
   ```
   오류가 뜬다
 
@@ -162,7 +163,7 @@ print(a, b) # [1, 2, 4, 4, 5] [1, 2, 4, 4, 5]
 
 ```python
 s = ["h", "e", "l", "l", "o"]
-print("s:", id(s))
+print("s:", id(s)) # s: 4470591104
 str_list = ["a", "b", "c"]
 print("str_list:", id(str_list)) # str_list: 4388907600
 s = str_list
