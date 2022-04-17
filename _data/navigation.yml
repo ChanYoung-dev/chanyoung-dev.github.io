@@ -218,6 +218,8 @@ Cooperation-menu:
     children:
       - title: "Password authentication,a personal access token 로그인 문제 해결방법"
         url : /Cooperation/Git/loginerror/
+      - title: "issue"
+        url : /Cooperation/Git/issue/
 
 Iot-menu:
   - title: SBC
