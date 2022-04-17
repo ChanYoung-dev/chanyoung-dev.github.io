@@ -18,7 +18,7 @@ tags:
 
 # What?
 
-포트폴리오로 사용하는 [웹사이트](http://devlogss.ga/Profile)가 있다. 
+포트폴리오로 사용하는 [웹사이트](https://chanyoung-dev.github.io/Profile)가 있다. 
 
 이 웹사이트에
 
