@@ -29,25 +29,6 @@ Total:
     children:
       - title: ㅤ• Basic
         url: /Python/Basic/
-        children:
-          - title: "ㅤㅤㅤ ↪️Basic"
-            url: /Python/Basic/Basic/
-          - title: "ㅤㅤㅤㅤDataStructure"
-            url: /Python/Basic/DataStructure/
-          - title: "ㅤㅤㅤㅤConditional_Sentence"
-            url: /Python/Basic/Conditional_Sentence/
-          - title: "ㅤㅤㅤㅤFunctionVariable"
-            url: /Python/Basic/FunctionVariable/
-          - title: "ㅤㅤㅤㅤInputOutput"
-            url: /Python/Basic/InputOutput/
-          - title: "ㅤㅤㅤㅤClass"
-            url: /Python/Basic/Class/
-          - title: "ㅤㅤㅤㅤException_Handling"
-            url: /Python/Basic/Exception_Handling/
-          - title: "ㅤㅤㅤㅤModule"
-            url: /Python/Basic/Module/
-          - title: "ㅤㅤㅤㅤString"
-            url: /Python/Basic/String/
       - title: ㅤ• CodingTest
         url: /Python/CodingTest/
         children:
@@ -59,24 +40,10 @@ Total:
             url: /Python/CodingTest/Level2/
       - title: ㅤ• Advanced
         url: /Python/Advanced/
-        children:
-          - title: "ㅤㅤㅤ↪️CodingInterview"
-            url: /Python/Advanced/CodingInterview/
-          - title: "ㅤㅤㅤㅤ  불변/가변객체와 참조/값에 의한 복사"
-            url: /Python/Advanced/Object/
-          - title: "ㅤㅤㅤㅤ  N진법변환"
-            url: /Python/Advanced/ConvertNumber/
-          - title: "ㅤㅤㅤㅤ  AND와 OR 심화"
-            url: /Python/Advanced/pythonor/
-          - title: "ㅤㅤㅤㅤ  Python에서 N차원 배열을 1차원 배열로 만들기"
-            url: /Python/Advanced/ConvertArray/
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
       - title: ㅤ• Git
-        children:
-          - title: "ㅤㅤㅤ↪️Password authentication,a personal access token 로그인 문제 해결방법"
-            url: /Cooperation/Git/loginerror/
   - title: "3. Web"
     url: /Web/
     children:
@@ -103,11 +70,6 @@ Total:
         url: Blog/Markdown/
       - title: ㅤ• Setting
         url: Blog/Setting/
-        children:
-          - title: "ㅤㅤㅤ↪️Jekyll 설치하기"
-            url: Blog/Setting/JekyllInstall
-          - title: "ㅤㅤㅤㅤsitemap.xml 오류,에러 해결하기"
-            url: Blog/Setting/sitemaperror/
   - title: "5. Iot"
     url: /Iot/
     children:
@@ -130,9 +92,6 @@ Total:
     children:
       - title: ㅤ• Application
         url: /C/Application/
-        children:
-          - title: "ㅤㅤㅤ↪️Calculator"
-            url: /C/Application/Calculator/
   - title: "8. DB"
     url: /DB/
     children:
@@ -220,6 +179,8 @@ Cooperation-menu:
         url : /Cooperation/Git/loginerror/
       - title: "issue"
         url : /Cooperation/Git/issue/
+      - title: "그림으로 이해하는 merge와 PR(pull request)"
+        url : /Cooperation/Git/merge/
 
 Iot-menu:
   - title: SBC
