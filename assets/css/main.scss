@@ -505,6 +505,8 @@ p img{
   float: right;
   padding-left: 20px;
   width: calc(150px);
+  border-left: 5px solid #f2f3f3;
+  border-bottom: 5px solid;
 }
 
 .sidebar.checked-box ul{
@@ -523,3 +525,4 @@ p img{
     font-size: 0.85em;
   }
 }
+

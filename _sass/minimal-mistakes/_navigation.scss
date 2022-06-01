@@ -521,9 +521,9 @@
   background-color: $background-color;
   border: 0px solid $border-color;
   border-radius: $border-radius;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
-
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.125);
+  
   .nav__title {
     color: #fff;
     font-size: $type-size-6;

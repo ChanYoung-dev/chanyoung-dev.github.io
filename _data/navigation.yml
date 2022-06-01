@@ -27,75 +27,75 @@ Total:
   - title: "1. Python"
     url: /Python/
     children:
-      - title: ㅤ• Basic
+      - title: Basic
         url: /Python/Basic/
-      - title: ㅤ• CodingTest
+      - title: CodingTest
         url: /Python/CodingTest/
         children:
-          - title: "ㅤㅤㅤ↪️Level0"
+          - title: "Level0"
             url: /Python/CodingTest/Level0/
-          - title: "ㅤㅤㅤㅤLevel1"
+          - title: "Level1"
             url: /Python/CodingTest/Level1/
-          - title: "ㅤㅤㅤㅤLevel2"
+          - title: "Level2"
             url: /Python/CodingTest/Level2/
-      - title: ㅤ• Advanced
+      - title: Advanced
         url: /Python/Advanced/
   - title: "2. Cooperation"
     url: /Cooperation/
     children:
-      - title: ㅤ• Git
+      - title: Git
   - title: "3. Web"
     url: /Web/
     children:
-      - title: ㅤ• Frontend
+      - title: Frontend
         url: /Web/Frontend/
         children:
-          - title: "ㅤㅤㅤ↪️HTML"
+          - title: "HTML"
             url: /Web/Frontend/HTML/
-          - title: "ㅤㅤㅤㅤCSS"
+          - title: "CSS"
             url: /Web/Frontend/CSS/
-          - title: "ㅤㅤㅤㅤJavascript"
+          - title: "Javascript"
             url: /Web/Frontend/Javascript/
-          - title: "ㅤㅤㅤㅤResponsiveWeb"
+          - title: "ResponsiveWeb"
             url: /Web/Frontend/ResponsiveWeb/
-      - title: ㅤ• Backend
+      - title: Backend
         url: /Web/Backend/
         children:
-          - title: "ㅤㅤㅤ↪️Backend_beginner"
+          - title: "Backend_beginner"
             url: /Web/Backend/Backend_beginner/
   - title: "4. Blog"
     url: Blog/
     children:
-      - title: ㅤ• Markdown
+      - title: Markdown
         url: Blog/Markdown/
-      - title: ㅤ• Setting
+      - title: Setting
         url: Blog/Setting/
   - title: "5. Iot"
     url: /Iot/
     children:
-      - title: ㅤ• SBC
+      - title: SBC
         url: /Iot/SBC/
         children: 
-          - title: "ㅤㅤㅤㅤ↪️RaspberryPi"
+          - title: "RaspberryPi"
             url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /CS/
     children:
-      - title: ㅤ• Network
+      - title: Network
         url: /CS/Network/
-      - title: ㅤ• OS
+      - title: OS
         url: /CS/OS/
-      - title: ㅤ• Algorithm
+      - title: Algorithm
         url: /CS/Algorithm/
   - title: "7. C"
     url: /C/
     children:
-      - title: ㅤ• Application
+      - title: Application
         url: /C/Application/
   - title: "8. DB"
     url: /DB/
     children:
-      - title: ㅤ• SQL
+      - title: SQL
         url: /DB/SQL
 
 python-menu:
