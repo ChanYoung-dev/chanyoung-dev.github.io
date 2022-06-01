@@ -1,16 +1,16 @@
 ---
 permalink: /Web/
 title: "Web🐮"
+layout: categories_archive
 sidebar:
   - title: "Web🐮"
   - nav: "Web-menu"
+taxonomy:
+  - Web🐮Backend
+  - Web🐮Frontend
 ---
 
-- # Introduce
-
-Web 공부 & 개발 일지 
-
-- # 목차
+# 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -20,4 +20,4 @@ Web 공부 & 개발 일지
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-
+# 최근 글

@@ -1,0 +1,26 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% for i in page.taxonomy %}
+      {%- for category in post.categories -%}
+        {% if i == category %}
+          {% include archive-single.html %}
+        {% endif %}
+      {%- endfor -%}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}

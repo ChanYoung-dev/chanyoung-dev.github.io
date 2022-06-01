@@ -34,7 +34,7 @@ h6 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 1.5rem;
   font-size: $h-size-1;
 }
 
@@ -269,6 +269,7 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
+  //font-size: 0.875rem;
 
   a {
     -webkit-transition: $global-transition;

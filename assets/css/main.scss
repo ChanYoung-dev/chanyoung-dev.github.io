@@ -307,10 +307,14 @@ figure.highlight {
   font-size: $type-size-5;
 }
 
-.page__content .nav__listhome {
+.nav__listhome {
   background-color: whitesmoke;
   border-radius: 20px;
   padding: 15px 30px;
+}
+
+.nav__listhome li{
+  font-size: 1em;
 }
 
 #page-title {
@@ -324,13 +328,15 @@ figure.highlight {
 }
 
 .page__content h2 {
-  padding-bottom: 0.5em;
-  border-bottom: 5px solid #f2f3f3;
+  border-bottom: 0px solid #f2f3f3;
+  margin-bottom: 0.75rem;
+  margin-top: 2.2rem;
 }
 
 .page__content h1 {
-  padding-bottom: 0.5em;
-  border-bottom: 5px solid #f2f3f3;
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 0px solid #f2f3f3;
 }
 
 p>code, a>code, li>code, figcaption>code, td>code, em>code {
@@ -466,5 +472,32 @@ hr{
 }
 
 
+body{
+  line-height: 1.7;
+  letter-spacing: -0.004em;
+}
+
+p img{
+  margin: 1.5rem auto;
+}
+
+.page__content .toc__menu li{
+  font-size: .75em
+}
 
 
+.checked-box .nav__list .nav__items{
+  
+  
+  
+}
+
+.sidebar.checked-box{
+  float: right;
+  padding-left: 20px;
+  width: calc(150px);
+}
+
+.sidebar.checked-box ul{
+  margin-bottom: 0px;
+}

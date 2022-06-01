@@ -26,3 +26,21 @@ document.addEventListener('scroll', ()=>{
     }
 
 );
+
+var cbox = document.getElementById("ac-toc");
+
+var sidB = document.getElementsByClassName("homeis");
+
+console.log(sidB);
+
+window.onload = function(){
+
+	// 자바스크립트
+	if(document.querySelector(".checked-box")){
+	    cbox.checked = true;
+	}else{
+	    cbox.checked = false;
+	}
+
+
+}
