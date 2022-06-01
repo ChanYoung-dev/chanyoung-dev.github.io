@@ -491,7 +491,7 @@ p img{
 }
 
 .page__content .toc__menu li{
-  font-size: 0.8rem
+  font-size: $type-size-4;
 }
 
 
@@ -522,5 +522,9 @@ p img{
   }
   .page__content .toc__menu li a{
     font-size: 1rem;
+  }
+
+  .nav__list label{
+    font-size: 0.85em;
   }
 }
