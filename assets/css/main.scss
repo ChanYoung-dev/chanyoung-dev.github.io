@@ -81,7 +81,7 @@ figure.highlight {
   position: absolute;
   top: 100%;
   right: 0px;
-  width: 150px;
+  width: 250px;
   padding: 5px;
   border: 1px solid #f2f3f3;
   border-radius: 4px;
@@ -152,6 +152,7 @@ figure.highlight {
   margin: 0;
   padding: 10px 20px;
   font-size: 1em;
+  font-weight: bold;
 }
 
 .btn--inverse {
@@ -519,7 +520,9 @@ p img{
 
 @media screen and (min-width: 106em){
   
-  
+  .masthead__menu-item-chan a {
+    font-size: 0.825em;
+  }
 
   .nav__list label{
     font-size: 0.85em;
