@@ -1,10 +1,10 @@
 ---
-layout: archive
+layout: home
 permalink: /
 hidden: true
 sexy: 1
 
-title: "📝개발 일지 리스트"
+title: "📝개발 일지"
 #header:
 #  overlay_color: "#5e616c"
 #  overlay_image: /assets/images/mm-home-page-feature.jpg
@@ -18,6 +18,7 @@ title: "📝개발 일지 리스트"
 toc: true
 comments: true
 sidebar:
+  - title: "전체 목차"
   - nav: "Total"
 ---
 {% for s in page.sidebar %}
@@ -25,7 +26,8 @@ sidebar:
 <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
 {% endif %}
-{% if s.title %}<a href=/{{ s.title }}/><h3>{{ s.title }}</h3></a>{% endif %}
-{% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
+
+
+
 {% endfor %}
 
