@@ -1,18 +1,17 @@
 ---
 permalink: /C/
 title: "C🐷"
+layout: categories_archive
 toc: false
 comments: false
 sidebar:
   - title: "C🐷"
   - nav: "C-menu"
+taxonomy:
+  - C🐷Application
 ---
 
-- # Introduce
-
-프로그래밍 언어의 조상인 C를 해보자!
-
-- # 목차
+## 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -22,4 +21,4 @@ sidebar:
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-
+## 최근 글

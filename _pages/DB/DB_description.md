@@ -1,16 +1,15 @@
 ---
 permalink: /DB/
 title: "DB🦁"
+layout: categories_archive
 sidebar:
   - title: "DB🦁"
   - nav: "DB-menu"
+taxonomy:
+  - DB🦁SQL
 ---
 
-- # Introduce
-
-DataBase 및 SQL
-
-- # 목차
+## 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -20,4 +19,4 @@ DataBase 및 SQL
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-
+## 최근 글

@@ -10,7 +10,7 @@ taxonomy:
   - Web🐮Frontend
 ---
 
-# 목차
+## 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -20,4 +20,4 @@ taxonomy:
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-# 최근 글
+## 최근 글

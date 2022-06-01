@@ -4,13 +4,12 @@ title: "Iot🐵"
 sidebar:
   - title: "Iot🐵"
   - nav: "Iot-menu"
+taxonomy:
+  - Iot🐵SBC
+layout: categories_archive
 ---
 
-- # Introduce
-
-사물인터넷 기본 공부 / Study for Iot
-
-- # 목차
+## 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -20,3 +19,4 @@ sidebar:
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
+## 최근 글

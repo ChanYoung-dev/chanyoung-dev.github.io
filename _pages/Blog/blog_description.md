@@ -3,16 +3,16 @@ permalink: /Blog/
 title: "Blog🐨"
 toc: false
 comments: false
+layout: categories_archive
 sidebar:
   - title: "Blog🐨"
   - nav: "Blog-menu"
+taxonomy:
+  - Blog🐨Markdown
+  - Blog🐨Setting
 ---
 
-- # Introduce
-
-Jekyll와 github page와 Markdown 파일을 이용하여 만든 블로그 개발일지
-
-- # 목차
+## 목차
 
 {% for s in page.sidebar %}
 {% if s.image %}
@@ -22,6 +22,5 @@ Jekyll와 github page와 Markdown 파일을 이용하여 만든 블로그 개발
 {% if s.nav %}{% include nav_list_home nav=s.nav %}{% endif %}
 {% endfor %}
 
-> 👇 Github소스
+## 최근 글
 
-[블로그 소스 ↗️ ](https://github.com/ChanYoung-dev/chanyoung-dev.github.io)
