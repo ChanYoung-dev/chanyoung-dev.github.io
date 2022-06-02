@@ -1,9 +1,11 @@
 ---
 title: "HTML"
-layout: tag
-permalink: /Web/Frontend/HTML/
+layout: category
+permalink: Frontend/HTML/
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 taxonomy: HTML
+sexy: 1
+main: "HTML"
 ---

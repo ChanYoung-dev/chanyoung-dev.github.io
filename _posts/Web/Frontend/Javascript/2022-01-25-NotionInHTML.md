@@ -1,20 +1,20 @@
 ---
-permalink: /Web/Frontend/Javascript/NotionInHTML/
+permalink: /Frontend/Javascript/NotionInHTML/
 title: "notion page를 웹사이트에 삽입하기"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - notion
   - python
   - Frontend
-main: Frontend
 sexy: 1
+main: "Javascript"
 ---
 
 

@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/HTML/HTML5-data-attributes/
+permalink: /Frontend/HTML/HTML5-data-attributes/
 title: "HTML5 Data 속성"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮HTML
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - HTML
   - Frontend
-
+sexy: 1
+main: "HTML"
 ---
 HTML의 data attributes는 HTML5에서만 가능하다.
 

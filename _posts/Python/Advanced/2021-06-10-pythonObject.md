@@ -12,6 +12,8 @@ tags:
   - python심화
   - Advanced
 list_name: python심화
+sexy: 1
+main: "Advanced"
 ---
 참조와 할당 비교를 해보자  
 - # 불변객체란?

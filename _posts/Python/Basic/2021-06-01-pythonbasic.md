@@ -4,15 +4,15 @@ title: "Basic"
 toc: true
 comments: true
 categories:
-  - Python🐸Basic
+  - Python🐸Python-Bible
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags: 
-  - python-basic
-  - Basic
-list_name: python-basic
-
+  - Python-Bible
+list_name: Python-Bible
+sexy: 1
+main: "Python-Bible"
 ---
 
 # 1. Basic

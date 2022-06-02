@@ -3,15 +3,16 @@ permalink: /Python/Basic/DataStructure/
 title: "DataStructure"
 toc: true
 categories:
-  - Python🐸Basic
+  - Python🐸Python-Bible
 comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags: 
-  - python-basic
-  - Basic
-list_name: python-basic
+  - Python-Bible
+list_name: Python-Bible
+sexy: 1
+main: "Python-Bible"
 ---
 
 # 자료구조 기본

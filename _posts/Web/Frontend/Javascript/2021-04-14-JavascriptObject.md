@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/Javascript/JSObject/
+permalink: /Frontend/Javascript/JSObject/
 title: "Javascript 객체"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - Frontend
-
+sexy: 1
+main: "Javascript"
 ---
 자바스크립트-객체지향 개념의 객체(object)
 

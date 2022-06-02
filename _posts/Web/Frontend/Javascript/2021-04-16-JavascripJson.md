@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/Javascript/JSJson/
+permalink: /Frontend/Javascript/JSJson/
 title: "Json"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - Frontend
-
+sexy: 1
+main: "Javascript"
 ---
 자바스크립트에서 Xml을 대체하는 데이터 포맷
 

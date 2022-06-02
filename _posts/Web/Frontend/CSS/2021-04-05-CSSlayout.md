@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/CSS/CSSLayout/
+permalink: /Frontend/CSS/CSSLayout/
 title: "CSS layout"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮CSS
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Frontend
   - CSS
-
+sexy: 1
+main: "CSS"
 ---
 css의 레이아웃(display 속성)을 알아보자. 
 

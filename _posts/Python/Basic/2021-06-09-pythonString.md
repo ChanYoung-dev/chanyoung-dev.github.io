@@ -3,18 +3,20 @@ permalink: /Python/Basic/String/
 title: "String"
 toc: true
 categories:
-  - Python🐸Basic
+  - Python🐸Python-Bible
 comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags: 
-  - python-basic
+  - Python-Bible
+  - Basic
   - 정규표현식
 list_name: 
-  - python-basic
+  - Python-Bible
   - 정규표현식
-
+sexy: 1
+main: "Python-Bible"
 ---
 
 [특수시퀸스](#6-특수-시퀸스)

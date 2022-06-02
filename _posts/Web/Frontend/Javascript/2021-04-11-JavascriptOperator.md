@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/Javascript/JSOperator/
+permalink: /Frontend/Javascript/JSOperator/
 title: "Javascript 변수심화"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - Frontend
-
+sexy: 1
+main: "Javascript"
 ---
 자바스크립트에서 변수의 비교와 변수할당방식
 

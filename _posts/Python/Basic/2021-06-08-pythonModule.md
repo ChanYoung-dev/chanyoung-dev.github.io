@@ -3,15 +3,17 @@ permalink: /Python/Basic/Module/
 title: "Module"
 toc: true
 categories:
-  - Python🐸Basic
+  - Python🐸Python-Bible
 comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags: 
-  - python-basic
+  - Python-Bible
   - Basic
-list_name: python-basic
+list_name: Python-Bible
+sexy: 1
+main: "Python-Bible"
 ---
 
 # 1. 모듈

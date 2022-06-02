@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/Javascript/JArray/
+permalink: /Frontend/Javascript/JArray/
 title: "Javascript 배열"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - Frontend
-
+sexy: 1
+main: "Javascript"
 ---
 자바스크립트에서 배열
 

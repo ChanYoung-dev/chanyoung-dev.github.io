@@ -1,18 +1,19 @@
 ---
-permalink: /Web/Frontend/CSS/CSSflexbox/
+permalink: /Frontend/CSS/CSSflexbox/
 title: "CSS flexbox"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮CSS
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - CSS
   - flexbox
   - Frontend
-
+sexy: 1
+main: "CSS"
 ---
 css의 flexbox는 element의 요소의 화면 포지션을 쉽게 컨트롤할 수 있다.
 

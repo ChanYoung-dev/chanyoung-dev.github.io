@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/Javascript/JSFunction/
+permalink: /Frontend/Javascript/JSFunction/
 title: "Javascript 함수"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮Javascript
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Javascript
   - Frontend
-
+sexy: 1
+main: "Javascript"
 ---
 자바스크립트에서의 여러 함수 선언방법
 

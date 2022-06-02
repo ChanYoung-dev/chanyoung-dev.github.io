@@ -1,18 +1,19 @@
 ---
-permalink: /Web/Frontend/ResponsiveWeb/BasicResponsiveWeb/
+permalink: /Frontend/ResponsiveWeb/BasicResponsiveWeb/
 title: "간단한 반응형 메뉴갖는 웹 만들기"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮issue
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - ResponsiveWeb
   - Frontend
-main: Frontend
+  - issue
 sexy: 1
+main: "issue"
 ---
 
 [간단한 반응형 Header 메뉴바 만들기 ↗️](https://github.com/ChanYoung-dev/FrontendBasic/tree/master/1.%20Basic/activeHeader)

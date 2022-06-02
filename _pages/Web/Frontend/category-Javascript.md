@@ -1,9 +1,11 @@
 ---
 title: "Javascript"
-layout: tag
-permalink: /Web/Frontend/Javascript/
+layout: category
+permalink: Frontend/Javascript/
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 taxonomy: Javascript
+sexy: 1
+main: "Javascript"
 ---

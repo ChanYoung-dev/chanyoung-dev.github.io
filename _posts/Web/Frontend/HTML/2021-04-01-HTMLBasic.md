@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/HTML/HTMLBasic/
+permalink: /Frontend/HTML/HTMLBasic/
 title: "HTML 기초"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮HTML
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - HTML
   - Frontend
-
+sexy: 1
+main: "HTML"
 ---
 HTML 기초
 

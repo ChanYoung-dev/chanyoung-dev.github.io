@@ -4,10 +4,14 @@ title: "Password authentication,a personal access token 로그인 문제 해결�
 toc: true
 comments: true
 categories:
-  - Cooperation🐸Git
+  - Tools🐶Git
 sidebar:
-  - title: "Cooperation🐸"
-  - nav: "Cooperation-menu"
+  - title: "Tools🐶"
+  - nav: "Tools-menu"
+tags:
+  - Git
+sexy: 1
+main: "Git"
 ---
 터미널에서 Git을 로그인 할시 <code>Password authentication,a personal access token</code> 문제 해결방법
 

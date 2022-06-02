@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/CSS/CSSCentering/
+permalink: /Frontend/CSS/CSSCentering/
 title: "CSS Centering"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮CSS
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - CSS
   - Frontend
-
+sexy: 1
+main: "CSS"
 ---
 css의 `flexbox`을 사용할 수 없을 때 포지션변경을 해보자.
 

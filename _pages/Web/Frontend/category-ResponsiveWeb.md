@@ -1,10 +1,11 @@
 ---
 title: "ResponsiveWeb"
 layout: tag
-permalink: /Web/Frontend/ResponsiveWeb/
+permalink: /Frontend/ResponsiveWeb/
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
-taxonomy: ResponsiveWeb
-
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
+taxonomy: issue
+sexy: 1
+main: "issue"
 ---

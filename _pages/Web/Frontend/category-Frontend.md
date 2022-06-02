@@ -1,12 +1,17 @@
 ---
-title: "Frontend"
-permalink: Web/Frontend/
-layout: tags_category
+permalink: /Frontend/
+title: "Frontend🐮"
+layout: categories_archive
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 taxonomy:
-  - HTML
-  - CSS
-  - Javascript
+  - Frontend🐮HTML
+  - Frontend🐮CSS
+  - Frontend🐮Javascript
+  - Frontend🐮issue
+sexy: 1
+main: "issue"
 ---
+
+## 최근 글

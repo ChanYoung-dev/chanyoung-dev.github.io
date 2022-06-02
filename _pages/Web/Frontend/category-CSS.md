@@ -1,9 +1,11 @@
 ---
 title: "CSS"
 layout: tag
-permalink: /Web/Frontend/CSS/
+permalink: Frontend/CSS/
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 taxonomy: CSS
+sexy: 1
+main: "CSS"
 ---

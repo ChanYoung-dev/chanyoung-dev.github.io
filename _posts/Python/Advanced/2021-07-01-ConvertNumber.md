@@ -14,6 +14,8 @@ tags:
   - python심화
   - Advanced
 list_name: python심화
+sexy: 1
+main: "Advanced"
 ---
 
 ## N진법 선언

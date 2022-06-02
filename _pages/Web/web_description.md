@@ -1,13 +1,17 @@
 ---
-permalink: /Web/
-title: "Web🐮"
+permalink: /Frontend/
+title: "Frontend🐮"
 layout: categories_archive
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 taxonomy:
-  - Web🐮Backend
-  - Web🐮Frontend
+  - Frontend🐮HTML
+  - Frontend🐮CSS
+  - Frontend🐮Javascript
+  - Frontend🐮issue
+sexy: 1
+main: "issue"
 ---
 
 ## 목차

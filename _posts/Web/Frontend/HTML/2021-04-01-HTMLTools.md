@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/HTML/HTMLTools/
+permalink: /Frontend/HTML/HTMLTools/
 title: "Visual studio code의 유용한 툴"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮HTML
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - HTML
   - Frontend
-
+sexy: 1
+main: "HTML"
 ---
 visual studio code에서 유용한 확장툴
 

@@ -1,17 +1,18 @@
 ---
-permalink: /Web/Frontend/CSS/CSSvarible/
+permalink: /Frontend/CSS/CSSvarible/
 title: "CSS 변수"
 toc: true
 categories:
-  - Web🐮Frontend
+  - Frontend🐮CSS
 comments: true
 sidebar:
-  - title: "Web🐮"
-  - nav: "Web-menu"
+  - title: "Frontend🐮"
+  - nav: "Frontend-menu"
 tags:
   - Frontend
   - CSS
-
+sexy: 1
+main: "CSS"
 ---
 css의 변수를 설정함으로써 하나하나 값을 바꾸지않고 변수 값만 바꿈으로써 전체를 바꿔줄수있다.
 
