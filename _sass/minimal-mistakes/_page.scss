@@ -10,11 +10,23 @@
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 1280px;
+  max-width: $max-width;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  @include breakpoint($xx-large) {
+    max-width: $xx-large;
+  }
+
+  @include breakpoint($xxx-large) {
+    max-width: $xxx-large;
+  }
+
+  @include breakpoint($xxxx-large) {
     max-width: $max-width;
   }
 }
