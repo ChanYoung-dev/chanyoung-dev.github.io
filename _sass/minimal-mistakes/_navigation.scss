@@ -22,6 +22,18 @@
     max-width: $x-large;
   }
 
+  @include breakpoint($xx-large) {
+    max-width: $xx-large;
+  }
+
+  @include breakpoint($xxx-large) {
+    max-width: $xxx-large;
+  }
+
+  @include breakpoint($xxxx-large) {
+    max-width: $max-width;
+  }
+
   ol {
     padding: 0;
     list-style: none;
