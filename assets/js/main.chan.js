@@ -28,13 +28,15 @@ document.addEventListener('scroll', ()=>{
 );
 
 var cbox = document.getElementById("ac-toc");
-
-var sidB = document.getElementsByClassName("homeis");
-
-console.log(sidB);
+var checkbox = document.getElementById("ac-toc");
+var checkbox_text = document.getElementById("ac-toc-text");
+var sidebar= document.querySelector(".sidebar.checked-box")
+var sidebar_element = document.querySelector(".nav__list")
 
 window.onload = function(){
 
+    console.log(sidebar_element);
+    
 	// 자바스크립트
 	if(document.querySelector(".checked-box")){
 	    cbox.checked = true;
@@ -42,5 +44,30 @@ window.onload = function(){
 	    cbox.checked = false;
 	}
 
+    if(checkbox.checked == true){
+        sidebar.style.width=200 + 'px';
+    }else{
+        sidebar.style.width=50 + 'px';
+    }
 
 }
+
+checkbox.addEventListener('click', ()=>{
+    if(checkbox.checked == true){
+        sidebar.style.width=200 + 'px';
+        sidebar.style.paddingLeft = 20+'px';
+        sidebar.style.paddingRight = 20+'px';
+        sidebar_element.style.marginTop='1em';
+        sidebar_element.style.marginBottom='1em';
+        sidebar.style.bottom= '2em';
+        checkbox_text.innerHTML="숨기기 ⇤"
+    }else{
+        sidebar.style.width=50 + 'px';
+        sidebar.style.padding = 0+'px';
+        sidebar_element.style.margin='0px';
+        checkbox_text.innerHTML="카테고리 ⇥"
+        sidebar.style.bottom= 'auto';
+    }
+}
+
+);

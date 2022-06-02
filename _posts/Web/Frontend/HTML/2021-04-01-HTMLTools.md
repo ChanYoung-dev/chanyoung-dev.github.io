@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - HTML
+  - Frontend
 
 ---
 visual studio code에서 유용한 확장툴

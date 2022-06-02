@@ -10,6 +10,8 @@ sidebar:
   - nav: "Blog-menu"
 excerpt: >
   "구글 검색 엔진 ( Google search console ) 중 sitemap.xml 에러"
+tags:
+  - Setting
 ---
 
 

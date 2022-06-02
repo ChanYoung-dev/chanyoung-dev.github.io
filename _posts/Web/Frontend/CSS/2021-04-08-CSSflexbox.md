@@ -11,6 +11,7 @@ sidebar:
 tags:
   - CSS
   - flexbox
+  - Frontend
 
 ---
 css의 flexbox는 element의 요소의 화면 포지션을 쉽게 컨트롤할 수 있다.

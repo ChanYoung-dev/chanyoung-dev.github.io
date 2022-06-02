@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - CSS
+  - Frontend
 
 ---
 css의 `flexbox`을 사용할 수 없을 때 포지션변경을 해보자.

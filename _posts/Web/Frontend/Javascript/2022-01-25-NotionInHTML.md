@@ -12,7 +12,9 @@ tags:
   - Javascript
   - notion
   - python
-
+  - Frontend
+main: Frontend
+sexy: 1
 ---
 
 

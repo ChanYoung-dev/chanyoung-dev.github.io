@@ -9,6 +9,7 @@ sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags:
+  - CodingTest
   - Level0
 ---
 for else 문 / combinations활용

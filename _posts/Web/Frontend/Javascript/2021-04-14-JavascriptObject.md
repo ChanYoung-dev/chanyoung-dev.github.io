@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - Javascript
+  - Frontend
 
 ---
 자바스크립트-객체지향 개념의 객체(object)

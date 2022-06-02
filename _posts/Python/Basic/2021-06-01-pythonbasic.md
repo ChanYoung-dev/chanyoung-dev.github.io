@@ -8,8 +8,11 @@ categories:
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
-tags: python-basic
+tags: 
+  - python-basic
+  - Basic
 list_name: python-basic
+
 ---
 
 # 1. Basic

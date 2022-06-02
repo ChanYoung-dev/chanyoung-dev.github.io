@@ -9,6 +9,7 @@ sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags:
+  - CodingTest
   - Level0
   - 정규표현식
 list_name: 정규표현식

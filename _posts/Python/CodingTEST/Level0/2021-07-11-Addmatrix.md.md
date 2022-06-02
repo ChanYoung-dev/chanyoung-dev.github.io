@@ -10,6 +10,7 @@ sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
 tags:
+  - CodingTest
   - Level0
   - zip
 ---

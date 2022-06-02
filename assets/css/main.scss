@@ -505,9 +505,15 @@ p img{
 .sidebar.checked-box{
   float: right;
   padding-left: 20px;
-  width: calc(180px);
-  border-left: 5px solid #f2f3f3;
-  border-bottom: 5px solid;
+  padding-right: 20px;
+  width: calc(50px);
+  border: 5px solid #000000;
+  border-radius: 0px 20px 20px 0px;
+  border-left: 0px;
+  margin-top:40px;
+  color: #fff;
+  border-color: #000000;
+  background-color: #000000;
 }
 
 .sidebar.checked-box ul{
@@ -529,3 +535,55 @@ p img{
   }
 }
 
+.post__item{
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
+.nav__list label{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border: 0px solid;  
+  font-size: 1em;
+  font-weight: 900;
+  color: #fff;
+  border-color: #7a8288;
+  background-color: #000000;
+  position: relative;
+}
+
+.nav__list input:checked+label{
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: .675em;
+  font-weight: 900;
+  position: absolute;
+  border-radius: 0px 0px 0px 5px;
+  top:0px;
+  right:0px;
+}
+
+.nav__list input+label:not(:checked):before, .nav__list input+label:not(:checked):after{
+  display: none;
+  
+}
+
+.nav__list input:checked+label:before, .nav__list input:checked+label:after{
+  display: none;
+}
+
+.checked-box .verychild{
+  color: #ffffff;
+}
+
+summary{
+  cursor: pointer;
+}
+
+nav a{
+  transition: all 0.1s ease-in-out;
+}
+
+summary:hover{
+  color: #f90;
+} 

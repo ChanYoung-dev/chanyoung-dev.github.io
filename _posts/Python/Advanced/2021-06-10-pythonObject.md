@@ -8,7 +8,9 @@ comments: true
 sidebar:
   - title: "Python🐸"
   - nav: "python-menu"
-tags: python심화
+tags: 
+  - python심화
+  - Advanced
 list_name: python심화
 ---
 참조와 할당 비교를 해보자  

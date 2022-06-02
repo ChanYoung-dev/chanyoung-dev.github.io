@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - Javascript
+  - Frontend
 
 ---
 자바스크립트에서 배열

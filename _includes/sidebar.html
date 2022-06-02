@@ -4,7 +4,7 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   {% if page.sexy != 1 %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  
   {% if page.sidebar %}
     {% assign sum = site.posts | size %}
     <!--
@@ -29,7 +29,7 @@
   <!-- home 화면일 경우-->
   {% else %}
   <div class="sidebar checked-box sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  
   {% if page.sidebar %}
     {% assign sum = site.posts | size %}
     <!--
@@ -38,13 +38,15 @@
     </li>
     -->
     {% for s in page.sidebar %}
+    
       {% if s.image %}
         <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
       <!--{% if s.title %}<a href=/{{ s.title }}/><h3>{{ s.title }}</h3></a>{% endif %}-->
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      
+      {% if s.nav %}{{s.test}}{% include nav_list-details nav=s.nav test=s.test %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}

@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - HTML
+  - Frontend
 
 ---
 HTML의 data attributes는 HTML5에서만 가능하다.

@@ -3,6 +3,7 @@ layout: home
 permalink: /
 hidden: true
 sexy: 1
+main: "Frontend"
 
 title: "📝개발 일지"
 #header:
@@ -20,14 +21,7 @@ comments: true
 sidebar:
   - title: "전체 목차"
   - nav: "Total"
+  - test: "Frontend"
 ---
-{% for s in page.sidebar %}
-{% if s.image %}
-<img src="{{ s.image | relative_url }}"
-             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-{% endif %}
 
-
-
-{% endfor %}
 

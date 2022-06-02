@@ -1,9 +1,9 @@
-{% assign navigation = site.data.navigation[include.nav] %}
-
+{% assign navigation = site.data.navigation["Total"] %}
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ page.sidebar[0].title | default: "Toggle Menu" }}</label>
+  <label for="ac-toc" id="ac-toc-text"> 숨기기 ⇤
+  <!--{{ page.sidebar[0].title | default: "Toggle Menu" }}--></label>
   <ul class="nav__items">
     {% for nav in navigation %}
       <li>
@@ -42,28 +42,32 @@
           {% for child in nav.children %}
           
             <li class="verychild">
-            <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}> • {{ child.title }}
-              <!-- child.title과 같은 이름의 태그를 갖은 포스트를 카운트한다. -->
-              {% for tag in site.tags %}
-                    {% if tag[0] == child.title %}
-                          ({{tag[1].size}})
-                    {% endif %}
-                {% endfor %}
-            </a></li>
+                <details {% if page.main == child.title %}open{% endif %} {% if child.url == page.url %} class="active"{% endif %}> 
+                    <summary> 
+                        {{ child.title }}
+                        <!-- child.title과 같은 이름의 태그를 갖은 포스트를 카운트한다. -->
+                        {% for tag in site.tags %}
+                            {% if tag[0] == child.title %}
+                                ({{tag[1].size}})
+                            {% endif %}
+                        {% endfor %}
+                    </summary>
+                    
+                        {{page.sidebar.nav}}
+                        
+                            <ul>
+                            {%- for post in site.tags[child.title] -%}
+                                {%- unless post.hidden -%}
+                                {% include post_name-tags.html %}
+                                {%- endunless -%}
+                            {%- endfor -%}
+                            </ul>
+                        
+                    
+                </details>
+            </li>
           {% endfor %}
         </ul>
-          {% for child in nav.children %}
-          {{page.sidebar.nav}}
-            {% if page.main == child.title %}
-              <ul>
-              {%- for post in site.tags[page.main] -%}
-                {%- unless post.hidden -%}
-                  {% include post_name-tags.html %}
-                {%- endunless -%}
-              {%- endfor -%}
-              </ul>
-            {% endif %}
-          {% endfor %}
         {% endif %}
       </li>
       

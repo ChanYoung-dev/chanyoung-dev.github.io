@@ -9,6 +9,7 @@ sidebar:
   - title: "Web🐮"
   - nav: "Web-menu"
 tags:
+  - Frontend
   - CSS
 
 ---

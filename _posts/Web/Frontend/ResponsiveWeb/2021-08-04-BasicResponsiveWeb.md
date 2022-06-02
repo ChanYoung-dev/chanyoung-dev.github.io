@@ -10,7 +10,9 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - ResponsiveWeb
-
+  - Frontend
+main: Frontend
+sexy: 1
 ---
 
 [간단한 반응형 Header 메뉴바 만들기 ↗️](https://github.com/ChanYoung-dev/FrontendBasic/tree/master/1.%20Basic/activeHeader)

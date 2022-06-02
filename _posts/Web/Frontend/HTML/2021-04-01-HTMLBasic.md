@@ -10,6 +10,7 @@ sidebar:
   - nav: "Web-menu"
 tags:
   - HTML
+  - Frontend
 
 ---
 HTML 기초
