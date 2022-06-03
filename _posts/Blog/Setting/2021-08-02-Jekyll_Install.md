@@ -12,6 +12,8 @@ excerpt: >
   "맥북에서 Jekyll설치하기 + 오류해결과정"
 tags:
   - Setting
+sexy: 1
+main: "Setting"
 ---
 
 # 맥으로 jekyll 설치하기

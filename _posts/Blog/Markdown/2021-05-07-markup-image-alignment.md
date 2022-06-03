@@ -18,6 +18,8 @@ list_name:
   - Markdown
   - Markup
   - HTML
+sexy: 1
+main: "Markdown"
 ---
 마크다운에는 이미지 정렬 문법이 없다.  
 하지만 `{: .align-pattern}`이나 `html`을 사용하면 된다.

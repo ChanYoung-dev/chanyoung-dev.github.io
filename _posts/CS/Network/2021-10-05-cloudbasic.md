@@ -14,6 +14,9 @@ tags:
   - Network
 list_name:
   - Network
+
+sexy: 1
+main: "Network"
 ---
 
 # 클라우드 컴퓨팅

@@ -1,16 +1,18 @@
 ---
-permalink: /C/Application/Calculator/CalculatorC/
+permalink: /etc/C/CalculatorC/
 title: "텍스트 파일로부터 수식들을 불러와 계산기작업하기"
 toc: true
 categories:
-  - C🐷Application
+  - etc🐵Application
 comments: true
 sidebar:
-  - title: "C🐷"
-  - nav: "C-menu"
+  - title: "etc🐵"
+  - nav: "etc-menu"
 tags:
   - Calculator
-
+  - C
+sexy: 1
+main: "C"
 ---
 
 # Intro

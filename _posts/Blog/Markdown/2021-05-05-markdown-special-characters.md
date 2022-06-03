@@ -18,6 +18,8 @@ list_name:
   - Markdown
   - Markup
   - HTML
+sexy: 1
+main: "Markdown"
 ---
 
 minimal mistakes에서의 `title`이나 기타변수 Markup에 사용할수있는 특수문자

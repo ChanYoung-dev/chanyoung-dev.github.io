@@ -14,6 +14,9 @@ tags:
   - Network
 list_name:
   - Network
+
+sexy: 1
+main: "Network"
 ---
 
 # IP 네트워크 정보

@@ -1,16 +1,19 @@
 ---
-permalink: /Python/CodingTEST/Level1/How_to_use_linked_list_in_editor/
-title: "How_to_use_linked_list_in_editor"
+permalink: /Python/Advaned/How_to_use_linked_list_in_editor/
+title: "IntelliJ에서 파이썬 연결리스트 사용하기"
 toc: true
 categories:
-  - Python🐸CodingTest
+  - Python🐸Advanced
 comments: true
 sidebar:
   - title: "Python🐸"
-  - nav: "python-menu"
+  - nav: "Python-menu"
 tags:
-  - CodingTest
+  - Advanced
   - Level1
+  - Problem&Solution
+sexy: 1
+main: "Advanced"
 ---
 
 - ## 리트코드(LeetCode)의 연결리스트 코딩을 에디터에서 해보자(How to use linked list in editor)

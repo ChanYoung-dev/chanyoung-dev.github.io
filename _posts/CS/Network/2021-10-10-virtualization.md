@@ -17,6 +17,9 @@ tags:
 list_name:
   - Network
   - OS
+
+sexy: 1
+main: "Network"
 ---
 ## 가상화 기술
 기존에는 서버가 필요한 고객들은 실제 물리 서버를 임대 혹은 구입하여 서버호스팅 서비스를 이용하였다.  

@@ -1,19 +1,23 @@
 ---
-permalink: /Python/CodingTEST/Level0/DeletePhoneNumber/
+permalink: /CodingTest/Problem/DeletePhoneNumber/
 title: "핸드폰 번호 가리기"
 toc: true
 categories:
-  - Python🐸CodingTest
+  - CodingTest🦁Problem&Solution
 comments: true
 sidebar:
-  - title: "Python🐸"
-  - nav: "python-menu"
+  - title: "CodingTest🦁"
+  - nav: "CodingTest-menu"
 tags:
-  - CodingTest
+  - Problem&Solution
   - Level0
   - 정규표현식
 list_name: 정규표현식
+sexy: 1
+main: "Problem&Solution"
 ---
+
+
 정규표현식을 이용하여 [프로그래머스-핸드폰 번호가리기↗️](https://programmers.co.kr/learn/courses/30/lessons/12948?language=python3) 풀이
 
 ## 1 . 긍정탐색 사용

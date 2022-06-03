@@ -51,21 +51,13 @@ Total:
     children:
       - title: "Django-Bible"
         url: /Django/Django-Bible/
-  - title: "4. Blog"
+  - title: "5. Make a github.io"
     url: Blog/
     children:
       - title: Markdown
         url: Blog/Markdown/
       - title: Setting
         url: Blog/Setting/
-  - title: "5. Iot"
-    url: /Iot/
-    children:
-      - title: SBC
-        url: /Iot/SBC/
-        children: 
-          - title: "RaspberryPi"
-            url: /Iot/SBC/RaspberryPi
   - title: "6. ComputerScience"
     url: /CS/
     children:
@@ -75,16 +67,20 @@ Total:
         url: /CS/OS/
       - title: Algorithm
         url: /CS/Algorithm/
-  - title: "7. C"
-    url: /C/
+  - title: "7. CodingTest"
+    url: /CodingTest/
     children:
-      - title: Application
-        url: /C/Application/
-  - title: "8. DB"
-    url: /DB/
-    children:
+      - title: Problem&Solution
+        url: /CodingTest/Problem
       - title: SQL
-        url: /DB/SQL
+        url: /CodingTest/SQL
+  - title: "8. ETC"
+    url: /etc/
+    children:
+      - title: RaspberryPi
+        url: /etc/RaspberryPi/
+      - title: C
+        url: /etc/C/
 
 python-menu:
   - title: Basic

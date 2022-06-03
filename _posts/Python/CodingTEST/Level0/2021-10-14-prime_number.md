@@ -1,16 +1,18 @@
 ---
-permalink: /Python/CodingTEST/Level0/prime_number/
+permalink: /CodingTest/Problem/prime_number/
 title: "소수 만들기"
 toc: true
 categories:
-  - Python🐸CodingTest
+  - CodingTest🦁Problem&Solution
 comments: true
 sidebar:
-  - title: "Python🐸"
-  - nav: "python-menu"
+  - title: "CodingTest🦁"
+  - nav: "CodingTest-menu"
 tags:
-  - CodingTest
+  - Problem&Solution
   - Level0
+sexy: 1
+main: "Problem&Solution"
 ---
 for else 문 / combinations활용
 

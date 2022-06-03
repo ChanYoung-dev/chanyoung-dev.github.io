@@ -7,4 +7,6 @@ sidebar:
   - title: "CS🐰"
   - nav: "CS-menu"
 taxonomy: CS🐰Network
+sexy: 1
+main: "Network"
 ---

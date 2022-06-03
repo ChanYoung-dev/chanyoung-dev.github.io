@@ -1,18 +1,19 @@
 ---
-permalink: /Python/CodingTEST/Level0/AddingMartrix/
+permalink: /Python/Advanced/AddingMartrix/
 title: "zip과 행렬의 덧셈"
 toc: true
 categories:
-  - Python🐸CodingTest
   - Python🐸Advanced
 comments: true
 sidebar:
   - title: "Python🐸"
-  - nav: "python-menu"
+  - nav: "Python🐸-menu"
 tags:
-  - CodingTest
-  - Level0
+  - Advanced
   - zip
+  - Problem&Solution
+sexy: 1
+main: "Advanced"
 ---
 한줄for문 / zip사용
 

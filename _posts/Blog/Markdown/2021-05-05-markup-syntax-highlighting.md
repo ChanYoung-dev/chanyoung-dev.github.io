@@ -12,6 +12,8 @@ excerpt: >
   Code block Highlight은 두가지 종류가 있다.
 tags:
   - Markdown
+sexy: 1
+main: "Markdown"
 ---
 
 Code block Highlight은 두가지 종류가 있다.

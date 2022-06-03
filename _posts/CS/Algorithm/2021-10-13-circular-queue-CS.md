@@ -11,6 +11,9 @@ sidebar:
   - nav: "CS-menu"
 tags:
   - Level0
+  - Algorithm
+sexy: 1
+main: "Algorithm"
 ---
 
 # 파이썬으로 원형 큐 구현하기

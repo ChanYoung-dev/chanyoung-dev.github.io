@@ -1,17 +1,22 @@
 ---
-permalink: /Python/CodingTEST/Level1/Merge_Two_Sorted_Lists/
-title: "Merge_Two_Sorted_Lists"
+permalink: /CodingTest/Problem/Merge_Two_Sorted_Lists/
+title: "두 개의 연결 리스트 병합하여 나열"
 toc: true
 categories:
-  - Python🐸CodingTest
+  - CodingTest🦁Problem&Solution
 comments: true
 sidebar:
-  - title: "Python🐸"
-  - nav: "python-menu"
+  - title: "CodingTest🦁"
+  - nav: "CodingTest-menu"
 tags:
-  - CodingTest
   - Level1
+  - Problem&Solution
+  - Algorithmㄴ
+sexy: 1
+main: "Problem&Solution"
 ---
+
+https://leetcode.com/problems/Merge_Two_Sorted_Lists/
 
 # 두 개의 연결 리스트 병합하기
 

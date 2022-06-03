@@ -18,6 +18,8 @@ list_name:
   - Markdown
   - Markup
   - HTML
+sexy: 1
+main: "Markdown"
 ---
 마크다운에는 정렬 문법이 없다. 이럴 경우에는  
 `html`**을 이용하여 원하는 텍스트 끝에** `{: style="text-align: pattern;"}`**를 붙여주면 된다**

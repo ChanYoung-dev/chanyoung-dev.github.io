@@ -11,6 +11,7 @@ sidebar:
 tags: 
   - python심화
   - Advanced
+  - Tip
 list_name: python심화
 sexy: 1
 main: "Advanced"

@@ -10,6 +10,8 @@ sidebar:
   - nav: "Blog-menu"
 tags:
   - Markdown
+sexy: 1
+main: "Markdown"
 ---
 
 기본적인 Markdown말고 고급 Markdown 스킬  

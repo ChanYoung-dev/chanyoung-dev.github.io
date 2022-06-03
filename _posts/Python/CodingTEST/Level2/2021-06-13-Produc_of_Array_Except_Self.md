@@ -1,16 +1,18 @@
 ---
-permalink: /Python/CodingTEST/Level2/Produc_of_Array_Except_Self/
-title: "Produc_of_Array_Except_Self"
+permalink: /CodingTest/Probelm/Produc_of_Array_Except_Self/
+title: "자신을 제외한 배열의 곱"
 toc: true
 categories:
-  - Python🐸CodingTest
+  - CodingTest🦁Problem&Solution
 comments: true
 sidebar:
-  - title: "Python🐸"
-  - nav: "python-menu"
+  - title: "CodingTest🦁"
+  - nav: "CodingTest-menu"
 tags:
-  - CodingTest
+  - Problem&Solution
   - Level2
+sexy: 1
+main: "Problem&Solution"
 ---
 
 ## 자신을 제외한 배열의 곱

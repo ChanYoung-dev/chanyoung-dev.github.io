@@ -9,6 +9,8 @@ taxonomy:
   - CS🐰Algorithm
   - CS🐰Network
   - CS🐰OS
+sexy: 1
+main: "Network"
 ---
 
 ## 목차
