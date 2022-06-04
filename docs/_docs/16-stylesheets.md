@@ -8,7 +8,7 @@ toc: true
 
 The theme's `assets/css/main.css` file is built from several SCSS partials located in [`_sass/`](https://github.com/mmistakes/minimal-mistakes/tree/master/_sass) and is structured as follows:
 
-```bash
+```sh
 minimal-mistakes
 ├── _sass
 |  └── minimal-mistakes

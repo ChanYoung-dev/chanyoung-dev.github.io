@@ -43,7 +43,7 @@ To install as a Gem-based theme:
 
 2. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
 
-   ```bash
+   ```sh
    bundle
    ```
 
@@ -74,7 +74,7 @@ To install as a remote theme:
 
 3. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
 
-   ```bash
+   ```sh
    bundle
    ```
 

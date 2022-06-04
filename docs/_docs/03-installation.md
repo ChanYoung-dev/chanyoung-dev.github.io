@@ -93,7 +93,7 @@ end
 
 To maintain a local Jekyll environment in sync with GitHub Pages replace the `gem "jekyll"` line with `gem "github-pages", group: :jekyll_plugins` and run the following:
 
-```bash
+```sh
 $ bundle install
 ```
 

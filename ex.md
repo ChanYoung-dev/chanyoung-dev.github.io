@@ -92,7 +92,7 @@ IPv4 서브넷 마스크 : 255.255.255.0
 
 - centos 로그인 방법
 
-```bash
+```sh
 localhost login : root <- 입력
 Password : 패스워드 입력
 [root@localhost ~] #
