@@ -54,6 +54,8 @@ Total:
   - title: "5. Make a github.io"
     url: Blog/
     children:
+      - title: Custom
+        url: Blog/Custom/
       - title: Markdown
         url: Blog/Markdown/
       - title: Setting
