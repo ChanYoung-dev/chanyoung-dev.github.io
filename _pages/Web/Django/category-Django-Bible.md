@@ -1,12 +1,12 @@
 ---
-title: "Django-Bible"
+title: "Django"
 layout: category
-permalink: Django/Backend_beginner/
+permalink: Backend/Django/
 sidebar:
-  - title: "Django🦄"
-  - nav: "Django-menu"
-taxonomy: Django🦄Django-Bible
+  - title: "Backend🦄"
+  - nav: "Backend-menu"
+taxonomy: Backend🦄Django
 sexy: 1
-main: "Django-Bible"
+main: "Django"
 ---
 

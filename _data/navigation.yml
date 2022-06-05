@@ -35,6 +35,17 @@ Total:
     url: /Cooperation/
     children:
       - title: Git
+        url: /Cooperation/Git/
+  - title: "3. Backend"
+    url: /Backend/
+    children:
+      - title: "Django"
+        url: /Backend/Django/
+  - title: "4. Cloud"
+    url: /Cloud/
+    children:
+      - title: "CI&CD"
+        url: /Cloud/CICD/
   - title: "3. Frontend"
     url: /Frontend/
     children:
@@ -46,11 +57,6 @@ Total:
         url: /Frontend/CSS/
       - title: issue 
         url: /Frontend/issue/
-  - title: "4. Django"
-    url: /Django/
-    children:
-      - title: "Django-Bible"
-        url: /Django/Django-Bible/
   - title: "5. Make a github.io"
     url: Blog/
     children:

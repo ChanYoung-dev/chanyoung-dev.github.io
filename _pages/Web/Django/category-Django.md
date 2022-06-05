@@ -1,14 +1,14 @@
 ---
-title: "Django🦄"
-permalink: /Django/
+title: "Backend🦄"
+permalink: /Backend/
 layout: categories_archive
 sidebar:
-  - title: "Django🦄"
-  - nav: "Django-menu"
+  - title: "Backend🦄"
+  - nav: "Backend-menu"
 taxonomy:
-  - Django🦄Django-Bible
+  - Backend🦄Django
 sexy: 1
-main: "Django-Bible"
+main: "Django"
 ---
 
 ## 최근 글
