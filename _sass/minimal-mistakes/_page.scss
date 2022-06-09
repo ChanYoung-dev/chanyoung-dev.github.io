@@ -4,8 +4,8 @@
 
 #main {
   @include clearfix;
-  margin-left: 15%;
-  margin-right: 12%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -56,13 +56,21 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    position: relative;
+    left: 50%;
+    width: calc(100% - 10px);
+    //padding-right: 100px;
   }
 
   @include breakpoint($x-large) {
+    float: none;
+    width: calc(100% - 50px);
+    //padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($xxx-large) {
     width: calc(100% - 150px);
-    padding-right: $right-sidebar-width;
+    //padding-right: $right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -74,6 +82,11 @@ body {
     clear: both;
     border-radius: 10px;
     padding: 20px;
+    @include breakpoint($large) {
+      right: 50%;
+      position: relative;
+    }
+    
 
     .page__content,
     .page__meta,
@@ -460,6 +473,10 @@ body {
   margin-right: 0;
   width: 100%;
   clear: both;
+  @include breakpoint($large) {
+    right: 50%;
+    position: relative;
+  }
 }
 
 .page__comments-title {

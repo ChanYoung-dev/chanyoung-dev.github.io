@@ -39,13 +39,19 @@ window.onload = function(){
     
 	// 자바스크립트
 	if(document.querySelector(".checked-box")){
+        
 	    cbox.checked = true;
 	}else{
 	    cbox.checked = false;
 	}
 
     if(checkbox.checked == true){
-        sidebar.style.width=200 + 'px';
+        if(window.innerWidth <= 1053){
+            sidebar.style.width=200 + 'px';
+        }
+        else{
+            sidebar.style.width=200 + 'px';
+        }
     }else{
         sidebar.style.width=50 + 'px';
     }
@@ -54,7 +60,12 @@ window.onload = function(){
 
 checkbox.addEventListener('click', ()=>{
     if(checkbox.checked == true){
-        sidebar.style.width=200 + 'px';
+        if(window.innerWidth <= 1053){
+            sidebar.style.width=200 + 'px';
+        }
+        else{
+            sidebar.style.width=200 + 'px';
+        }
         sidebar.style.paddingLeft = 20+'px';
         sidebar.style.paddingRight = 20+'px';
         sidebar_element.style.marginTop='1em';
