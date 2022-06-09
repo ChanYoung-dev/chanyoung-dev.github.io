@@ -7,8 +7,9 @@ sidebar:
   - nav: "Backend-menu"
 taxonomy:
   - Backend🦄Django
+  - Backend🦄Spring
 sexy: 1
-main: "Django"
+main: "Spring"
 ---
 
 ## 최근 글
