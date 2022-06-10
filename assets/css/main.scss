@@ -506,6 +506,7 @@ p img{
 
   display: none;
   @include breakpoint($large) {
+    display: block;
     float: right;
     padding-left: 20px;
     padding-right: 20px;
