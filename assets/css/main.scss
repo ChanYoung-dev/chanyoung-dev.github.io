@@ -608,5 +608,98 @@ summary:hover{
   
 }
 
+/*
+Center Image
+========================================================================== */
+figcaption{
+  text-align: center;
+  margin: auto;
+}
+figure > img{
+  margin-bottom: 0px;
+}
+
+/*
+Abbr
+========================================================================== */
+
+// just show the text
+/*
+abbr[id]:hover::after, dfn[title]:hover::after {
+  content: ' (' attr(id) ') ';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 500px;
+}
+*/
 
 
+abbr{
+  position: relative;
+}
+
+.abbr_contents.hidden{
+  opacity: 0;
+  display: block;
+}
+
+abbr .abbr_contents{
+  opacity: 0.8;
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  background-color: #000;
+  color: white;
+  width: 150px;
+  border-radius: 10px 10px 10px 10px;
+  margin:0px;
+  z-index: 1;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+abbr:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 0;
+  border-style: solid;
+  border-width: 0 10px 10px;
+  border-color: #000000 transparent;
+  display: block;
+  z-index: 1;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
+
+abbr.hidden_before:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 0;
+  border-style: solid;
+  border-width: 0 10px 10px;
+  border-color: #000000 transparent;
+  display: block;
+  z-index: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+/*
+abbr:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 0;
+  border-style: solid;
+  border-width: 0 10px 20px;
+  border-color: #000000 transparent;
+  display: block;
+  z-index: 1;
+}
+*/

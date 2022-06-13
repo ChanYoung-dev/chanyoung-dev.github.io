@@ -82,3 +82,35 @@ checkbox.addEventListener('click', ()=>{
 }
 
 );
+
+
+/*
+Abbr
+========================================================================== */
+
+const abbrBtns =  document.querySelectorAll("abbr");
+
+abbrBtns.forEach((abbrBtn, index) => {
+    var abbrContents = document.createElement('span');
+    abbrContents.classList.add("hidden");
+    abbrContents.classList.add("abbr_contents");
+    abbrBtn.classList.add("hidden_before");
+    var addrText = document.createTextNode( abbrBtn.id );
+    abbrContents.appendChild(addrText);
+    abbrBtn.appendChild(abbrContents);
+
+    abbrBtn.addEventListener('mouseover', () => {
+        childabbr = abbrBtn.children[0];
+        childabbr.classList.remove("hidden");
+        abbrBtn.classList.remove("hidden_before");
+
+    });
+
+    abbrBtn.addEventListener('mouseout', () => {
+        childabbr = abbrBtn.children[0];
+        childabbr.classList.add("hidden");
+        abbrBtn.classList.add("hidden_before");
+
+        
+    });
+});
