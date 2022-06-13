@@ -79,9 +79,18 @@ gulp.task('html', () => {
 ### 2. Jekyll Highlight Tag
 
 Jekyll에서도 Highlight Tag를 제공한다.  
-Jekyll태그의 예시는 [Jekyll tag↗️](https://jekyllrb.com/docs/templates/#code-snippet-highlighting)를 참조
+Jekyll태그의 예시는 [Jekyll tag↗️](https://jekyllrb.com/docs/liquid/tags/)를 참조
 
 **linenos**사용할 시 Line Number도 같이 보여준다.
+
+- #### 사용법
+```
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+```
 
 - #### 적용 후
 
