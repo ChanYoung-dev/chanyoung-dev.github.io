@@ -508,7 +508,7 @@ p img{
   display: none;
   @include breakpoint($large) {
     display: block;
-    float: right;
+    float: left;
     padding-left: 20px;
     padding-right: 20px;
     width: calc(50px);
@@ -517,6 +517,7 @@ p img{
     border-left: 0px;
     margin-top:40px;
     color: #fff;
+    z-index: 1;
     border-color: #000000;
     background-color: #000000;
   }
@@ -742,4 +743,16 @@ abbr:after {
   font-size: 28px;
   font-weight: 700;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.page{
+  position: relative;
+  float: right !important;
+  left: -50%;
+}
+
+
+.page > *{
+  left: 50%;
+  position: relative;
 }
