@@ -35,7 +35,7 @@ var sidebar_element = document.querySelector(".nav__list")
 
 window.onload = function(){
 
-    console.log(sidebar_element);
+    
     
 	// 자바스크립트
 	if(document.querySelector(".checked-box")){
@@ -45,32 +45,62 @@ window.onload = function(){
 	    cbox.checked = false;
 	}
 
+    
+
+}
+
+window.onresize = function() {
     if(checkbox.checked == true){
-        if(window.innerWidth <= 1053){
-            sidebar.style.width=200 + 'px';
+        console.log(window.innerWidth);
+        if((window.innerWidth < 1024) && (window.innerWidth >= 900)){
+            sidebar.style.width=175 + 'px';
+            sidebar.style.paddingLeft = 20+'px';
+            sidebar.style.paddingRight = 20+'px';
+        }
+        else if((window.innerWidth < 900) && (window.innerWidth >= 768)){
+            sidebar.style.width=125 + 'px';
+            sidebar.style.paddingLeft = 5+'px';
+            sidebar.style.paddingRight = 5+'px';
+        }
+        else if(window.innerWidth < 768){
+            sidebar.style.width=0 + 'px';
         }
         else{
             sidebar.style.width=200 + 'px';
+            sidebar.style.paddingLeft = 20+'px';
+            sidebar.style.paddingRight = 20+'px';
         }
-    }else{
-        sidebar.style.width=50 + 'px';
+        sidebar_element.style.marginTop='1em';
+        sidebar_element.style.marginBottom='1em';
+        
+        checkbox_text.innerHTML="숨기기 ⇤"
     }
-
 }
 
 checkbox.addEventListener('click', ()=>{
     if(checkbox.checked == true){
-        if(window.innerWidth <= 1053){
-            sidebar.style.width=200 + 'px';
+        console.log(window.innerWidth);
+        if((window.innerWidth < 1024) && (window.innerWidth >= 900)){
+            sidebar.style.width=175 + 'px';
+            sidebar.style.paddingLeft = 20+'px';
+            sidebar.style.paddingRight = 20+'px';
+        }
+        else if((window.innerWidth < 900) && (window.innerWidth >= 768)){
+            sidebar.style.width=125 + 'px';
+            sidebar.style.paddingLeft = 5+'px';
+            sidebar.style.paddingRight = 5+'px';
+        }
+        else if(window.innerWidth < 768){
+            sidebar.style.width=0 + 'px';
         }
         else{
             sidebar.style.width=200 + 'px';
+            sidebar.style.paddingLeft = 20+'px';
+            sidebar.style.paddingRight = 20+'px';
         }
-        sidebar.style.paddingLeft = 20+'px';
-        sidebar.style.paddingRight = 20+'px';
         sidebar_element.style.marginTop='1em';
         sidebar_element.style.marginBottom='1em';
-        sidebar.style.bottom= '2em';
+        
         checkbox_text.innerHTML="숨기기 ⇤"
     }else{
         sidebar.style.width=50 + 'px';

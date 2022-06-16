@@ -68,7 +68,7 @@ Total:
         url: Blog/Markdown/
       - title: Setting
         url: Blog/Setting/
-  - title: "6. ComputerScience"
+  - title: "6. CS"
     url: /CS/
     children:
       - title: Network
