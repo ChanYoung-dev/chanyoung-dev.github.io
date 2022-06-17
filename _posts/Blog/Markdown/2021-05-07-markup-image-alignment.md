@@ -124,21 +124,6 @@ width로 이미지 크기를 설정할 수 있다.
 
 문단 밖에서 텍스트가 입력된다.  
 
-## 오버래핑 이미지
-
-만약 이미지가 커서 오버래핑된 이미지를 올리고 싶다면 `<figure>`를 이용하자.
-- #### figure
-  
-  ```html
-  <figure style="width: 1200px">
-    <img src="이미지경로" alt="">
-  </figure> 
-  ```
-
-  - #### 적용
-  <figure style="width: 1200px">
-    <img src="{{site.baseurl}}/assets/images/python/a.png" alt="">
-  </figure> 
 
 오버래핑이 아니라 최대크기가 상위 컨테이너에 딱 맞게 하고 싶다면 `<p>`태그를 사용하자
 

@@ -10,6 +10,9 @@ sidebar:
   - nav: "Cloud-menu"
 tags:
   - CI&CD
+list_name:
+  - CI&CD
+  - AWS
 sexy: 1
 main: "CI&CD"
 ---

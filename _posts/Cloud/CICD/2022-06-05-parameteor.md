@@ -12,6 +12,9 @@ tags:
   - CI&CD
 sexy: 1
 main: "CI&CD"
+list_name:
+  - CI&CD
+  - AWS
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">application.yml을 암호화해서 jenkins에 올리자</span><br>
