@@ -717,44 +717,105 @@ abbr:after {
 Notice
 ========================================================================== */
 
-.notice{
-  border-radius: 5px;
-  background-color: #7e6d42;
-  background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
+
+.page__content p.notice, p.notice--primary, p.notice--warning, p.notice--success, p.notice--danger, p.notice--info{
+  border-radius: 0px 10px 10px 0px;
   color: white;
-  //padding: 30px;
   font-size: 1em !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   text-rendering: optimizeLegibility;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3);
   position: relative;
   margin-left: -50px;
-  margin: 30px 0 30px -120px !important;
   padding: 20px 20px 24px;
   padding-left: 50px;
+  
+  &:before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    border-color: transparent #000 #000 transparent;
+    border-style: solid;
+    border-width: 5px;
+    width: 0;
+    height: 0;
+  }
+
+  &:after{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+
+  
+  @include breakpoint($xx-large) {
+    margin: 30px 0 30px -73px;
+  }
+  @include breakpoint($xxx-large) {
+    margin: 30px 0 30px -123px;
+  }
 }
 
-.notice:before{
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 0;
-  border-color: transparent #222 #222 transparent;
-  border-style: solid;
-  border-width: 5px;
-  width: 0;
-  height: 0;
+.notice{
+  background-color: #7e6d42;
+  background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
+  &:after{
+    content: '\2B50';
+    color: #fc0;
+  }
 }
 
-.notice:after{
-  content: '\2605';
-  color: #fc0;
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  font-size: 28px;
-  font-weight: 700;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+.notice--primary{
+  background-color: #cd9239;
+  background-image: linear-gradient(to bottom, rgba(205,146,57,1) 0%,rgba(162,117,40,1) 100%);
+  &:after{
+    content: '\1F3AF';
+    color: #2b2a12;
+    font-size: 28px;
+
+  }
+}
+
+.notice--warning{
+  background-color: #9e2812;
+  background-image: linear-gradient(to bottom, #9e2812 0%, #6f0d0d 100%);
+  &:after{
+    content: '\203C';
+    color: #fc0;
+  }
+}
+
+.notice--success{
+  
+  
+  &:after{
+    content: '\2605';
+    color: #fc0;
+  }
+}
+
+.notice--danger{
+  
+  
+  &:after{
+    content: '\2605';
+    color: #fc0;
+  }
+}
+
+.notice--info{
+  background-color: #0389aa;
+  background-image: linear-gradient(to bottom, #0389aa 0%, #00617f 100%);
+  
+  &:after{
+    content: '\24D8';
+    color: #fff;
+  }
 }
 
 
