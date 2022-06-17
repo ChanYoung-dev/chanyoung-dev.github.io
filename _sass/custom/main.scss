@@ -853,29 +853,17 @@ Page Control
   }
 }
 
+@media screen and (max-width: $large){
+  #main{
+    border-radius: 20px;
+    background-color: transparent;
+  }
+}
+
 
 .toc a{
   font-size: 0.5rem;
 }
 .nav__list .nav__items {
   font-size: 1.125rem;
-}
-
-
-@media screen and (max-width: $large){
-  #main{
-    margin: 0;
-    background-color: transparent;
-  }
-
-  .page > *{
-    left: 0;
-    position: relative;
-  }
-
-  .page{
-    position: relative;
-    float: none !important;
-    left: 0;
-  }
 }
