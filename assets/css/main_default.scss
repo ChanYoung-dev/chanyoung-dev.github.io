@@ -20,3 +20,11 @@
   margin-left: 0;
   color: #3d4144;
 }
+
+#main{
+  background-color: #E0E0E0;
+  @media screen and (max-width: $large){
+      background-color: transparent;
+    }
+}
+

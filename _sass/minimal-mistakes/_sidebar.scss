@@ -80,7 +80,8 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-
+  background-color: transparent;
+  opacity: 0.8;
   @include breakpoint($medium) {
     position: absolute;
     top: 0;

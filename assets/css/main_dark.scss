@@ -26,3 +26,10 @@
     margin-left: 0;
     color: #ddd;
 }
+
+#main{
+    background-color: #444;
+    @media screen and (max-width: $large){
+        background-color: #222;
+    }
+}

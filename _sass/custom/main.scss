@@ -496,12 +496,13 @@ p img{
 .sidebar.checked-box{
 
   display: none;
+  
   @include breakpoint($medium) {
     display: block;
     float: left;
     padding-left: 5px;
     padding-right: 5px;
-    width: calc(125px);
+    width: calc(300px);
     border: 5px solid #000000;
     border-radius: 0px 20px 20px 0px;
     border-left: 0px;
@@ -511,23 +512,7 @@ p img{
     border-color: #000000;
     background-color: #000000;
     position:fixed;
-    max-height: calc(100vh - #{$nav-height} - 10em);
-  }
-  @include breakpoint($medium-wide) {
-    display: block;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: calc(170px);
-    border: 5px solid #000000;
-    border-radius: 0px 20px 20px 0px;
-    border-left: 0px;
-    margin-top:40px;
-    color: #fff;
-    z-index: 1;
-    border-color: #000000;
-    background-color: #000000;
-    position:fixed;
+    max-height: calc(100vh - #{$nav-height} - 25em);
   }
   @include breakpoint($large) {
     display: block;
@@ -544,6 +529,7 @@ p img{
     border-color: #000000;
     background-color: #000000;
     position:fixed;
+    max-height: calc(100vh - #{$nav-height} - 2em);
   }
   
 }
@@ -807,3 +793,28 @@ Page Control
 }
 
 
+.toc a{
+  font-size: 0.5rem;
+}
+.nav__list .nav__items {
+  font-size: 1.125rem;
+}
+
+
+@media screen and (max-width: $large){
+  #main{
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .page > *{
+    left: 0;
+    position: relative;
+  }
+
+  .page{
+    position: relative;
+    float: none !important;
+    left: 0;
+  }
+}

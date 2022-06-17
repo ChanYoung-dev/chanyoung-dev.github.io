@@ -27,6 +27,11 @@ document.addEventListener('scroll', ()=>{
 
 );
 
+
+/*
+left-sidebar
+========================================================================== */
+
 var cbox = document.getElementById("ac-toc");
 var checkbox = document.getElementById("ac-toc");
 var checkbox_text = document.getElementById("ac-toc-text");
@@ -50,68 +55,48 @@ window.onload = function(){
 }
 
 window.onresize = function() {
-    if(checkbox.checked == true){
-        console.log(window.innerWidth);
-        if((window.innerWidth < 1024) && (window.innerWidth >= 900)){
-            sidebar.style.width=175 + 'px';
-            sidebar.style.paddingLeft = 20+'px';
-            sidebar.style.paddingRight = 20+'px';
-        }
-        else if((window.innerWidth < 900) && (window.innerWidth >= 768)){
-            sidebar.style.width=125 + 'px';
-            sidebar.style.paddingLeft = 5+'px';
-            sidebar.style.paddingRight = 5+'px';
-        }
-        else if(window.innerWidth < 768){
-            sidebar.style.width=0 + 'px';
-        }
-        else{
-            sidebar.style.width=200 + 'px';
-            sidebar.style.paddingLeft = 20+'px';
-            sidebar.style.paddingRight = 20+'px';
-        }
-        sidebar_element.style.marginTop='1em';
-        sidebar_element.style.marginBottom='1em';
-        
-        checkbox_text.innerHTML="숨기기 ⇤"
-    }
+    resizeSidebar_Left();
 }
 
 checkbox.addEventListener('click', ()=>{
-    if(checkbox.checked == true){
-        console.log(window.innerWidth);
-        if((window.innerWidth < 1024) && (window.innerWidth >= 900)){
-            sidebar.style.width=175 + 'px';
-            sidebar.style.paddingLeft = 20+'px';
-            sidebar.style.paddingRight = 20+'px';
-        }
-        else if((window.innerWidth < 900) && (window.innerWidth >= 768)){
-            sidebar.style.width=125 + 'px';
-            sidebar.style.paddingLeft = 5+'px';
-            sidebar.style.paddingRight = 5+'px';
-        }
-        else if(window.innerWidth < 768){
-            sidebar.style.width=0 + 'px';
-        }
-        else{
-            sidebar.style.width=200 + 'px';
-            sidebar.style.paddingLeft = 20+'px';
-            sidebar.style.paddingRight = 20+'px';
-        }
-        sidebar_element.style.marginTop='1em';
-        sidebar_element.style.marginBottom='1em';
-        
-        checkbox_text.innerHTML="숨기기 ⇤"
-    }else{
-        sidebar.style.width=50 + 'px';
-        sidebar.style.padding = 0+'px';
-        sidebar_element.style.margin='0px';
-        checkbox_text.innerHTML="카테고리 ⇥"
-        sidebar.style.bottom= 'auto';
-    }
+    resizeSidebar_Left();
 }
 
 );
+
+function resizeSidebar_Left() {
+    if (checkbox.checked == true) {
+        if ((window.innerWidth < 1024) && (window.innerWidth >= 768)) {
+            sidebar.style.width = 300 + 'px';
+            sidebar.style.paddingLeft = 20 + 'px';
+            sidebar.style.paddingRight = 20 + 'px';
+        }
+        else if (window.innerWidth < 768) {
+            sidebar.style.width = 0 + 'px';
+        }
+        else {
+            sidebar.style.width = 200 + 'px';
+            sidebar.style.paddingLeft = 20 + 'px';
+            sidebar.style.paddingRight = 20 + 'px';
+        }
+        sidebar_element.style.marginTop = '1em';
+        sidebar_element.style.marginBottom = '1em';
+        sidebar.style.bottom = '2em';
+        checkbox_text.innerHTML = "숨기기 ⇤";
+    } else {
+        if ((window.innerWidth < 1024)) {
+            sidebar.style.width = 25 + 'px';
+        }
+        else {
+            sidebar.style.width = 50 + 'px';
+        }
+        sidebar.style.padding = 0 + 'px';
+        sidebar_element.style.margin = '0px';
+        checkbox_text.innerHTML = "카테고리 ⇥";
+        sidebar.style.bottom = 'auto';
+    }
+}
+
 
 
 /*
@@ -144,3 +129,4 @@ abbrBtns.forEach((abbrBtn, index) => {
         
     });
 });
+

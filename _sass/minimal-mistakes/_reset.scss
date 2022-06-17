@@ -21,11 +21,55 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 16px;
+    font-size: 18px;
   }
+
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+}
+
+.sidebar {
+  /* apply a natural box layout model to all elements */
+  
+  @media screen and (max-width: $large){
+    font-size:5px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 14px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($xx-large) {
+    font-size: 16px;
+  }
+  
+
+}
+
+aside{
+  /* apply a natural box layout model to all elements */
+  
+  @media screen and (max-width: $large){
+    font-size:14px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 14px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($xx-large) {
+    font-size: 16px;
+  }
+
 }
 
 /* Remove margin */
