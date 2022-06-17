@@ -665,6 +665,7 @@ abbr .abbr_contents{
   z-index: 1;
   padding: 8px;
   transition: all 0.2s ease-in-out;
+  font-size: 0.75em;
 }
 
 abbr:before {
@@ -752,18 +753,19 @@ Notice
   }
 
 
-  
-  @include breakpoint($xx-large) {
+  @include breakpoint($x-large) {
     margin: 30px 0 30px -73px;
   }
+  
+  
   @include breakpoint($xxx-large) {
     margin: 30px 0 30px -123px;
   }
 }
 
 .notice{
-  background-color: #7e6d42;
-  background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
+  background-image: linear-gradient(to bottom, rgba(205,146,57,1) 0%,rgba(162,117,40,1) 100%);
+  
   &:after{
     content: '\2B50';
     color: #fc0;
@@ -771,12 +773,11 @@ Notice
 }
 
 .notice--primary{
-  background-color: #cd9239;
-  background-image: linear-gradient(to bottom, rgba(205,146,57,1) 0%,rgba(162,117,40,1) 100%);
+  background-image: linear-gradient(to bottom, #283c28 0%,#152c28 100%);
   &:after{
     content: '\1F3AF';
     color: #2b2a12;
-    font-size: 28px;
+    font-size: 32px !important;
 
   }
 }
@@ -791,11 +792,12 @@ Notice
 }
 
 .notice--success{
-  
+  background-color: #7e6d42;
+  background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
   
   &:after{
-    content: '\2605';
-    color: #fc0;
+    content: '\2714';
+    color: rgb(253, 42, 0);
   }
 }
 
@@ -813,8 +815,9 @@ Notice
   background-image: linear-gradient(to bottom, #0389aa 0%, #00617f 100%);
   
   &:after{
-    content: '\24D8';
-    color: #fff;
+    content: '\2139';
+    color: #fc0;
+    font-size: 32px !important;
   }
 }
 

@@ -1,12 +1,12 @@
 ---
 permalink: /Cloud/CICD/CICDdocker
-title: "docker, jenkins를 이용하여 CI CD 구축"
+title: "docker, jenkins를 이용하여 CI CD 구축1"
 toc: true
 categories:
-  - Cloud🐒CI&CD
+  - Cloud🐦CI&CD
 comments: true
 sidebar:
-  - title: "Cloud🐒"
+  - title: "Cloud🐦"
   - nav: "Cloud-menu"
 tags:
   - CI&CD

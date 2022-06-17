@@ -111,7 +111,7 @@ Abbr
 const abbrBtns =  document.querySelectorAll("abbr");
 
 abbrBtns.forEach((abbrBtn, index) => {
-    var abbrContents = document.createElement('span');
+    var abbrContents = document.createElement('p');
     abbrContents.classList.add("hidden");
     abbrContents.classList.add("abbr_contents");
     abbrBtn.classList.add("hidden_before");

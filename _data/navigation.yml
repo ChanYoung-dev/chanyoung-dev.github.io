@@ -46,6 +46,8 @@ Total:
   - title: "4. Cloud"
     url: /Cloud/
     children:
+      - title: "AWS"
+        url: /Cloud/AWS/
       - title: "CI&CD"
         url: /Cloud/CICD/
   - title: "3. Frontend"
