@@ -44,13 +44,17 @@ window.onload = function(){
     
 	// 자바스크립트
 	if(document.querySelector(".checked-box")){
-        
-	    cbox.checked = true;
+        if ((window.innerWidth < 1024)) {
+            cbox.checked = false;
+        }
+        else{
+            cbox.checked = true;
+        }
 	}else{
 	    cbox.checked = false;
 	}
 
-    
+    resizeSidebar_Left()
 
 }
 
@@ -82,6 +86,7 @@ function resizeSidebar_Left() {
         sidebar_element.style.marginTop = '1em';
         sidebar_element.style.marginBottom = '1em';
         sidebar.style.bottom = '2em';
+        sidebar.style.top = '2em';
         checkbox_text.innerHTML = "숨기기 ⇤";
     } else {
         if ((window.innerWidth < 1024)) {
