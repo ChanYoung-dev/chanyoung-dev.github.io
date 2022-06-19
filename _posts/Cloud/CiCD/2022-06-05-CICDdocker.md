@@ -15,28 +15,13 @@ list_name:
   - AWS
 sexy: 1
 main: "CI&CD"
+header:
+  teaser: https://user-images.githubusercontent.com/46098949/171821626-2c67a8bb-4fe6-4952-bf19-665a50899b2f.png
+  overlay_image: https://user-images.githubusercontent.com/46098949/171821626-2c67a8bb-4fe6-4952-bf19-665a50899b2f.png
+  overlay_filter: 0.5
+excerpt: 
+  docker, jenkins, aws를 사용하여 CI/CD를 구축해보자 <br>최대한 비용없이 구성하였다
 ---
-
-- [0. 목표](#0-목표)
-- [1. Jenkins](#1-jenkins)
-  - [1.1 구성](#11-구성)
-    - [1.1.1 소스 코드 관리](#111-소스-코드-관리)
-    - [1.1.2 빌드 유발](#112-빌드-유발)
-    - [1.1.3 Build](#113-build)
-- [2. docker](#2-docker)
-  - [dockerfile 빌드](#dockerfile-빌드)
-  - [ec2에서 스프링 docker 컨테이너 올리기](#ec2에서-스프링-docker-컨테이너-올리기)
-- [3. nginx(Spring 서버 2개이상인 경우만)](#3-nginxspring-서버-2개이상인-경우만)
-  - [nginx 설정 파일 수정](#nginx-설정-파일-수정)
-- [4. Docker-Compose(Spring 서버 2개이상인 경우만)](#4-docker-composespring-서버-2개이상인-경우만)
-  - [docker-compose 실행](#docker-compose-실행)
-- [5. jenkins SSH](#5-jenkins-ssh)
-  - [5.1. 사전작업 1 - SSH](#51-사전작업-1---ssh)
-  - [5.2 사전작업2 - ec2](#52-사전작업2---ec2)
-  - [5.2 사전작업2 - ec2](#52-사전작업2---ec2-1)
-  - [Jenkins 작업](#jenkins-작업)
-    - [여러 컨테이너를 실행하는 docker-compose 사용하는 경우](#여러-컨테이너를-실행하는-docker-compose-사용하는-경우)
-    - [하나의 컨테이너만 실행하는 경우](#하나의-컨테이너만-실행하는-경우)
 
 # 0. 목표
 <img width="636" alt="image" src="https://user-images.githubusercontent.com/46098949/171821626-2c67a8bb-4fe6-4952-bf19-665a50899b2f.png">

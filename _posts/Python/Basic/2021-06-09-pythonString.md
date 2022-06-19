@@ -17,6 +17,11 @@ list_name:
   - 정규표현식
 sexy: 1
 main: "Python-Bible"
+header:
+  teaser: https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg
+  overlay_image: https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg
+  overlay_filter: 0.5
+excerpt: 파이썬 정규표현식에 대해
 ---
 
 [특수시퀸스](#6-특수-시퀸스)

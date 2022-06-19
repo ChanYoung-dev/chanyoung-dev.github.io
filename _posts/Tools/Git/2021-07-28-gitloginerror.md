@@ -12,6 +12,11 @@ tags:
   - Git
 sexy: 1
 main: "Git"
+header:
+  teaser: /assets/images/Cooperation/gitloginerror.png
+  overlay_image: /assets/images/Cooperation/gitloginerror.png
+  overlay_filter: 0.5
+excerpt: 터미널에서 Git을 로그인 할시 <code>Password authentication,a personal access token</code> 문제 해결방법
 ---
 터미널에서 Git을 로그인 할시 <code>Password authentication,a personal access token</code> 문제 해결방법
 

@@ -13,6 +13,11 @@ tags:
 list_name: Python-Bible
 sexy: 1
 main: "Python-Bible"
+header:
+  teaser: https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg
+  overlay_image: https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg
+  overlay_filter: 0.5
+excerpt: 파이썬 자료구조
 ---
 
 # 자료구조 기본

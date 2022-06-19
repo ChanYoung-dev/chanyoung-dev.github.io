@@ -14,6 +14,14 @@ tags:
   - Markdown
 sexy: 1
 main: "Markdown"
+header:
+  teaser: https://user-images.githubusercontent.com/46098949/174485243-12cc0944-71a2-407c-a865-4a3da55d28f8.png
+  overlay_image: https://user-images.githubusercontent.com/46098949/174485243-12cc0944-71a2-407c-a865-4a3da55d28f8.png
+  overlay_filter: 0.5
+list_name:
+  - Markdown
+  - Markup
+  - HTML
 ---
 
 Code block Highlight은 두가지 종류가 있다.

@@ -13,6 +13,10 @@ tags:
   - C
 sexy: 1
 main: "C"
+header:
+  teaser: https://images.velog.io/images/kim-jaemin420/post/235e8739-0f2a-48fe-8690-a51c6065fa45/c%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A5%20%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF.png
+  overlay_image: https://images.velog.io/images/kim-jaemin420/post/235e8739-0f2a-48fe-8690-a51c6065fa45/c%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A5%20%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF.png
+  overlay_filter: 0.5
 ---
 
 # Intro

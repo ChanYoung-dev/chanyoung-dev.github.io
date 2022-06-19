@@ -9,7 +9,7 @@ sidebar:
   - title: "CS🐰"
   - nav: "CS-menu"
 excerpt: >
-  "Repeater, Bridge, Router, Gateway, Hub"
+  Repeater, Bridge, Router, Gateway, Hub
 tags:
   - Network
 list_name:
@@ -17,6 +17,10 @@ list_name:
 
 sexy: 1
 main: "Network"
+header:
+  teaser: https://www.sscsrl.com/wp-content/uploads/2020/09/wireless_network_internet_of_things_iot_thinkstock_853701554_3x2-100740688-large.jpg
+  overlay_image: https://www.sscsrl.com/wp-content/uploads/2020/09/wireless_network_internet_of_things_iot_thinkstock_853701554_3x2-100740688-large.jpg
+  overlay_filter: 0.5
 ---
 
 

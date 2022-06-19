@@ -13,6 +13,11 @@ tags:
   - Frontend
 sexy: 1
 main: "CSS"
+header:
+  teaser: /assets/images/web/Centering1.png
+  overlay_image: /assets/images/web/Centering1.png
+  overlay_filter: 0.5
+excerpt: css의 `flexbox`을 사용할 수 없을 때 포지션변경을 해보자.
 ---
 css의 `flexbox`을 사용할 수 없을 때 포지션변경을 해보자.
 

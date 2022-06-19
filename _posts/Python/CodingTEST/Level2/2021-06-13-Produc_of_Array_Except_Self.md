@@ -13,6 +13,11 @@ tags:
   - Level2
 sexy: 1
 main: "Problem&Solution"
+header:
+  teaser: /assets/images/python/1.png
+  overlay_image: /assets/images/python/1.png
+  overlay_filter: 0.5
+excerpt: 자신을 제외한 배열의 곱
 ---
 
 ## 자신을 제외한 배열의 곱

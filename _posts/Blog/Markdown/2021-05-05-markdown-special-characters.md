@@ -20,6 +20,11 @@ list_name:
   - HTML
 sexy: 1
 main: "Markdown"
+header:
+  teaser: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_image: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_filter: 0.5
+
 ---
 
 minimal mistakes에서의 `title`이나 기타변수 Markup에 사용할수있는 특수문자

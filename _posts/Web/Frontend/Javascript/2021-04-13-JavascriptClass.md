@@ -13,6 +13,9 @@ tags:
   - Frontend
 sexy: 1
 main: "Javascript"
+header:
+  teaser: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+  overlay_image: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
 ---
 자바스크립트-객체지향 개념의 클래스
 

@@ -17,6 +17,10 @@ list_name:
 
 sexy: 1
 main: "OS"
+header:
+  teaser: https://image.shutterstock.com/image-vector/initial-monogram-letter-os-logo-260nw-1639925719.jpg
+  overlay_image: https://image.shutterstock.com/image-vector/initial-monogram-letter-os-logo-260nw-1639925719.jpg
+  overlay_filter: 0.5
 ---
 ## 병행 프로세스
 - 프로세서 하나는 한 번에 프로세스 하나만 실행할 수 있다.

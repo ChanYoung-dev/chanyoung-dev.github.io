@@ -17,6 +17,10 @@ list_name:
 
 sexy: 1
 main: "OS"
+header:
+  teaser: /assets/images/CS/overlay.png
+  overlay_image: /assets/images/CS/overlay.png
+  overlay_filter: 0.5
 ---
 이 포스트 내용은 [박미진 컴퓨터일반](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791197154324)과 [시나공 정보처리기사 요약집](#)를 참고하여 작성한 글입니다.
 

@@ -14,6 +14,11 @@ tags:
   - Algorithm
 sexy: 1
 main: "Algorithm"
+header:
+  teaser: /assets/images/python/circleque1.png
+  overlay_image: /assets/images/python/circleque1.png
+  overlay_filter: 0.5
+excerpt: 파이썬으로 원형 큐 구현하기
 ---
 
 # 파이썬으로 원형 큐 구현하기

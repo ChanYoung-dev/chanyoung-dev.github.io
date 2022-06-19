@@ -13,6 +13,11 @@ tags:
   - Frontend
 sexy: 1
 main: "HTML"
+header:
+  teaser: /assets/images/web/Theme.png
+  overlay_image: /assets/images/web/Theme.png
+  overlay_filter: 0.5
+excerpt: visual studio code에서 유용한 확장툴
 ---
 visual studio code에서 유용한 확장툴
 

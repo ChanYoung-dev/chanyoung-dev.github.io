@@ -20,6 +20,14 @@ list_name:
   - HTML
 sexy: 1
 main: "Markdown"
+header:
+  teaser: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_image: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_filter: 0.5
+list_name:
+  - Markdown
+  - Markup
+  - HTML
 ---
 마크다운에는 이미지 정렬 문법이 없다.  
 하지만 `{: .align-pattern}`이나 `html`을 사용하면 된다.

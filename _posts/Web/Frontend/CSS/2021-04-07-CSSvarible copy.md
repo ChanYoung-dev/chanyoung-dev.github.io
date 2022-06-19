@@ -13,6 +13,11 @@ tags:
   - CSS
 sexy: 1
 main: "CSS"
+header:
+  teaser: /assets/images/web/css변수적용후.png
+  overlay_image: /assets/images/web/css변수적용후.png
+  overlay_filter: 0.5
+excerpt: css의 변수를 설정함으로써 하나하나 값을 바꾸지않고 변수 값만 바꿈으로써 전체를 바꿔줄수있다.
 ---
 css의 변수를 설정함으로써 하나하나 값을 바꾸지않고 변수 값만 바꿈으로써 전체를 바꿔줄수있다.
 

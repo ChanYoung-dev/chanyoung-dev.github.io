@@ -14,6 +14,11 @@ tags:
   - Problem&Solution
 sexy: 1
 main: "Advanced"
+header:
+  teaser: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000
+  overlay_image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000
+  overlay_filter: 0.5
+excerpt: zip - 파이썬 문법
 ---
 한줄for문 / zip사용
 

@@ -13,6 +13,10 @@ tags:
   - Frontend
 sexy: 1
 main: "Javascript"
+header:
+  teaser: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+  overlay_image: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+
 ---
 자바스크립트에서 변수의 비교와 변수할당방식
 

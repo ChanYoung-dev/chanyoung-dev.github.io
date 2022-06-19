@@ -13,6 +13,11 @@ tags:
   - Frontend
 sexy: 1
 main: "HTML"
+header:
+  teaser: /assets/images/web/contact.png
+  overlay_image: /assets/images/web/contact.png
+  overlay_filter: 0.5
+excerpt: HTML 기초
 ---
 HTML 기초
 

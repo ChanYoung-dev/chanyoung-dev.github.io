@@ -15,6 +15,10 @@ tags:
 list_name: 정규표현식
 sexy: 1
 main: "Problem&Solution"
+header:
+  teaser: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000
+  overlay_image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000
+  overlay_filter: 0.5
 ---
 
 

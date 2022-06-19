@@ -13,6 +13,11 @@ tags:
   - Frontend
 sexy: 1
 main: "HTML"
+header:
+  teaser: /assets/images/web/html속성.png
+  overlay_image: /assets/images/web/html속성.png
+  overlay_filter: 0.5
+excerpt: HTML의 data attributes는 HTML5에서만 가능하다.
 ---
 HTML의 data attributes는 HTML5에서만 가능하다.
 

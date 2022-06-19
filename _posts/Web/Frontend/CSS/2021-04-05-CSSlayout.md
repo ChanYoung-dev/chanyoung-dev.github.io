@@ -13,6 +13,11 @@ tags:
   - CSS
 sexy: 1
 main: "CSS"
+header:
+  teaser: /assets/images/web/css레이아웃1.png
+  overlay_image: /assets/images/web/css레이아웃1.png
+  overlay_filter: 0.5
+excerpt: css의 레이아웃(display 속성)을 알아보자. 
 ---
 css의 레이아웃(display 속성)을 알아보자. 
 

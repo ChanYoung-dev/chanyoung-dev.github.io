@@ -20,6 +20,10 @@ list_name:
   - HTML
 sexy: 1
 main: "Markdown"
+header:
+  teaser: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_image: https://images.velog.io/images/jinsol/post/c15a0e78-fa22-46fc-84fc-9c2d70c8492a/Qu0P4ouF-markdown.png
+  overlay_filter: 0.5
 ---
 마크다운에는 정렬 문법이 없다. 이럴 경우에는  
 `html`**을 이용하여 원하는 텍스트 끝에** `{: style="text-align: pattern;"}`**를 붙여주면 된다**

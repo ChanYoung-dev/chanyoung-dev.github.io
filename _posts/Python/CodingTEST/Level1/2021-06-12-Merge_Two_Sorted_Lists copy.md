@@ -14,6 +14,11 @@ tags:
   - Algorithmㄴ
 sexy: 1
 main: "Problem&Solution"
+header:
+  teaser: /assets/images/python/a.png
+  overlay_image: /assets/images/python/a.png
+  overlay_filter: 0.5
+excerpt: 두 개의 연결 리스트 병합하기
 ---
 
 https://leetcode.com/problems/Merge_Two_Sorted_Lists/

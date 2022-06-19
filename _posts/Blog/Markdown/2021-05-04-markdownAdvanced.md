@@ -12,6 +12,14 @@ tags:
   - Markdown
 sexy: 1
 main: "Markdown"
+header:
+  teaser: https://user-images.githubusercontent.com/46098949/174485025-f780e7a1-a796-4109-9d4f-527e2029f1a1.png
+  overlay_image: https://user-images.githubusercontent.com/46098949/174485025-f780e7a1-a796-4109-9d4f-527e2029f1a1.png
+  overlay_filter: 0.5
+list_name:
+  - Markdown
+  - Jekyll
+  
 ---
 
 기본적인 Markdown말고 고급 Markdown 스킬  

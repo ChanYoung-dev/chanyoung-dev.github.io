@@ -14,6 +14,11 @@ tags:
   - Frontend
 sexy: 1
 main: "CSS"
+header:
+  teaser: https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png
+  overlay_image: https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png
+  overlay_filter: 0.5
+excerpt: css의 flexbox는 element의 요소의 화면 포지션을 쉽게 컨트롤할 수 있다.
 ---
 css의 flexbox는 element의 요소의 화면 포지션을 쉽게 컨트롤할 수 있다.
 

@@ -2,6 +2,7 @@
 permalink: /Cloud/CICD/parameterStore
 title: "docker, jenkins를 이용하여 CI CD 구축2 - aws를 이용하여 application.yml 암호화"
 toc: true
+
 categories:
   - Cloud🐦CI&CD
 comments: true
@@ -12,9 +13,14 @@ tags:
   - CI&CD
 sexy: 1
 main: "CI&CD"
+header:
+  teaser: https://user-images.githubusercontent.com/46098949/174308336-4b2a444e-a592-4482-816a-cb5013015ba5.png
+  overlay_image: https://user-images.githubusercontent.com/46098949/174308336-4b2a444e-a592-4482-816a-cb5013015ba5.png
+  overlay_filter: 0.5
 list_name:
   - CI&CD
   - AWS
+excerpt: aws parameter Store를 이용하여 application.yml 암호화 - Jenkins
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">application.yml을 암호화해서 jenkins에 올리자</span><br>

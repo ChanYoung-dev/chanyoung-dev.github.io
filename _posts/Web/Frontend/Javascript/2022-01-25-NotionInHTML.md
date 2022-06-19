@@ -15,6 +15,10 @@ tags:
   - Frontend
 sexy: 1
 main: "Javascript"
+header:
+  teaser: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+  overlay_image: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+excerpt: notion 페이지들을 github.io에 넣어보자
 ---
 
 
