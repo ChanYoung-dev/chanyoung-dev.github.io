@@ -1,10 +1,7 @@
 ---
 layout: archive
 ---
-
-
-
-
+{{ content }}
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -14,9 +11,6 @@ layout: archive
 
 
 {% for post in posts %}
-  {% for i in page.taxonomy %}
-    {%- for category in post.categories -%}
-      {% if i == category %}
   {% if post %}
     {% assign category = "" %}
     {% for cat in post.categories limit: 3 %}
@@ -81,9 +75,6 @@ layout: archive
     %}
 
   {% endif %}
-        {% endif %}
-      {%- endfor -%}
-    {% endfor %}
 {% endfor %}
 
 {% include paginator.html %}

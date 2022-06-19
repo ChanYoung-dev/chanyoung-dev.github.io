@@ -3,20 +3,19 @@ layout: archive
 ---
 
 {{ content }}
-
-<h2 class="archive__subtitle home_title">{{ site.data.ui-text[site.locale].recent_posts | default: "최근에 고생한 일" }}</h2>
-
+<h2 class="archive__subtitle home_title">{{ site.data.ui-text[site.locale].recent_posts | default: "최근에 고생한 일" }}hi</h2> 
+hi1
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
-
+hi2
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
-
+hi3
 {% include paginator.html %}

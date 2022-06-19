@@ -10,6 +10,8 @@ taxonomy:
   - Cloud🐦AWS
 sexy: 1
 main: "CI&CD"
+entries_layout: grid
+toc: true
 ---
 
 ## 목차

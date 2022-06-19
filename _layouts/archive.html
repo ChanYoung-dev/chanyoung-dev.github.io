@@ -15,10 +15,17 @@ layout: default
 {% endif %}
 {% include sidebar.html %}
 <div id="main" role="main">
-
+  
   <div class="archive page__content">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+      <h1 id="page-title" class="page__title">{{ page.title }}
+        <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+          {% if site.dark_theme_toggle == true %}
+          <input id="toggle_dark_theme" class="mh_toogle" type="checkbox">
+          <label for="toggle_dark_theme" class="material-icons-sharp mh_toggle_btn"></label>
+          {% endif %}
+        </aside>
+      </h1>
     {% endunless %}
     {{ content }}
   </div>

@@ -320,7 +320,7 @@ figure.highlight {
 #page-title {
   padding-bottom: 10px;
   margin: 20px 0;
-  border-bottom: 10px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .archive .verychild{
@@ -880,3 +880,250 @@ Page Control
     left: 50%;
   }
 }
+
+//
+// Grid Item 숫자를 4에서 3으로 조정
+//
+// collection layout등에서 사용하는 entries_layout: grid인 경우
+// 표시되는 grid item의 개수가 4개로 설정되어 있는데 너무 작게 표시되는 것 같아
+// 이를 3개로 표시되도록 수정하였습니다.
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_archive.scss
+//
+.grid__item {
+  margin-bottom: 2em;
+
+  @include breakpoint($small) {
+    float: left;
+    width: span(5 of 10);
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(2n + 2) {
+      clear: none;
+      margin-left: gutter(of 10);
+    }
+  }
+
+  @include breakpoint($medium) {
+    margin-left: 0; /* override margin*/
+    margin-right: 0; /* override margin*/
+    width: span(4 of 12);
+
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(3n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+  }
+
+  //
+  // page hero에서 호출하는 page meta 출력시 사용되는 글꼴의 크기를 키웠습니다.
+  // 제가 추가로 작성한 _include/excerpt_hero.html 에서 표시되는 readtime등의 
+  // meta 데이터 출력시 사용되는 값입니다.
+  //
+  // 이 값은 .grid__item 내에서 사용되는 값입니다.
+  // 범용으로 선언 된 .page__meta와 별개 입니다.
+  //
+  // 원본위치: [remote-theme]/_sass/minimal-mistakes/_archive.scss
+  //
+
+  .page__meta {
+    margin: 0 0 4px;
+    font-size: 1em;         // default 0.6em
+  }
+
+  .page__meta-sep {
+    display: block;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .archive__item-title {
+    margin-top: 0.5em;
+    font-size: $type-size-5;
+  }
+
+  .archive__item-excerpt {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+      font-size: $type-size-5;
+    }
+  }
+
+  .archive__item-teaser {
+    @include breakpoint($small) {
+      max-height: 200px;
+    }
+
+    @include breakpoint($medium) {
+      max-height: 200px;
+    }
+  }
+}
+
+
+
+//
+// archive list page meta 글자 크기 조정
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_archvie.scss
+//
+
+/*
+   List view
+   ========================================================================== */
+  
+.list__item {
+  .page__meta {
+    margin: 0 0 4px;
+    font-size: 0.8em;         // default 0.6em
+  }
+}
+
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-5;
+
+  & + p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
+//
+// categories, tags, years 에서 사용하는 taxonomy index 글자 크기 조정
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_page.scss
+//
+.taxonomy__index {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.414em 0;
+  padding: 0;
+  font-size: 1em;                         // default 0.75em
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+//
+// page meta 글자 크기 조정
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_page.scss
+//
+.page__meta {
+  margin-top: 2em;
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-5;        // default $type-size-6
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+//
+// table 글자 크기 조정
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_tables.scss
+//
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $global-font-family;
+  font-size: $type-size-5;            // default $type-size-6
+  border-collapse: collapse;
+  overflow-x: auto;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+
+.page__hero--overlay {
+  margin-bottom: 0;
+
+  a{
+    color: #ff9900;
+  }
+  
+  .wrapper{
+    @include breakpoint($large) {
+      max-width: $medium;
+    }
+
+    @include breakpoint($x-large) {
+      max-width: $medium-wide;
+    }
+
+    @include breakpoint($xx-large) {
+      max-width: $large;
+    }
+    
+    @include breakpoint($xxx-large) {
+      max-width: $xx-large;
+    }
+  }
+    
+}
+
+.layout--home_hero{
+  #main{
+    background-color: transparent;
+  }
+}
+
+.layout--categories_archive{
+  #main{
+    background-color: transparent;
+  }    
+}
+
+

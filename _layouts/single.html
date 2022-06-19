@@ -50,8 +50,8 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        {% if page.list_name %}
-          {% for list_n in page.list_name %}
+        {% if page.tags %} <!--list_name-->
+          {% for list_n in page.tags %}
             {% include list_tag.html name=list_n %}
           {% endfor %}
         {% endif %}
