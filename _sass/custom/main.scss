@@ -730,7 +730,12 @@ Notice
   margin-left: -50px;
   padding: 20px 20px 24px;
   padding-left: 50px;
-  
+  code{
+    background-color: rgba(0,0,0,0.2);
+  }
+  abbr[title]{
+    border-bottom: 1px dotted #ddd;
+  }
   &:before{
     content: "";
     position: absolute;
@@ -789,6 +794,7 @@ Notice
     content: '\203C';
     color: #fc0;
   }
+  
 }
 
 .notice--success{
@@ -799,6 +805,7 @@ Notice
     content: '\2714';
     color: rgb(253, 42, 0);
   }
+  
 }
 
 .notice--danger{
@@ -1112,18 +1119,6 @@ table {
     }
   }
     
-}
-
-.layout--home_hero{
-  #main{
-    background-color: transparent;
-  }
-}
-
-.layout--categories_archive{
-  #main{
-    background-color: transparent;
-  }    
 }
 
 
