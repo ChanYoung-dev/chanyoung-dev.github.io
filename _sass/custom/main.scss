@@ -598,6 +598,15 @@ summary{
   cursor: pointer;
 }
 
+details[open] summary {
+  background: #444;
+  border-radius: 5px 5px 0px 0px;
+}
+details[open] ul {
+  background: #555;
+  border-radius: 0px 0px 5px 5px;
+}
+
 nav a{
   transition: all 0.1s ease-in-out;
 }
@@ -881,6 +890,17 @@ Page Control
 .archive{
   position: relative;
   float: right;
+  left: -50%;
+  > *{
+    position: relative;
+    left: 50%;
+  }
+}
+
+.page__related{
+  border-top: 0px solid #4e4e4e;
+  position: relative;
+  float: right !important;
   left: -50%;
   > *{
     position: relative;
