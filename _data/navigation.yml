@@ -50,6 +50,8 @@ Total:
         url: /Cloud/AWS/
       - title: "CI&CD"
         url: /Cloud/CICD/
+      - title: "Linux"
+        url: /Cloud/Linux/
   - title: "3. Frontend"
     url: /Frontend/
     children:
