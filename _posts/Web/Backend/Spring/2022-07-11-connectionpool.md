@@ -17,6 +17,7 @@ header:
   teaser: https://ahex.co/wp-content/uploads/2018/01/Mask-Group-3-1.png
   overlay_image: https://ahex.co/wp-content/uploads/2018/01/Mask-Group-3-1.png
   overlay_filter: 0.5
+excerpt: connectionPool을 적용해보자
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">Connection Pool</span><br>
