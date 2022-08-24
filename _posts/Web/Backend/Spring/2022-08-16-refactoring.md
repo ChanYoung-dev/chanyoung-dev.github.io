@@ -24,8 +24,8 @@ excerpt: 리팩토링을 해보자
 <abbr title="" id="HikariCP">백기선님의 리팩토링 강의</abbr>를 참고하여 기록해놓은 리팩토링 자료
 {: .notice--primary}
 
-
 # 냄새2. 중복 코드
+
 
 ## 리팩토링 기술 4: 함수 추출하기
 
@@ -70,24 +70,25 @@ excerpt: 리팩토링을 해보자
 
 ## 리팩토링 7. 임시 변수를 질의 함수로 바꾸기
 - before
-    ```
-    ...
+  {% highlight java linenos %}
+  ...
     participants.forEach(p -> {
+                /** rate -> getRate()로 함수화 **/
                 long count = p.homework().values().stream()
                         .filter(v -> v == true)
                         .count();
-                double rate = count * 100 / totalNumberOfEvents;
+                double rate = count * 100 / totalNumberOfEvents; 
 
                 String markdownForHomework = String.format("| %s %s | %.2f%% |\n", p.username(), checkMark(p, totalNumberOfEvents), rate);
                 writer.print(markdownForHomework);
             });
     }
-    ```
-    rate 변수를 함수로 바꾸어서 매개변수에 삽입
+  {% endhighlight %}
+  rate 변수를 함수로 바꾸어서 매개변수에 삽입
 
 - after
-    ```
-    ...
+  {% highlight java linenos %}
+  ...
     /** 본문함수 **/
     participants.forEach(p -> {
                 String markdownForHomework = getMarkdownForParticipant(totalNumberOfEvents, p);
@@ -95,6 +96,7 @@ excerpt: 리팩토링을 해보자
             });
     }
     
+    //함수화 1
     private double getRate(int totalNumberOfEvents, Participant p) {
         long count = p.homework().values().stream()
                 .filter(v -> v == true)
@@ -107,34 +109,35 @@ excerpt: 리팩토링을 해보자
         return String.format("| %s %s | %.2f%% |\n", p.username(), checkMark(p, totalNumberOfEvents), getRate(totalNumberOfEvents, p)); 
         /** rate -> getRate() **/
     }
-    ```
-    
+  {% endhighlight %}
     
 
 ## 리팩토링 8. 매개변수 객체 만들기(Introduce Parameter Object)
 > 하나의 함수를 여러개의 함수로 분리하면서 해당 함수로 전달해야 할 매개변수가 많아질때1.
 
 - before
-    ```
-    private double getRate(int totalNumberOfEvents, Participant p) {
-            ...
-            return rate;
-    }
-    ```
+  {% highlight java linenos %}
+  private double getRate(int totalNumberOfEvents, Participant p) {
+        ...
+         return rate;
+  }
+  {% endhighlight %}
+    
 - after
-    ```
-    private double getRate(ParticipantPrinter p) {
+  {% highlight java linenos %}
+  private double getRate(ParticipantPrinter p) {
                 ...
                 return rate;
-    }
-    ```
+  }
+  {% endhighlight %}
+    
 
 
 ## 리팩토링 9. 객체 통째로 넘기기(Preserve Whole Object)
 > 하나의 함수를 여러개의 함수로 분리하면서 해당 함수로 전달해야 할 매개변수가 많아질때2. 
 
 - before
-```java
+{% highlight java linenos %}
 public void main(){
     List<Participant> participants = new CopyOnWriteArrayList<>();
     ...
@@ -150,10 +153,11 @@ private String getMarkdownForParticipant(String username, Map<Integer, Boolean> 
                 checkMark(homework, this.totalNumberOfEvents),
                 getRate(homework));
 }
-```
+{% endhighlight %}
+
 
 - after
-```java
+{% highlight java linenos %}
 public void main(){
     List<Participant> participants = new CopyOnWriteArrayList<>();
     ...
@@ -169,7 +173,8 @@ private String getMarkdownForParticipant(Participant participant) {
                 checkMark(homework, this.totalNumberOfEvents),
                 getRate(homework));
 }
-```
+{% endhighlight %}
+
 - 의존성을 고민할 것(다른 곳에서 안쓰이는가?) 여기선 `getMarkdownForParticipant()`
 
 ## 리팩토링 10. 함수를 명령으로 바꾸기
@@ -239,7 +244,7 @@ private String getMarkdownForParticipant(Participant participant) {
 
 ### After
 
-** StudyDashBoard.class **
+**StudyDashBoard.class**
 ```java
     private void print() throws IOException, InterruptedException {
         
@@ -470,8 +475,8 @@ private Participant findParticipant(String username, List<Participant> participa
 > 같은 조건으로 여러개의 Switch 문이 있을 때
 
 ### before
-```
-    private void print() throws IOException, InterruptedException {
+{% highlight java linenos %}
+private void print() throws IOException, InterruptedException {
         
         ...
         public void run() {
@@ -499,13 +504,14 @@ private Participant findParticipant(String username, List<Participant> participa
                 }
         ...
     }
-```
+{% endhighlight %}
+    
+
 
 ### After 1단계
 - 하나의 for문을 두개로 나눈다
-```
-  
-    private void print() throws IOException, InterruptedException {
+{% highlight java linenos %}
+private void print() throws IOException, InterruptedException {
         
         ...
         public void run() {
@@ -539,14 +545,14 @@ private Participant findParticipant(String username, List<Participant> participa
                     }
             }
         ...
-    }
-```
+ }
+{% endhighlight %}
+
 
 ### After 2단계
 - 나눈 함수들을 함수화한다
-```
-  
-    private void print() throws IOException, InterruptedException {
+{% highlight java linenos %}
+private void print() throws IOException, InterruptedException {
         
         ...
         public void run() {
@@ -587,7 +593,8 @@ private Participant findParticipant(String username, List<Participant> participa
             participant.setHomeworkDone(eventId);
         }
     }
-```
+{% endhighlight %}
+  
 
 ## 리팩토링 13. 조건문을 다형성으로 바꾸기(Replace Conditional with Polymorphism)
 > 반복문 안에서 여러 작업을 하고 있어서 하나의 메소드로 추출하기 어려울 때
@@ -1237,7 +1244,7 @@ public class Account {
 - 라인 N번을 보면 `this.type`와 같이 `AccountType`를 많이 참조하면 그냥 `AccoutType`로 함수를 이동하는 것이 낫다
 - 많이 참조한다 가정하고 `AccountType`로 함수를 이동시키자
 
-{% highlight sh linenos %}
+{% highlight java linenos %}
 public class AccountType {
     private boolean premium;
 
@@ -1391,7 +1398,7 @@ public class Bill {
 
 ### before
 **Order.class**
-{% highlight sh linenos %}
+{% highlight java linenos %}
 public class Order {
 
     private String priority;
