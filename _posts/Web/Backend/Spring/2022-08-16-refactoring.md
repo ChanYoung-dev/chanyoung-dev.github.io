@@ -32,7 +32,7 @@ excerpt: 리팩토링을 해보자
 ## 리팩토링 기술 5: 코드 정리하기
 - 변수를 한꺼번에 위에 선언하지말고 사용하는 함수 바로 위에 선언하자
 
-- before
+### before
 
 {% highlight java linenos %}
     private void printReviewers() throws IOException {
@@ -47,7 +47,8 @@ excerpt: 리팩토링을 해보자
         reviewers.forEach(System.out::println);
     }
 {% endhighlight %}
-- after
+
+### after
 {% highlight java linenos %}
     private void printReviewers() throws IOException {
         // Get github issue to check homework
@@ -69,7 +70,7 @@ excerpt: 리팩토링을 해보자
 # 냄새 3. 긴함수
 
 ## 리팩토링 7. 임시 변수를 질의 함수로 바꾸기
-- before
+### before
   {% highlight java linenos %}
   ...
     participants.forEach(p -> {
@@ -84,9 +85,9 @@ excerpt: 리팩토링을 해보자
             });
     }
   {% endhighlight %}
-  rate 변수를 함수로 바꾸어서 매개변수에 삽입
+  `rate` 변수를 함수(`getRate()`)로 바꾸어서 매개변수에 삽입
 
-- after
+### after
   {% highlight java linenos %}
   ...
     /** 본문함수 **/
@@ -112,10 +113,10 @@ excerpt: 리팩토링을 해보자
   {% endhighlight %}
     
 
-## 리팩토링 8. 매개변수 객체 만들기(Introduce Parameter Object)
+## 리팩토링 8. 매개변수 객체 만들기<sup>Introduce Parameter Object</sup>
 > 하나의 함수를 여러개의 함수로 분리하면서 해당 함수로 전달해야 할 매개변수가 많아질때1.
 
-- before
+### before
   {% highlight java linenos %}
   private double getRate(int totalNumberOfEvents, Participant p) {
         ...
@@ -123,20 +124,20 @@ excerpt: 리팩토링을 해보자
   }
   {% endhighlight %}
     
-- after
+### after
   {% highlight java linenos %}
   private double getRate(ParticipantPrinter p) {
                 ...
                 return rate;
   }
   {% endhighlight %}
-    
+  1번라인을 확인해보면 매개변수가 `int totalNumberOfEvents, Participant p` -> `ParticipantPrinter p`로 변경되어있다. 이는 매개변수의 갯수를 줄이기 위해 매개변수객체<sup>ParticipantPrinter</sup>를 만들어 사용한다
 
 
-## 리팩토링 9. 객체 통째로 넘기기(Preserve Whole Object)
+## 리팩토링 9. 객체 통째로 넘기기<sup>Preserve Whole Object</sup>
 > 하나의 함수를 여러개의 함수로 분리하면서 해당 함수로 전달해야 할 매개변수가 많아질때2. 
 
-- before
+### before
 {% highlight java linenos %}
 public void main(){
     List<Participant> participants = new CopyOnWriteArrayList<>();
@@ -156,7 +157,7 @@ private String getMarkdownForParticipant(String username, Map<Integer, Boolean> 
 {% endhighlight %}
 
 
-- after
+### after
 {% highlight java linenos %}
 public void main(){
     List<Participant> participants = new CopyOnWriteArrayList<>();
@@ -174,8 +175,10 @@ private String getMarkdownForParticipant(Participant participant) {
                 getRate(homework));
 }
 {% endhighlight %}
+- Before의 6번라인 매개변수처럼 `p.username(), p.homwork`둘다 `Participant p` 객체를 사용하므로  after에서는 `Participant`만 매개변수로 바꾸었다.
+- 하지만 의존성을 고민해야한다 
+- 예를 들어 다른 곳에서 `getMarkdownForParticipant`를 사용하는 경우 `Participant p`를 사용하지않고 단순히 `String username, Map<Integer, Boolean> homework`를 사용할수 있는 경우 문제가 된다
 
-- 의존성을 고민할 것(다른 곳에서 안쓰이는가?) 여기선 `getMarkdownForParticipant()`
 
 ## 리팩토링 10. 함수를 명령으로 바꾸기
 > 하나의 함수를 여러개의 함수로 분리하면서 해당 함수로 전달해야 할 매개변수가 많아질때3. 
@@ -267,9 +270,9 @@ private String getMarkdownForParticipant(Participant participant) {
         new StudyPrinter(this.totalNumberOfEvents, participants).execute();
     }
     
-    
 
 ```
+새로운 클래스를 만들고 관련된 함수들을 전부 옮긴다
 
 **StudyPrinter.class**
 - 각 함수에 필요한 공통 매개변수들을 필드로 빼내어주어(Introduce Field) 함수들의 매개변수를 줄여준다
