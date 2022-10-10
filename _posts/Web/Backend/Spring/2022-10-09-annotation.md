@@ -10,7 +10,6 @@ sidebar:
   - nav: "Backend-menu"
 tags:
   - Spring
-  - Backend
   - Java
 sexy: 1
 main: "Spring"
@@ -143,7 +142,7 @@ public class MemberRequest {
 이러한 Exception에서의 데이터를 가공하여 Response로 날리면 된다
 ```java
 {
-  "status_code": "0002",
+  "status_code": "400",
   "status_msg": "입력값을 받지못함",
   "paramValid": [
     {
@@ -159,4 +158,4 @@ public class MemberRequest {
 
 ```
 
-이것은 추후 [Exception처리에 따른 Response처리]()에서 다루도록 하겠다~
+이것은 추후 [Exception처리에 따른 Response처리](https://chanyoung-dev.github.io/Backend/Spring/exceptionHandler/)에서 다루도록 하겠다~

@@ -9,8 +9,8 @@ sidebar:
   - title: "Backend🦄"
   - nav: "Backend-menu"
 tags:
-  - Spring
-  - Backend
+  - spring
+  - Java
 sexy: 1
 main: "Spring"
 header:

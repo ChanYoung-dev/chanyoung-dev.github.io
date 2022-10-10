@@ -10,7 +10,6 @@ sidebar:
   - nav: "Backend-menu"
 tags:
   - Spring
-  - Backend
 sexy: 1
 main: "Spring"
 header:
