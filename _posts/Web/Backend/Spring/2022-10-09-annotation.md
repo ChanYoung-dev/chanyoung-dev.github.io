@@ -1,6 +1,6 @@
 ---
 permalink: /Backend/Spring/annotation/
-title: "애노테이션을 사용한 파라미터 체크"
+title: "애노테이션을 사용한 파라미터 검증"
 toc: true
 categories:
   - Backend🦄Spring
@@ -14,8 +14,8 @@ tags:
 sexy: 1
 main: "Spring"
 header:
-  teaser: https://www.hanumoka.net/images/20180902-Spring4-Rest-HiddenMethod_1.png
-  overlay_image: https://www.hanumoka.net/images/20180902-Spring4-Rest-HiddenMethod_1.png
+  teaser: https://i.ytimg.com/vi/o6-gRZfQqOE/maxresdefault.jpg
+  overlay_image: https://i.ytimg.com/vi/o6-gRZfQqOE/maxresdefault.jpg
   overlay_filter: 0.5
 excerpt: annotation 애노테이션을 이용하여 파라미터 체크
 ---
