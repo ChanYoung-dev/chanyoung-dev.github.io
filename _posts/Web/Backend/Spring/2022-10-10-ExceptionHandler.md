@@ -1,6 +1,6 @@
 ---
 permalink: /Backend/Spring/exceptionHandler/
-title: "Exception을 통하여 HTTP Response 처리 "
+title: "REST API - Exception을 통하여 HTTP Response 처리 "
 toc: true
 categories:
   - Backend🦄Spring
@@ -11,18 +11,20 @@ sidebar:
 tags:
   - Spring
   - Java
+  - Rest API
 sexy: 1
 main: "Spring"
 header:
-  teaser: https://www.hanumoka.net/images/20180902-Spring4-Rest-HiddenMethod_1.png
-  overlay_image: https://www.hanumoka.net/images/20180902-Spring4-Rest-HiddenMethod_1.png
+  teaser: https://www.computerhope.com/jargon/e/exception.jpg
+  overlay_image: https://www.computerhope.com/jargon/e/exception.jpg
   overlay_filter: 0.5
-excerpt: \#ExceptionHandler  \#Exception  \#ControllerAdvice
+excerpt: \#ExceptionHandler  \#Exception  \#ControllerAdvice \#RestAPI \#Rest API
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">Exception 처리를 통해 HTTP Response 처리</span><br>
 Exception 처리를 통해 404나 400으로 HTTP 통신을 해보자
-Exception은 `@valid`나 지난 포스팅한 글인 [커스텀한 애노테이션을 통해 파라미터 검증하기](https://chanyoung-dev.github.io/Backend/Spring/annotation/)를 통해 일어난 `MethodArgumentNotValidException`이라고 가정
+Exception은 `@valid`나 지난 포스팅한 글인 [커스텀한 애노테이션을 통해 파라미터 검증하기](https://chanyoung-dev.github.io/Backend/Spring/annotation/)를 통해 일어난 `MethodArgumentNotValidException`이라고 가정  
+`MethodArgumentNotValidException`아니더라도 모든 Exception에 적용이 가능하다
 {: .notice--info}
 
 

@@ -29,7 +29,7 @@ excerpt: annotation 애노테이션을 이용하여 파라미터 체크
 <figcaption align="center">회원가입 중 입력이 잘못될 경우..</figcaption>
 </figure>
 하지만 프론트단에서 검증을 하더라도 백에서 무조건 한번 더 검증을 해야한다.<br>
-그렇다면 어떻게 검증하는 것이 좋을까 첫번째로는 annotation방법과 두번째로는 Assertions방법이 있다  
+그렇다면 어떻게 검증하는 것이 좋을까 첫번째로는 annotation방법과 두번째로는 [Assertions 커스텀방법](https://chanyoung-dev.github.io/Backend/Spring/annotation/)이 있다  
 -> 여기서는 annotation 방법을 알아보고 심화과정으로 annotation을 직접 커스텀해보자
 
 
