@@ -30,9 +30,9 @@ MSA에서 세션을 사용하기 위해서는 Spring Session을 사용해야한�
 
 
 # 아키텍쳐
-- 1.**discovery** - 서비스들의 정보를 관리하는 `Eureka Server`
-- 2.**ApiGateWay** - 서비스들을 Routing하는 `Eureka Client`
-- 3.**userService**(로그인,회원가입관련 서비스) - `Eureka Client`
+- 1.**[Discovery](/Backend/Spring/SecurityMSA/#1-discovery)** - 서비스들의 정보를 관리하는 `Eureka Server`
+- 2.**[ApiGateWay](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA/#2-apigateway)** - 서비스들을 Routing하는 `Eureka Client`
+- 3.**[userService](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA/#3-userservice)**(로그인,회원가입관련 서비스) - `Eureka Client`
 - 4.**mainService**(실제서비스) - `Eureka Client`
 
 여기서 discovery, ApiGateway는 Spring Cloud의 `Eureka`를 사용한다
