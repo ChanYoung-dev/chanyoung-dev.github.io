@@ -12,6 +12,8 @@ tags:
   - Spring
   - Java
   - Spring Security
+  - jwt
+  - Eureka
 sexy: 1
 main: "Spring"
 header:
