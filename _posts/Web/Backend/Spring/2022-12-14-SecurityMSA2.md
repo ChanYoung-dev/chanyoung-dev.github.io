@@ -26,6 +26,7 @@ excerpt: \#Spring Security \#SpringSecurity \#Login \#jwt \#Eureka \#msa
 [JWT + Spring Security + Spring Cloud = MSA 1. 환경세팅](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA)에 이어서 <strong>Spring Security</strong>를 본격적으로 사용해보자<br>
 {: .notice--intro}
 
+- 참고로 [JWT + Spring Security + Spring Cloud = MSA 1. 환경세팅](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA)에서 등록한 discovery에서 `user-service`프로젝트이다
 
 Spring Security에 대해 기본적인 것을 안다는 가정하에 진행하였다. Spring Security에 대한 자세한 설명은 [Spring Security를 이용한 로그인 처리](https://chanyoung-dev.github.io/Backend/Spring/LoginBySecurity)에서 상세하게 설명하였다
 {: .notice--success}
