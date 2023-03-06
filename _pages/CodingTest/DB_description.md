@@ -1,15 +1,14 @@
 ---
-permalink: /CodingTest/
-title: "CodingTest🦁"
+permalink: /Database/
+title: "Database🦁"
 layout: categories_archive
 sidebar:
-  - title: "CodingTest🦁"
-  - nav: "CodingTest-menu"
+  - title: "Database🦁"
+  - nav: "Database-menu"
 taxonomy:
-  - CodingTest🦁Problem&Solution
-  - CodingTest🦁SQL
+  - Database🦁SQL
 sexy: 1
-main: "Algorithm"
+main: "SQL"
 ---
 
 

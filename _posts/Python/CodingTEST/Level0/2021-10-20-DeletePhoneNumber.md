@@ -1,20 +1,20 @@
 ---
-permalink: /CodingTest/Problem/DeletePhoneNumber/
+permalink: /etc/CodingTest/DeletePhoneNumber/
 title: "핸드폰 번호 가리기"
 toc: true
 categories:
-  - CodingTest🦁Problem&Solution
+  - etc🐵CodingTest
 comments: true
 sidebar:
-  - title: "CodingTest🦁"
-  - nav: "CodingTest-menu"
+  - title: "etc🐵"
+  - nav: "etc-menu"
 tags:
-  - Problem&Solution
+  - CodingTest
   - Level0
   - 정규표현식
 list_name: 정규표현식
 sexy: 1
-main: "Problem&Solution"
+main: "CodingTest"
 header:
   teaser: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000
   overlay_image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NDczMjg1NzY&ixlib=rb-1.2.1&q=80&w=2000

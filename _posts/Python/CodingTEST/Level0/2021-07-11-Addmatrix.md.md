@@ -7,11 +7,11 @@ categories:
 comments: true
 sidebar:
   - title: "Python🐸"
-  - nav: "Python🐸-menu"
+  - nav: "Python-menu"
 tags:
   - Advanced
   - zip
-  - Problem&Solution
+  - CodingTest
 sexy: 1
 main: "Advanced"
 header:

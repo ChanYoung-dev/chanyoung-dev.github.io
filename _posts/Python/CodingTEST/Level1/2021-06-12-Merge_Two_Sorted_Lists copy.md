@@ -1,19 +1,19 @@
 ---
-permalink: /CodingTest/Problem/Merge_Two_Sorted_Lists/
+permalink: /etc/CodingTest/Merge_Two_Sorted_Lists/
 title: "두 개의 연결 리스트 병합하여 나열"
 toc: true
 categories:
-  - CodingTest🦁Problem&Solution
+  - etc🐵CodingTest
 comments: true
 sidebar:
-  - title: "CodingTest🦁"
-  - nav: "CodingTest-menu"
+  - title: "etc🐵"
+  - nav: "etc-menu"
 tags:
   - Level1
-  - Problem&Solution
+  - CodingTest
   - Algorithmㄴ
 sexy: 1
-main: "Problem&Solution"
+main: "CodingTest"
 header:
   teaser: /assets/images/python/a.png
   overlay_image: /assets/images/python/a.png

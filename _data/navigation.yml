@@ -81,13 +81,11 @@ Total:
         url: /CS/OS/
       - title: Algorithm
         url: /CS/Algorithm/
-  - title: "7. CodingTest"
-    url: /CodingTest/
+  - title: "7. Database"
+    url: /Database/
     children:
-      - title: Problem&Solution
-        url: /CodingTest/Problem
       - title: SQL
-        url: /CodingTest/SQL
+        url: /Database/SQL
   - title: "8. ETC"
     url: /etc/
     children:
@@ -95,6 +93,8 @@ Total:
         url: /etc/RaspberryPi/
       - title: C
         url: /etc/C/
+      - title: CodingTest
+        url: /etc/CodingTest 
 
 python-menu:
   - title: Basic

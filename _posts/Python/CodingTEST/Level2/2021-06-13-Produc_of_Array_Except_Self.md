@@ -1,18 +1,18 @@
 ---
-permalink: /CodingTest/Probelm/Produc_of_Array_Except_Self/
+permalink: /etc/CodingTest/Produc_of_Array_Except_Self/
 title: "자신을 제외한 배열의 곱"
 toc: true
 categories:
-  - CodingTest🦁Problem&Solution
+  - etc🐵CodingTest
 comments: true
 sidebar:
-  - title: "CodingTest🦁"
-  - nav: "CodingTest-menu"
+  - title: "etc🐵"
+  - nav: "etc-menu"
 tags:
-  - Problem&Solution
+  - CodingTest
   - Level2
 sexy: 1
-main: "Problem&Solution"
+main: "CodingTest"
 header:
   teaser: /assets/images/python/1.png
   overlay_image: /assets/images/python/1.png

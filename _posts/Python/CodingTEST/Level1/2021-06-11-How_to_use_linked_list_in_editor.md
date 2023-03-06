@@ -11,7 +11,7 @@ sidebar:
 tags:
   - Advanced
   - Level1
-  - Problem&Solution
+  - CodingTest
 sexy: 1
 main: "Advanced"
 header:

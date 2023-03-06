@@ -7,6 +7,7 @@ sidebar:
 taxonomy:
   - etc🐵RaspberryPi
   - etc🐵C
+  - etc🐵CodingTest
 layout: categories_archive
 sexy: 1
 main: "RaspberryPi"

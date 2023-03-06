@@ -19,7 +19,7 @@ header:
   teaser: https://images.velog.io/images/park9910/post/dc139b53-7a2c-4973-ba88-23fb96b06b2e/image.png
   overlay_image: https://images.velog.io/images/park9910/post/dc139b53-7a2c-4973-ba88-23fb96b06b2e/image.png
   overlay_filter: 0.5
-excerpt: \#Spring Security \#SpringSecurity \#Login \#jwt \#Eureka \#msa
+excerpt: \#Spring Security \#SpringSecurity \#Login \#jwt \#Eureka \#msa \#Api Gateway
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">Spring Security, Spring Cloud, JWT, MSA</span><br>
