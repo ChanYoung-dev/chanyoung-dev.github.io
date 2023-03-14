@@ -10,6 +10,7 @@ taxonomy:
   - Frontend🐮CSS
   - Frontend🐮Javascript
   - Frontend🐮issue
+  - Frontend🐮Vue
 sexy: 1
 main: "issue"
 ---

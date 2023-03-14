@@ -55,6 +55,8 @@ Total:
   - title: "3. Frontend"
     url: /Frontend/
     children:
+      - title: Vue 
+        url: /Frontend/Vue/
       - title: HTML
         url: /Frontend/HTML/
       - title: Javascript
@@ -156,6 +158,8 @@ Web-menu:
   - title: Frontend
     url: /Web/Frontend/
     children:
+      - title: Vue 
+        url: /Frontend/Vue/
       - title: "HTML"
         url: /Frontend/HTML/
       - title: "CSS"
@@ -234,6 +238,8 @@ Totals:
       - title: Frontend
         url: /Web/Frontend/
         children:
+          - title: Vue 
+            url: /Frontend/Vue/
           - title: "HTML"
             url: /Web/Frontend/HTML/
           - title: "CSS"
