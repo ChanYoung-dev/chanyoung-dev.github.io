@@ -33,7 +33,7 @@ header:
 <h2>
   객체나 배열과 같은 데이터를 반응형으로 만들려면 `reactive`를 사용해야한다
 </h2>
-<button v-on:click="increament">Click !! Count: {{ state.count }}</button>
+<button v-on:click="increament">Click !! Count: {% raw %} {{ state.count }} {% endraw %}</button>
 ```
 ```js
 setup(){
@@ -72,7 +72,7 @@ const increamentPrimitiveData = () => {
 ```html
 <h2>원시데이터는 reactive를 사용하면 문제가 생긴다</h2>
 <button @click="increamentPrimitiveData">
-  primitiveData = {{ primitiveData }}, 클릭하면 !가 붙는다.
+  primitiveData = {% raw %} {{ primitiveData }} {% endraw %}, 클릭하면 !가 붙는다.
 </button>
 ```
 
@@ -83,8 +83,10 @@ const increamentPrimitiveData = () => {
 <br>
 <br>
 
-**console**
-```console
+**console**  
+
+
+```sh
 테스트데이터!
 테스트데이터!!
 테스트데이터!!!
@@ -105,7 +107,7 @@ const increamentPrimitiveDataByObject = () => {
 ```html
 <h2>그래서 객체로 사용해야한다.</h2>
 <button @click="increamentPrimitiveDataByObject">
-  클릭하면 {{ primitiveDataByObject.value }}에서 !가 붙습니다.
+  클릭하면 {% raw %} {{ primitiveDataByObject.value }} {% endraw %}에서 !가 붙습니다.
 </button>
 ```
 
@@ -131,7 +133,7 @@ const increamentRefData = () => {
   object인것을 알 수 있다.
 </h2>
 <button @click="increamentRefData">
-  클릭하면 {{ refData }} 에서 !가 붙습니다. <!--{{}} 안에는 value를 안붙어도 알아서 value가 붙은걸로 인식한다.-->
+  클릭하면 {% raw %} {{ refData }} {% endraw %} 에서 !가 붙습니다. <!-- {% raw %} {{}} {% endraw %} 안에는 value를 안붙어도 알아서 value가 붙은걸로 인식한다.-->
 </button>
 ```
 
@@ -164,7 +166,7 @@ console.log('countState.count', countState.count);
 
 **console**
 
-```conosole
+```sh
 ref를 reactive-object에서 사용할땐 value를 붙이지 않는다
 count.value 3
 countState.count.value undefined
@@ -232,8 +234,8 @@ const function2 = () => {
 
 ```html
 <h2>반응형객체의 필드를 변수명에 대입하여 사용하면 반응형이 먹히지않는다</h2>
-<button @click="function1">reactiveData3.testData: {{ reactiveData3.testData }}, normalData: {{ normalData }}</button>
-<button @click="function2">reactiveData3.testData: {{ reactiveData3.testData }}, normalData: {{ normalData }}</button>
+<button @click="function1">reactiveData3.testData: {% raw %} {{ reactiveData3.testData }}, normalData: {{ normalData }} {% endraw %}</button>
+<button @click="function2">reactiveData3.testData: {% raw %} {{ reactiveData3.testData }}, normalData: {{ normalData }} {% endraw %}</button>
 ```
 
 <figure align="center">
@@ -244,7 +246,7 @@ const function2 = () => {
 <br>
 
 *function1 버튼을 4번 클릭시*
-```console
+```sh
 normalData hello!
 reactiveData3.testData hello
 normalData hello!!
@@ -264,7 +266,7 @@ reactiveData3.testData hello
 <br>
 
 *function2 버튼을 4번 클릭시*
-```console
+```sh
 normalData hello!!!!
 reactiveData3.testData hello!
 normalData hello!!!!
@@ -299,7 +301,7 @@ const function3 = () => {
 
 ```html
 <h2>toRef를 사용하여 해결한다</h2>
-<button @click="function3">{{ reactiveData4.testData }}, {{ helloData }}</button>
+<button @click="function3"> {% raw %} {{ reactiveData4.testData }} {% endraw %}, {% raw %} {{ helloData }} {% endraw %} </button>
 ```
 
 <figure align="center">
@@ -323,7 +325,7 @@ const changeOriginal = () =>{
 
 ```html
 <h2>readOnly 사용안할때</h2>
-<button @click="changeOriginal">{{ original }}, {{ copy }}</button>
+<button @click="changeOriginal">{% raw %} {{ original }}, {{ copy }} {% endraw %}</button>
 ```
 
 <figure align="center">
