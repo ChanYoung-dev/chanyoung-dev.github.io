@@ -39,7 +39,7 @@ console.log(a, b);
 ```
 에러 없음  
 <br>
-<br>
+<br>  
 
 ```js
 var a = 'a';
