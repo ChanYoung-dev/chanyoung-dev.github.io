@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /Frontend/
 title: "Frontend🐮"
 layout: categories_archive
@@ -14,4 +14,4 @@ sexy: 1
 main: "issue"
 ---
 
-## 최근 글
+## 최근 글 -->

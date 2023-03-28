@@ -1,7 +1,7 @@
 ---
 title: "Vue"
 layout: category
-permalink: Frontend/HTML/
+permalink: Frontend/Vue/
 sidebar:
   - title: "Frontend🐮"
   - nav: "Frontend-menu"

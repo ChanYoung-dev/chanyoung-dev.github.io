@@ -1,5 +1,5 @@
 ---
-permalink: /Frontend/Javascript/JSJson/
+permalink: /Frontend/Javascript/JSScope/
 title: "Scope와 Closure"
 toc: true
 categories:
