@@ -15,14 +15,14 @@ tags:
 sexy: 1
 main: "Vue"
 header:
-  teaser: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
-  overlay_image: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+  teaser: ./assets/images/web/vue.jpeg
+  overlay_image: ./assets/images/web/vue.jpeg
 ---
 
 
 <span style = "font-size:1.5em;  font-weight: 700;">3depth의 양방향 바인딩</span><br>
 component의 3개 depth를 갖는다했을 때 처리 방법
-{: .notice--intro}
+{: .notice--info}
 
 [emit, component, v-model 관계]()에 이어쓰는 포스팅
 

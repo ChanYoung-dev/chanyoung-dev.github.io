@@ -15,8 +15,8 @@ tags:
 sexy: 1
 main: "Vue"
 header:
-  teaser: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
-  overlay_image: https://markettraders.kr/wp-content/uploads/2021/12/javascript-696x365.jpg
+  teaser: ./assets/images/web/vue.jpeg
+  overlay_image: ./assets/images/web/vue.jpeg
 ---
 
 
