@@ -116,6 +116,8 @@ header:
 권장하지않음(`props`를 사용하자.)
 {: .notice--warning}
 
+`<script setup>`에서는 **expose**를 따로 설정해줘야한다
+
 **자식Component**
 ```js
 <template>
@@ -130,6 +132,11 @@ header:
   const say = () =>{
     console.log(message.value);
   }
+
+  defineExpose({
+    message,
+    say,
+  })
 </script>
 ```
 
@@ -144,6 +151,11 @@ header:
   onMounted(()=>{
     console.log('child.message', child.value.message);
     child.value.say();
+  })
+
+  const parentHi = 'hi';
+  defineExpose({
+    parentHi,
   })
 </script>
 
