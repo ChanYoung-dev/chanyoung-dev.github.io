@@ -24,7 +24,7 @@ list_name:
   - HTML
 ---
 
-Code block Highlight은 두가지 종류가 있다.
+Code block Highlight은 두가지 종류가 있다.  
 
 ## 1 .GFM Code Blocks
 
