@@ -97,6 +97,8 @@ Total:
         url: /etc/C/
       - title: CodingTest
         url: /etc/CodingTest 
+      - title: Life
+        url: /etc/Life/
 
 python-menu:
   - title: Basic
