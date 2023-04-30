@@ -43,15 +43,24 @@ const lastname = ref('');
 html
 ```html
 {% raw %}
-<p>
-  Username
-</p>
-<Username v-model:firstnameProps="firstname" v-model:lastname="lastnameProps"></Username>
-{{ firstname }}{{ lastname }}  
-{% endraw %}
+  <template>
+  <p>
+    Username
+  </p>
+  <Username v-model:firstnameProps="firstname" v-model:lastname="lastnameProps"></Username>
+  {{ firstname }}{{ lastname }}  
+  {% endraw %}
+</template>
 ```
-자식component의 `props.firstnameProps`, `props.lastnameProps`로 전달된다(기존에는 `props.modelValue`로 전달됨)  
-즉 부모 자기자신의 `firstname`과 자식의 `props.firstnameProps`를 이용하여 서로 연결된다
+- 자식component의 `props.firstnameProps`, `props.lastnameProps`로 전달된다
+- 아무것도 지정을 안하는 경우 `modelValue` 이름으로 전달된다.
+  ```js
+    // 자식 Component에게 props.modelValue로 전달된다.
+    // 또한, 자식 Component는 $emit('update:modelValue')로 현재 Componet에게 값을 전달한다.
+    <Username v-model="firstname"></Username>
+  ```
+- 즉 부모 자기자신의 `firstname`과 자식의 `props.firstnameProps`를 이용하여 서로 연결된다
+- 이 경우에는 자식Componet가 `$emit('update:firstnameProps')`로 값을 전달한다.
 
 ## 그다음 부모 component
 
@@ -87,12 +96,13 @@ const emit = defineEmits({
   <!-- v-mdoel을 사용안하고 그냥 사용 -->
   <LabelInput :modelValue="lastnameProps" @update:modelValue="value => $emit('update:lastnameProps',value)" label="이름"></LabelInput>
 ```
-[v-model사용 ,component]() 처럼 `computed`를 사용안하고 그냥 `v-model`사용하면 어떻게 될까?  
+[v-model사용 ,component]() 처럼 그냥 `v-model`만 선언해놓고 `computed`를 사용안하면 어떻게 될까?  
 
 ```html
 <LabelInput v-model="firstnameProps" label="성"></LabelInput>
 ```
-`computed` 안에서의 `set()`을 실행시키지 못하고 vue가 `firstnameProps = value(자식component에서 넘어온 value값)`실행하므로 props값만 갱신되지 emit를 실행시키지 못한다
+`computed` 안에서의 `set()`을 실행시키지 못하여 결국 `emit('update:firstnameProps')`를 실행못한다.  
+즉, 자식Component가 `$emit('ùpdate:modelValue', 'test')`실행하여 `firstnameProps = 'test'`만 실행되고 props값만 갱신된다. 결국 emit를 실행시키지 못하여 부모에게 값을 전달하지못한다.
 
 
 
@@ -108,7 +118,9 @@ const props = defineProps({
 ```
 
 ```html
+{% raw %}
 {{ label }}
+{% endraw %}
 <input 
         type="text"
   :value="props.modelValue"
