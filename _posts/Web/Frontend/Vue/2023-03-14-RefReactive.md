@@ -188,6 +188,14 @@ countState.count 3
 <br>
 <br>
 
+
+`reactive`안에서의 property를 `ref`로 선언했어도 `countState.count`처럼 표현식으로 사용하면 반응형이 사라진다.<br>
+위에서 `console.log(countState.count)`를 확인했을때 `refImpl`과 관련된건 나타나지않은 것을 확인 할 수 있다.<br>
+하지만 {% raw %}{{ countState.count }}와 같이 템플릿 문법안에서는 정상적으로 반응형이 유지된다.{% endraw %}
+{: .notice--success}
+
+
+
 ## 2. reactive의 array 필드값으로 ref를 사용
 `Array`의 원소값으로 `ref`를 사용하면 `value`를 사용해야한다
 ```js
