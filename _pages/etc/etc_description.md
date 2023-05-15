@@ -8,6 +8,7 @@ taxonomy:
   - etc🐵RaspberryPi
   - etc🐵C
   - etc🐵CodingTest
+  - etc🐵Life
 layout: categories_archive
 sexy: 1
 main: "RaspberryPi"
