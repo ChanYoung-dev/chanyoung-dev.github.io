@@ -24,6 +24,11 @@ profile:
     url: "https://chanyoung-dev.github.io/Profile/"
 
 Total:
+  - title: "1. Java"
+    url: /Java/
+    children:
+      - title: Spring
+        url: /Java/Spring/
   - title: "1. Python"
     url: /Python/
     children:

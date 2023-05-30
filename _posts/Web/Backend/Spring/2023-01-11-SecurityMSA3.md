@@ -1,13 +1,13 @@
 ---
-permalink: /Backend/Spring/SecurityMSA3/
+permalink: /Java/Spring/SecurityMSA3/
 title: "JWT + Spring Security + Spring Cloud = MSA 3. ApiGateway"
 toc: true
 categories:
-  - Backend🦄Spring
+  - Java🐛Spring
 comments: true
 sidebar:
-  - title: "Backend🦄"
-  - nav: "Backend-menu"
+  - title: "Java🐛"
+  - nav: "Java-menu"
 tags:
   - Spring
   - Java
@@ -23,7 +23,7 @@ excerpt: \#Spring Security \#SpringSecurity \#Login \#jwt \#Eureka \#msa \#Api G
 ---
 
 <span style = "font-size:1.5em;  font-weight: 700;">Spring Security, Spring Cloud, JWT, MSA</span><br>
-[JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA2)에 이어서 <strong>ApiGateway</strong>를 사용해보자<br>
+[JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Java/Spring/SecurityMSA2)에 이어서 <strong>ApiGateway</strong>를 사용해보자<br>
 {: .notice--intro}
 
 ApiGateway는 Load Balancer라고도 하며 클라이언트의 request가 들어오면 설정해 놓은 라우팅 설정에 따라서 각각의 endpoint로 클라이언트 대신에 요청을 보내고 응답을 받아 클라이언트에게 전달하는 Proxy역할을 한다
@@ -95,7 +95,7 @@ token:
   expiration_time: 86400000
   secret: user_token
 ```
-- routes에서 id, uri는 [Service Discovery](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA2/#1-discovery)에 등록해놓은 값을 통해 클라이언트의 request가 어느 endpoint로 갈지 정해준다
+- routes에서 id, uri는 [Service Discovery](https://chanyoung-dev.github.io/Java/Spring/SecurityMSA2/#1-discovery)에 등록해놓은 값을 통해 클라이언트의 request가 어느 endpoint로 갈지 정해준다
 - endpoint에 모든 request가 전송되는 것이 아니라 **filter**를 통해 request의 값을 rewrite해준다
 
 <span style = "font-size:1.5em;  font-weight: 700;">여기서는 총3가지의 필터를 개발했다</span><br>
@@ -208,7 +208,7 @@ public class AuthorizationHeaderFilter extends AbstractGatewayFilterFactory<Auth
 redis는 jwt토큰이 만료되어있는지 확인을 위하여 사용한다. 로그아웃을 할시 토큰이 redis에 저장되는데 필터에서 해당 토큰이 redis에 있는지 없는지 검사하고 있다면 만료토큰이기때문에 접속하지못한다.
 
 ### redis
-- 로그아웃을 한 경우 <abbr title="" id="Service Discovery에 등록된 endpoint">user-service</abbr> 에서 `logout()`로직을 태운다. user-service에 대하여는 [JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA2)에서 설명하였다.
+- 로그아웃을 한 경우 <abbr title="" id="Service Discovery에 등록된 endpoint">user-service</abbr> 에서 `logout()`로직을 태운다. user-service에 대하여는 [JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Java/Spring/SecurityMSA2)에서 설명하였다.
 ```java
 @Transactional
     public void logout(String token) {
@@ -431,8 +431,8 @@ public class AuthorizationAdminFilter extends AbstractGatewayFilterFactory<Autho
 
 }
 ```
-- role에 대해선 [Spring Security - Role](https://chanyoung-dev.github.io/Backend/Spring/Roles/)를 확인
-- [JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Backend/Spring/SecurityMSA2)에서 사용하는 role이다.
+- role에 대해선 [Spring Security - Role](https://chanyoung-dev.github.io/Java/Spring/Roles/)를 확인
+- [JWT + Spring Security + Spring Cloud = MSA 2. Spring Security](https://chanyoung-dev.github.io/Java/Spring/SecurityMSA2)에서 사용하는 role이다.
 
 
 위 필터를 통해 회원 header에 userId를 저장할 수 있다<br>  

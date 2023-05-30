@@ -1,13 +1,13 @@
 ---
-permalink: /Backend/Spring/connectionPool/
+permalink: /Java/Spring/connectionPool/
 title: "DataSource와 ConnectionPool"
 toc: true
 categories:
-  - Backend🦄Spring
+  - Java🐛Spring
 comments: true
 sidebar:
-  - title: "Backend🦄"
-  - nav: "Backend-menu"
+  - title: "Java🐛"
+  - nav: "Java-menu"
 tags:
   - Spring
 sexy: 1

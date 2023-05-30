@@ -1,13 +1,13 @@
 ---
-permalink: /Backend/Spring/exceptionHandler/
+permalink: /Java/Spring/exceptionHandler/
 title: "REST API - Exception을 통하여 HTTP Response 처리 "
 toc: true
 categories:
-  - Backend🦄Spring
+  - Java🐛Spring
 comments: true
 sidebar:
-  - title: "Backend🦄"
-  - nav: "Backend-menu"
+  - title: "Java🐛"
+  - nav: "Java-menu"
 tags:
   - Spring
   - Java
@@ -23,7 +23,7 @@ excerpt: \#ExceptionHandler  \#Exception  \#ControllerAdvice \#RestAPI \#Rest AP
 
 <span style = "font-size:1.5em;  font-weight: 700;">Exception 처리를 통해 HTTP Response 처리</span><br>
 Exception 처리를 통해 404나 400으로 HTTP 통신을 해보자
-Exception은 `@valid`나 지난 포스팅한 글인 [커스텀한 애노테이션을 통해 파라미터 검증하기](https://chanyoung-dev.github.io/Backend/Spring/annotation/)를 통해 일어난 `MethodArgumentNotValidException`이라고 가정  
+Exception은 `@valid`나 지난 포스팅한 글인 [커스텀한 애노테이션을 통해 파라미터 검증하기](https://chanyoung-dev.github.io/Java/Spring/annotation/)를 통해 일어난 `MethodArgumentNotValidException`이라고 가정  
 `MethodArgumentNotValidException`아니더라도 모든 Exception에 적용이 가능하다
 {: .notice--info}
 
@@ -45,7 +45,7 @@ public class MemberRequest {
     ...
 }
 {% endhighlight %}
-- [전 포스팅](https://chanyoung-dev.github.io/Backend/Spring/annotation/)에서 만든 `@NullCheck`나 `@NotNull`을 통해 파라미터 검증이 실패하면 `MethodArgumentNotValidException`이 터지게 된다
+- [전 포스팅](https://chanyoung-dev.github.io/Java/Spring/annotation/)에서 만든 `@NullCheck`나 `@NotNull`을 통해 파라미터 검증이 실패하면 `MethodArgumentNotValidException`이 터지게 된다
 <figure align="center">
 <img width="805" alt="image" src='https://user-images.githubusercontent.com/46098949/194806870-b70f2aec-b1f9-4d38-853a-fabd535e800b.png'>
 <figcaption align="center">맨 하단을 보면 MethodArgumentNotValidException이 터지고 스프링에서 만들어진 DefaultHandlerExceptionResolver가 처리하고있다</figcaption>

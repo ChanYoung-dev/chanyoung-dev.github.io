@@ -1,13 +1,13 @@
 ---
-permalink: /Backend/Spring/refactoring/
+permalink: /Java/Spring/refactoring/
 title: "Refactoring"
 toc: true
 categories:
-  - Backend🦄Spring
+  - Java🐛Spring
 comments: true
 sidebar:
-  - title: "Backend🦄"
-  - nav: "Backend-menu"
+  - title: "Java🐛"
+  - nav: "Java-menu"
 tags:
   - spring
   - Java
