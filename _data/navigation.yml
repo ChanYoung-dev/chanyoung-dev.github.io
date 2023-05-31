@@ -46,8 +46,6 @@ Total:
     children:
       - title: "Django"
         url: /Backend/Django/
-      - title: "Spring"
-        url: /Backend/Spring/
   - title: "4. Cloud"
     url: /Cloud/
     children:
