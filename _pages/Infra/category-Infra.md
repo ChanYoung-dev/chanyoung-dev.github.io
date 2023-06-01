@@ -8,6 +8,8 @@ sidebar:
 taxonomy:
   - Infra🐦CI&CD
   - Infra🐦AWS
+  - Infra🐦Git
+  - Infra🐦Linux
 sexy: 1
 main: "CI&CD"
 entries_layout: grid

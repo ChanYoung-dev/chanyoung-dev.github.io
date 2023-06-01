@@ -51,11 +51,8 @@ Total:
         url: /Infra/CICD/
       - title: "Linux"
         url: /Infra/Linux/
-  - title: "4. Tools"
-    url: /Cooperation/
-    children:
       - title: Git
-        url: /Cooperation/Git/
+        url: /Infra/Git/
   - title: "1. Python"
     url: /Python/
     children:
