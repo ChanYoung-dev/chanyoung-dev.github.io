@@ -1,13 +1,13 @@
 ---
-permalink: /Cloud/Linux/Commandlines
+permalink: /Infra/Linux/Commandlines
 title: "리눅스 명령어"
 toc: true
 categories:
-  - Cloud🐦Linux
+  - Infra🐦Linux
 comments: true
 sidebar:
-  - title: "Cloud🐦"
-  - nav: "Cloud-menu"
+  - title: "Infra🐦"
+  - nav: "Infra-menu"
 tags:
   - Linux
 sexy: 1

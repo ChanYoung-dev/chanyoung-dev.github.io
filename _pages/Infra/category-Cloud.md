@@ -1,13 +1,13 @@
 ---
-permalink: /Cloud/
-title: "Cloud🐦"
+permalink: /Infra/
+title: "Infra🐦"
 layout: categories_archive
 sidebar:
-  - title: "Cloud🐦CI&CD"
-  - nav: "Cloud-menu"
+  - title: "Infra🐦CI&CD"
+  - nav: "Infra-menu"
 taxonomy:
-  - Cloud🐦CI&CD
-  - Cloud🐦AWS
+  - Infra🐦CI&CD
+  - Infra🐦AWS
 sexy: 1
 main: "CI&CD"
 entries_layout: grid

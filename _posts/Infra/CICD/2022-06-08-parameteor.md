@@ -1,14 +1,14 @@
 ---
-permalink: /Cloud/CICD/parameterStore
+permalink: /Infra/CICD/parameterStore
 title: "docker, jenkins를 이용하여 CI CD 구축2 - aws를 이용하여 application.yml 암호화"
 toc: true
 
 categories:
-  - Cloud🐦CI&CD
+  - Infra🐦CI&CD
 comments: true
 sidebar:
-  - title: "Cloud🐦"
-  - nav: "Cloud-menu"
+  - title: "Infra🐦"
+  - nav: "Infra-menu"
 tags:
   - CI&CD
 sexy: 1
@@ -75,7 +75,7 @@ spring:
   application:
     name: webclient
 
-cloud:
+Infra:
   aws:
     credentials:
       instance-profile: false

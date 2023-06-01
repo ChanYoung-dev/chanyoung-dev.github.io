@@ -24,38 +24,12 @@ profile:
     url: "https://chanyoung-dev.github.io/Profile/"
 
 Total:
-  - title: "1. Java"
-    url: /Java/
-    children:
-      - title: Spring
-        url: /Java/Spring/
-  - title: "1. Python"
-    url: /Python/
-    children:
-      - title: Python-Bible
-        url: /Python/Basic/
-      - title: Advanced
-        url: /Python/Advanced/
-  - title: "2. Tools"
-    url: /Cooperation/
-    children:
-      - title: Git
-        url: /Cooperation/Git/
-  - title: "3. Backend"
+  - title: "1. Backend"
     url: /Backend/
     children:
-      - title: "Django"
-        url: /Backend/Django/
-  - title: "4. Cloud"
-    url: /Cloud/
-    children:
-      - title: "AWS"
-        url: /Cloud/AWS/
-      - title: "CI&CD"
-        url: /Cloud/CICD/
-      - title: "Linux"
-        url: /Cloud/Linux/
-  - title: "3. Frontend"
+      - title: Spring
+        url: /Backend/Spring/
+  - title: "2. Frontend"
     url: /Frontend/
     children:
       - title: Vue 
@@ -68,6 +42,32 @@ Total:
         url: /Frontend/CSS/
       - title: issue 
         url: /Frontend/issue/
+  - title: "3. Infra"
+    url: /Infra/
+    children:
+      - title: "AWS"
+        url: /Infra/AWS/
+      - title: "CI&CD"
+        url: /Infra/CICD/
+      - title: "Linux"
+        url: /Infra/Linux/
+  - title: "4. Tools"
+    url: /Cooperation/
+    children:
+      - title: Git
+        url: /Cooperation/Git/
+  - title: "1. Python"
+    url: /Python/
+    children:
+      - title: Python-Bible
+        url: /Python/Basic/
+      - title: Advanced
+        url: /Python/Advanced/
+  - title: "3. Backend"
+    url: /Backend/
+    children:
+      - title: "Django"
+        url: /Backend/Django/
   - title: "5. Make a github.io"
     url: Blog/
     children:

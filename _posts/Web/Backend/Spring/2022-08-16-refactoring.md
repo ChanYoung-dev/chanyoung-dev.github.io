@@ -1,5 +1,5 @@
 ---
-permalink: /Java/Spring/refactoring/
+permalink: /Backend/Spring/refactoring/
 title: "Refactoring"
 toc: true
 categories:
@@ -7,7 +7,7 @@ categories:
 comments: true
 sidebar:
   - title: "Java🐛"
-  - nav: "Java-menu"
+  - nav: "Backend-menu"
 tags:
   - spring
   - Java

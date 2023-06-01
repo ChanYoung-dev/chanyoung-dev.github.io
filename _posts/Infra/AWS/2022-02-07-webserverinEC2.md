@@ -1,13 +1,13 @@
 ---
-permalink: /Cloud/AWS/webserverinEC2
+permalink: /Infra/AWS/webserverinEC2
 title: "EC2에 간단한 웹서버 설치"
 toc: true
 categories:
-  - Cloud🐦AWS
+  - Infra🐦AWS
 comments: true
 sidebar:
-  - title: "Cloud🐦"
-  - nav: "Cloud-menu"
+  - title: "Infra🐦"
+  - nav: "Infra-menu"
 tags:
   - AWS
 sexy: 1

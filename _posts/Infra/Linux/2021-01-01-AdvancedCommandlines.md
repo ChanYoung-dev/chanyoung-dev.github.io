@@ -1,13 +1,13 @@
 ---
-permalink: /Cloud/Linux/AdvancedCommandlines
+permalink: /Infra/Linux/AdvancedCommandlines
 title: "리눅스 명령어2"
 toc: true
 categories:
-  - Cloud🐦Linux
+  - Infra🐦Linux
 comments: true
 sidebar:
-  - title: "Cloud🐦"
-  - nav: "Cloud-menu"
+  - title: "Infra🐦"
+  - nav: "Infra-menu"
 tags:
   - Linux
 sexy: 1
