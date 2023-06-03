@@ -1,11 +1,11 @@
 ---
 title: "Django"
 layout: category
-permalink: Backend/Django/
+permalink: Python/Django/
 sidebar:
-  - title: "Backend🦄"
-  - nav: "Backend-menu"
-taxonomy: Backend🦄Django
+  - title: "Python🐸"
+  - nav: "Python-menu"
+taxonomy: Python🐸Django
 sexy: 1
 main: "Django"
 ---

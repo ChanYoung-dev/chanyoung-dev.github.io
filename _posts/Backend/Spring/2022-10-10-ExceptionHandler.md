@@ -3,10 +3,10 @@ permalink: /Backend/Spring/exceptionHandler/
 title: "REST API - Exception을 통하여 HTTP Response 처리 "
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - Spring

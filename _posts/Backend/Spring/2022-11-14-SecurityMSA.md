@@ -3,10 +3,10 @@ permalink: /Backend/Spring/SecurityMSA/
 title: "JWT + Spring Security + Spring Cloud = MSA 1. 환경세팅"
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - Spring

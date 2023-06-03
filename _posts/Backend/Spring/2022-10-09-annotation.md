@@ -3,10 +3,10 @@ permalink: /Backend/Spring/annotation/
 title: "애노테이션을 사용한 파라미터 검증"
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - Spring

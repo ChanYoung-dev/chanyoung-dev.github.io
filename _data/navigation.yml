@@ -53,18 +53,15 @@ Total:
         url: /Infra/Linux/
       - title: Git
         url: /Infra/Git/
-  - title: "1. Python"
-    url: /Python/
+  - title: "4. CS"
+    url: /CS/
     children:
-      - title: Python-Bible
-        url: /Python/Basic/
-      - title: Advanced
-        url: /Python/Advanced/
-  - title: "3. Backend"
-    url: /Backend/
-    children:
-      - title: "Django"
-        url: /Backend/Django/
+      - title: Network
+        url: /CS/Network/
+      - title: OS
+        url: /CS/OS/
+      - title: Algorithm
+        url: /CS/Algorithm/
   - title: "5. Make a github.io"
     url: Blog/
     children:
@@ -74,15 +71,15 @@ Total:
         url: Blog/Markdown/
       - title: Setting
         url: Blog/Setting/
-  - title: "6. CS"
-    url: /CS/
+  - title: "6. Python"
+    url: /Python/
     children:
-      - title: Network
-        url: /CS/Network/
-      - title: OS
-        url: /CS/OS/
-      - title: Algorithm
-        url: /CS/Algorithm/
+      - title: Python-Bible
+        url: /Python/Basic/
+      - title: Advanced
+        url: /Python/Advanced/
+      - title: "Django"
+        url: /Python/Django/
   - title: "7. Database"
     url: /Database/
     children:

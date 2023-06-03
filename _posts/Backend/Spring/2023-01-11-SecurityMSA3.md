@@ -3,10 +3,10 @@ permalink: /Backend/Spring/SecurityMSA3/
 title: "JWT + Spring Security + Spring Cloud = MSA 3. ApiGateway"
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - Spring

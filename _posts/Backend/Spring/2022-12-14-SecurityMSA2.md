@@ -3,10 +3,10 @@ permalink: /Backend/Spring/SecurityMSA2/
 title: "JWT + Spring Security + Spring Cloud = MSA 2. Spring Security"
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - Spring

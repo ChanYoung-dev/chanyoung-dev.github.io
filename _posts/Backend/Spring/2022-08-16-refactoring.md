@@ -3,10 +3,10 @@ permalink: /Backend/Spring/refactoring/
 title: "Refactoring"
 toc: true
 categories:
-  - Java🐛Spring
+  - Backend🐛Spring
 comments: true
 sidebar:
-  - title: "Java🐛"
+  - title: "Backend🐛"
   - nav: "Backend-menu"
 tags:
   - spring
