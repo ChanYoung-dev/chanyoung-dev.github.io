@@ -122,7 +122,9 @@ header:
 ```js
 <template>
   <div>
+    {% raw %}
     {{ $parent }} <!--부모접근가능-->
+    {% endraw %}
   </div>
 </template>
 

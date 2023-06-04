@@ -780,25 +780,33 @@ Notice
   }
 }
 
-.wrapper p.notice, p.notice--primary, p.notice--warning, p.notice--success, p.notice--danger, p.notice--info{
-  margin-left: -24px;
+.wrapper{
+  p.notice,
+  p.notice--primary,
+  p.notice--warning,
+  p.notice--success,
+  p.notice--danger,
+  p.notice--info{
+    margin-left: -24px;
 
 
+    @include breakpoint($x-large) {
+      margin-left: -25px;
 
-  // @include breakpoint($small) {
-  //   margin-left: -24px;
-
-  // }
-
-  @include breakpoint($x-large) {
-    margin-left: -25px;
-
+    }
   }
-  
-  
-  // @include breakpoint($xxx-large) {
-  //   margin: 30px 0 30px -123px;
-  // }
+}
+
+
+.wrapper.head {
+  p.notice,
+  p.notice--primary,
+  p.notice--warning,
+  p.notice--success,
+  p.notice--danger,
+  p.notice--info{
+    display: none;
+  }
 }
 
 .notice{
