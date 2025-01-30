@@ -53,7 +53,12 @@ Total:
         url: /Infra/Linux/
       - title: Git
         url: /Infra/Git/
-  - title: "4. CS"
+  - title: "4. TRADING"
+    url: /Trading/
+    children:
+      - title: "Programming"
+        url: /Trading/Programming/
+  - title: "5. CS"
     url: /CS/
     children:
       - title: Network
@@ -140,6 +145,10 @@ python-menu:
         url: /Python/Advanced/pythonor/
       - title: "Python에서 N차원 배열을 1차원 배열로 만들기"
         url: /Python/Advanced/ConvertArray/
+
+Trading-menu:
+  - title: Programming
+    url: /Trading/Programming/
 
 
 Blog-menu:
