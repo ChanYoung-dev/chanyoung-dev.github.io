@@ -16,25 +16,28 @@ list_name:
 sexy: 1
 main: "Programming"
 header:
-  teaser: https://user-images.githubusercontent.com/46098949/171821626-2c67a8bb-4fe6-4952-bf19-665a50899b2f.png
-  overlay_image: https://user-images.githubusercontent.com/46098949/171821626-2c67a8bb-4fe6-4952-bf19-665a50899b2f.png
+  teaser: https://velog.velcdn.com/images/emrhssla/post/99e1217b-21c4-4bf8-be5e-c7f8b7c4a09d/image.PNG
+  overlay_image: https://velog.velcdn.com/images/emrhssla/post/99e1217b-21c4-4bf8-be5e-c7f8b7c4a09d/image.PNG
   overlay_filter: 0.5
 excerpt: 
-  docker, jenkins, aws를 사용하여 CI/CD를 구축해보자 <br>최대한 비용없이 구성하였다
+  자동매매시스템 및 백테스팅을 통한 수익 실현기
 ---
 
 
 
 예전부터 코인에 관심이 있었고, 좋은 전략을 발견하여 해당 전략을 통해 큰 수익을 얻었다.
-<img src="https://velog.velcdn.com/images/emrhssla/post/99e1217b-21c4-4bf8-be5e-c7f8b7c4a09d/image.PNG" width="20%" height="20%">
+<figure style="width: 50%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/99e1217b-21c4-4bf8-be5e-c7f8b7c4a09d/image.PNG'>
+<figcaption class="align-center">340% 수익! 구독자 풀방!</figcaption>
+</figure>
 
-
-
+<br /><br /><br /><br />
 
 이 전략은 하이리스크 하이리턴 전략이었고, 장기간 트레이딩을 위해 로우리스크 로우리턴 전략으로 바꾸었다. 바꾼 이유는 여러가지가 있었지만, 잦은 거래때문에 수수료 비용의 문제가 있었고 하이리스크이기때문에 카피 팔로워들의 이탈문제가 있었기때문이다.
-<img src="https://velog.velcdn.com/images/emrhssla/post/c4fa33c7-fadb-46b0-a6a8-0be5d85d867a/image.PNG" width="20%" height="20%">
-
-위 이미지에서 나의 PnL과 ROI는 올랐지만.. Copy Trader PnL은 마이너스인 걸 볼수있다..
+<figure style="width: 50%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/c4fa33c7-fadb-46b0-a6a8-0be5d85d867a/image.PNG'>
+<figcaption class="align-center">나의 PnL과 ROI는 올랐지만.. Copy Trader PnL은 마이너스인 걸 볼수있다..</figcaption>
+</figure>
 
 <br /><br /><br /><br />
 
@@ -53,20 +56,23 @@ excerpt:
 
 1:1손익비와, 승률51%로만 되어도 수익률이 1100%에 육박한다.
 
-![](https://velog.velcdn.com/images/emrhssla/post/3c303edf-184c-4fdf-b10e-cf568287999c/image.png)
-
-
+<figure style="width: 50%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/3c303edf-184c-4fdf-b10e-cf568287999c/image.png'>
+</figure>
+<br /><br /><br /><br />
 
 하지만 수수료를 생각하면 수익률은 0%이다..(수수료 시장가 기준 0.05% * 2 = 0.1%이기때문에 손실률에다가 더해줌)
-![](https://velog.velcdn.com/images/emrhssla/post/04dff186-bb6b-4a42-98cf-99f7beb3c5f4/image.png)
-
+<figure style="width: 50%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/04dff186-bb6b-4a42-98cf-99f7beb3c5f4/image.png'>
+</figure>
 위 거래상황을 보면 10,000회로 되어있다. 일반적으로 단타나 스켈핑을 하면 1,000회 거래이상은 필수인데, 잦은 거래는 많은 거래비용(수수료)를 발생시킨다. 즉, 자기가 원한 결과와는 다른 방향으로 시드가 흘러간다.
 
 ----
 
 이러한 이유로 직접 백테스팅을 작성하였고 엑셀로 결과를 그래프로 도출하였다.
-
-![](https://velog.velcdn.com/images/emrhssla/post/9635848d-4267-4b15-bc76-2eeb332e9e79/image.png)
+<figure style="width: 100%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/9635848d-4267-4b15-bc76-2eeb332e9e79/image.png'>
+</figure>
 
 백테스팅 결과 가장 좋은 케이스가 **1000달러 -> 57354달러**가 되었다. 기준은 3년 동안 바이낸스 특정 종목에 선물 1배로 LONG, SHORT 가리지않고 거래를 했을 경우이다. 
 
@@ -76,7 +82,7 @@ excerpt:
 <br /><br /><br /><br /><br /><br /><br />
 
 
-가장 좋은 케이스? 전략은 한개인데 가장 좋은 케이스는 무슨 말인가? **하지만 같은 전략이어도 수많은 케이스가 존재한다. **
+가장 좋은 케이스? 전략은 한개인데 가장 좋은 케이스는 무슨 말인가? **하지만 같은 전략이어도 수많은 케이스가 존재한다.**
 
 
 이렇게 엄청나게 많은 케이스가 있는 이유는 몇분봉으로 할지, 손익비는 어떻게 둘지(1:1, 1:2, 1:3..), 어떤 타입의 거래만 할지(long만 할지, short만 할지, 전부다할지),손절라인을 얼마나 여유를 둘지(휩쏘때문..), .. 등등 여러가지의 케이스의 조합들이 있기 때문이다. 아래의 조건들이 각 케이스들이다.
@@ -96,12 +102,18 @@ const MAX_FLUCTUATION = [0.015, 0.025, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 
 
 
 자, 이제 결과를 보자. 시드가 결과론적으로만 봐서 무조건 높으면 이득일까? 
-![](https://velog.velcdn.com/images/emrhssla/post/3be9cf7e-350c-433e-ae5e-e2a7ef8671f7/image.png)
+<figure style="width: 100%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/3be9cf7e-350c-433e-ae5e-e2a7ef8671f7/image.png'>
+<figcaption class="align-center">340% 수익! 구독자 풀방!</figcaption>
+</figure>
 주황색 케이스와 파랑색 케이스가 있다. 주황색 케이스가 2400%의 수익을 창출했고 파란색 케이스는 1500%의 수익을 창출했다. 결과로만 봤을때는 주황색 케이스가 수익이 좋지만, 해당 케이스는 2021년 11월에 피크를 찍은뒤 엄청난 하락이 있었다. 결과적으로 지속적인 우상향이어야만 좋은 케이스이기때문에 파랑색이 더 좋은 케이스라고 볼 수 있다. 
  이러한 케이스를 금융용어로 MDD라고 표현한다. peak를 찍고 난뒤 최대 하락폭을 말한다. 주황색 케이스는 33000에서 9000까지 떨어졌으므로 MDD가 70%에 가까이 육박한다. 즉 최고점에서 거래를 시작했으면 내자산의 최대낙폭은 70%가 날라간다라고 표현할 수 있다. 과연 이 때 거래자는 자신의 신념에 흔들리지않을수있을까? 대부분 내자산이 -70%날라가는 꼴을 보고 매매를 중지할 것이다.
  
  이처럼 금융에서 투자성과를 평가함에 따른 여러가지의 수치가 있다. 바이낸스에서는 아래와 같은 수치가 정의되어있다.
- ![](https://velog.velcdn.com/images/emrhssla/post/4179bade-5f3b-42bc-825e-8d5c700d9551/image.png)
+ <figure style="width: 100%" class="align-center" >
+<img width="805" alt="image" src='https://velog.velcdn.com/images/emrhssla/post/4179bade-5f3b-42bc-825e-8d5c700d9551/image.png'>
+</figure>
+<br /><br /><br /><br />
 [Portfolio Performance Indicators in Binance](https://www.binance.com/en/support/faq/portfolio-performance-indicators-in-binance-futures-copy-trading-54aa6d3b43bc4f6eb4a3a6e3aea40acd)를 참고하면 Sharpe Ratio와 MDD가 있는 것을 확인할 수 있다. 이 수치뿐만 아니라 여러 수치를 계산하여 엑셀에 작성하였다. 계산한 수치는 아래와 같다
 
 **PSI(Population Stability Index)
@@ -117,10 +129,12 @@ lowest Seed(역대 최저 시드)
 
 
 최종 결과는 아래와 같다.
-![](https://velog.velcdn.com/images/emrhssla/post/1bed0d1b-d2bb-45a7-ac90-b139fa3c4560/image.png)
-![](https://velog.velcdn.com/images/emrhssla/post/f745d245-b730-44a2-b9ef-0c7330e02f55/image.png)
-위 코인은 최근 3년 아래 코인은 최근 1년간 거래한 케이스이다. 3년간 3800% 우상향 1년간 1700% 우상향임을 확인할 수 있다. 
-
+<figure class="half">
+  <a href="link"><img src="https://velog.velcdn.com/images/emrhssla/post/1bed0d1b-d2bb-45a7-ac90-b139fa3c4560/image.png"></a>
+  <a href="link"><img src="https://velog.velcdn.com/images/emrhssla/post/f745d245-b730-44a2-b9ef-0c7330e02f55/image.png"></a>
+  <figcaption>위 코인은 최근 3년 아래 코인은 최근 1년간 거래한 케이스이다. 3년간 3800% 우상향 1년간 1700% 우상향임을 확인할 수 있다. </figcaption>
+</figure>
+<br /><br /><br /><br /><br /><br /><br />
 
 
 
