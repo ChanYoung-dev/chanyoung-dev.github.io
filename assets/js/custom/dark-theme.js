@@ -13,7 +13,8 @@ if (darkTheme) {
     if (currentTheme) {
         isDarkMode = currentTheme === 'dark';
     } else {
-        isDarkMode = matchMedia('(prefers-color-scheme: dark)').matches;
+        // isDarkMode = matchMedia('(prefers-color-scheme: dark)').matches;
+        isDarkMode = true;
     }
 
     setDarkMode(isDarkMode);
