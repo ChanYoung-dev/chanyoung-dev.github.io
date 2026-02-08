@@ -8,11 +8,18 @@
 
 ## 2. 글 시작 규칙 (필수)
 
-### 기술 스택 강조
+### 도입부 템플릿
 ```html
 <span style = "font-size:1.5em;  font-weight: 700;">Spring Security, Spring Cloud, JWT, MSA</span><br>
 **Spring Security**, **Spring Cloud**, **JWT**를 사용하여 MSA환경에서의 서비스를 구축하였다. 게시판 서비스를 구축하였는데 이번 포스팅에서는 로그인 시스템만 포커스를 두어서 포스팅하려한다<br>
 {: .notice--info}
+```
+
+### 마무리 템플릿
+```markdown
+<span style = "font-size:1.5em;  font-weight: 700;">결론</span><br>
+내용..
+{: .notice--success}
 ```
 
 ---
@@ -38,12 +45,43 @@
 ```
 줄바꿈은 br태그를 넣어줘야하며 문단내제목은 `<span style = "font-size:1.5em;  font-weight: 700;">`태그를 이용한다.
 
+- 잘못된 예시
+```markdown
+<span style = "font-size:1.5em;  font-weight: 700;">Oracle, MSA, Concurrency Control, Lock Strategy</span><br>
+**Oracle**, **MSA** 환경에서 재고·잔액·포인트와 같은 핵심 자원을 다루며 동시성 제어 문제를 해결하였다. 실무에서 가장 많이 받는 질문은 다음 네 가지이다.<br>
+- 낙관적 락과 비관적 락의 개념과 장단점은 무엇인가<br>
+- 어떤 상황에서 어떤 락을 선택해야 하는가<br>
+- MSA와 Oracle을 사용하면 무조건 낙관적 락이 정답인가<br>
+- 왜 MSA에서는 비관적 락보다 낙관적 락이 더 자주 선택되는가<br>
+이번 포스팅에서는 위 질문에 대해 하나의 흐름으로 정리한다.
+{: .notice--info}
+
+```
+`-`를 넣으면 안된다 대신 특수문자(▪️)를 넣자
+
+```markdown
+<span style = "font-size:1.5em;  font-weight: 700;">Oracle, MSA, Concurrency Control, Lock Strategy</span><br>
+**Oracle**, **MSA** 환경에서 재고·잔액·포인트와 같은 핵심 자원을 다루며 동시성 제어 문제를 해결하였다. 실무에서 가장 많이 받는 질문은 다음 네 가지이다.<br>
+▪️ 낙관적 락과 비관적 락의 개념과 장단점은 무엇인가<br>
+▪️ 어떤 상황에서 어떤 락을 선택해야 하는가<br>
+▪️ MSA와 Oracle을 사용하면 무조건 낙관적 락이 정답인가<br>
+▪️ 왜 MSA에서는 비관적 락보다 낙관적 락이 더 자주 선택되는가<br>
+이번 포스팅에서는 위 질문에 대해 하나의 흐름으로 정리한다.
+{: .notice--info}
+
+```
+
+
+
+
 - 정보: {: .notice--info}
-- 부가정: {: .notice--danger}
+- 부가정보: {: .notice--danger}
 - 주의: {: .notice--warning}
 - 매우중요: {: .notice--primary}
 - 참고: {: .notice--success}
-- 중요: {: .notice}
+- 궁긍증: {: .notice}
+
+위와 같은 상황일때만 사용한다.
 
 ---
 
@@ -124,15 +162,6 @@ public void pay() {}
 | Foot1   | Foot2   | Foot3   |
 ```
 
-
-## 7. 기본 글 구조
-```markdown
-## 1. WHY
-## 2. 기존 한계
-## 3. HOW
-## 4. IMPACT
-## 5. 정리
-```
 
 
 ---

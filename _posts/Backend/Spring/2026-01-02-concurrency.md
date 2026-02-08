@@ -1,6 +1,6 @@
 ---
-permalink: /Backend/Spring/concurrency/
-title: "MSA에서의 동시성"
+permalink: /Backend/Spring/RRRC/
+title: "Repeatable Read와 Read Committed"
 toc: true
 categories:
   - Backend🐛Spring
@@ -24,7 +24,6 @@ excerpt: \#동시성 \#concurrency
 
 
 <span style = "font-size:1.5em;  font-weight: 700;">동시성</span><br>
-**Spring Boot**, **Oracle**, **MSA** 환경에서 주문·재고·결제 도메인을 운영하며<br>
 Repeatable Read와 Read Committed 격리수준이 실제 서비스에서는 어떻게 문제를 만들 수 있었는지를 정리한다.
 {: .notice--info}
 
@@ -261,6 +260,7 @@ Read Committed는 최신 데이터를 보여줄 뿐
 # 6. 해결
 - update문에 조건문을 추가(`where qty > 0`)
 - 낙관적 락을 적용(`where version = 1`)
+- `select for update`를 이용하여 `select`자체부터 `race condition`을 막음
 
 ## 한 문장 정리
 
@@ -273,11 +273,35 @@ Read Committed는 최신 데이터를 보여줄 뿐
 Repeatable Read에서도 다음과 같이 동작한다.<br>
 SELECT → 스냅샷 기준 조회 (Snapshot Read)<br>
 UPDATE / DELETE / SELECT FOR UPDATE → 최신 데이터 기준 (Current Read)<br>
+우리는 이것을 **Exclusive Lock (X-lock, 쓰기 잠금)**이라고 말한다.<br>
 즉, 문제의 원인은 UPDATE가 아니다.<br>
 문제는 스냅샷 기반 SELECT 결과를 검증 수단으로 신뢰한 설계다.<br>
 {: .notice--success}
 
 
 
+# 7. Tx Lock이란
 
+## 7.1 1️⃣ TX A가 UPDATE를 할 때 락이 걸리는 경우 (기본 Row-level TX Lock)
 
+### TX A
+```sql
+UPDATE account
+   SET balance = balance + 100
+ WHERE id = 1;
+-- 아직 COMMIT하지 않음
+```
+- 이 순간 Oracle은 account.id = 1 행에 **TX Row-level Lock(X-lock)**을 건다.
+- 다른 트랜잭션은 이 행을 UPDATE/DELETE할 수 없음.
+
+### 이때 TX B가 동일한 행을 UPDATE하려고 하면?
+```sql
+UPDATE account
+   SET balance = balance - 50
+ WHERE id = 1;
+```
+- TX B는 TX A가 COMMIT이나 ROLLBACK 할 때까지 기다림(블로킹)
+
+UPDATE/DELETE는 변경 순간에만 락을 건다.
+참고로 읽기(SELECT)에는 락이 걸리지 않는다. 또한 UPDATE할때는 항상 최신 최신 데이터를 가져온다.(Repeatable Read이어도 snapshot을 안봄)
+{: .notice}
